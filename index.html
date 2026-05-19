@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EET Builder - Exam English Trainer Builder (PRO v2.7)</title>
+    <title>EET Builder - Exam English Trainer Builder (PRO v3.0 Cloud)</title>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-main: #0a0b10;
-            --bg-card: rgba(18, 20, 32, 0.7);
-            --bg-input: #1a1d30;
-            --accent-neon: #a855f7;
-            --accent-cyan: #06b6d4;
+            --bg-main: #0a0c14;
+            --bg-card: rgba(18, 22, 38, 0.75);
+            --bg-input: #151a2d;
+            --accent-neon: #00d2ff;
+            --accent-cyan: #3a86ff;
             --accent-green: #10b981;
             --accent-red: #f43f5e;
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
-            --glow-neon: 0 0 15px rgba(168, 85, 247, 0.4);
-            --glow-cyan: 0 0 15px rgba(6, 182, 212, 0.4);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --glow-neon: 0 0 15px rgba(0, 210, 255, 0.5);
+            --glow-cyan: 0 0 15px rgba(58, 134, 255, 0.4);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -25,34 +25,42 @@
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: var(--bg-main);
-            background-image: radial-gradient(circle at 10% 20%, rgba(168, 85, 247, 0.05) 0%, transparent 40%), radial-gradient(circle at 90% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 40%);
+            background-image: radial-gradient(circle at 15% 20%, rgba(0, 210, 255, 0.08) 0%, transparent 40%), 
+                              radial-gradient(circle at 85% 80%, rgba(58, 134, 255, 0.08) 0%, transparent 40%);
             color: var(--text-main); min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden;
         }
 
         header {
-            background: rgba(18, 20, 32, 0.85); backdrop-filter: blur(12px);
+            background: rgba(18, 22, 38, 0.85);
+            backdrop-filter: blur(12px);
             padding: 15px 40px; border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+            display: flex; justify-content: space-between; align-items: center;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
         }
 
         header h1 {
-            font-size: 24px; font-weight: 800;
+            font-size: 24px;
+            font-weight: 800;
             background: linear-gradient(135deg, var(--accent-neon), var(--accent-cyan));
             -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 1px;
         }
 
         .subtitle { font-size: 12px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; margin-top: 4px; }
         .header-controls { display: flex; gap: 15px; align-items: center; }
-        .lang-select { background: var(--bg-input); color: var(--text-main); border: 1px solid rgba(6, 182, 212, 0.3); padding: 8px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.3s; }
-        .lang-select:hover { border-color: var(--accent-cyan); }
+        .lang-select { background: var(--bg-input); color: var(--text-main);
+            border: 1px solid rgba(0, 210, 255, 0.3); padding: 8px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.3s;
+        }
+        .lang-select:hover { border-color: var(--accent-neon); box-shadow: var(--glow-neon); }
 
         .main-container {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; gap: 30px;
             padding: 30px; flex-grow: 1; max-width: 1800px; margin: 0 auto; width: 100%;
         }
 
         .panel {
-            background: var(--bg-card); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            background: var(--bg-card);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
             border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.08); padding: 30px;
             display: flex; flex-direction: column; gap: 24px;
             height: calc(100vh - 120px); overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2);
@@ -62,7 +70,8 @@
         .panel::-webkit-scrollbar-thumb { background: var(--bg-input); border-radius: 4px; }
 
         .panel-title {
-            font-size: 19px; font-weight: 800; border-left: 4px solid var(--accent-cyan);
+            font-size: 19px;
+            font-weight: 800; border-left: 4px solid var(--accent-neon);
             padding-left: 12px; margin-bottom: 5px; display: flex; align-items: center; justify-content: space-between; color: white;
         }
 
@@ -70,15 +79,16 @@
         label { font-size: 13px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
 
         select, input[type="text"], input[type="number"], input[type="file"], input[type="range"], textarea {
-            background-color: rgba(26, 29, 48, 0.6); border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(21, 26, 45, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             padding: 12px 14px; border-radius: 10px; color: var(--text-main); font-family: inherit;
             font-size: 14px; transition: all 0.3s ease; width: 100%; resize: vertical;
         }
         input[type="number"] { padding: 8px 12px; }
         input[type="file"] { padding: 9px; cursor: pointer; font-size: 12px; }
-        select:focus, input[type="text"]:focus, input[type="number"]:focus, textarea:focus { outline: none; border-color: var(--accent-cyan); background-color: rgba(26, 29, 48, 0.9); box-shadow: var(--glow-cyan); }
-        input[type="range"] { padding: 0; height: 6px; border-radius: 5px; background: #374151; outline: none; -webkit-appearance: none; }
-        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-cyan); cursor: pointer; box-shadow: 0 0 10px rgba(6,182,212,0.5); }
+        select:focus, input[type="text"]:focus, input[type="number"]:focus, textarea:focus { outline: none; border-color: var(--accent-neon); background-color: rgba(21, 26, 45, 1); box-shadow: var(--glow-neon); }
+        input[type="range"] { padding: 0; height: 6px; border-radius: 5px; background: #334155; outline: none; -webkit-appearance: none; }
+        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-neon); cursor: pointer; box-shadow: 0 0 10px rgba(0,210,255,0.6); }
 
         .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
         .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
@@ -86,7 +96,7 @@
         .aspect-list { display: flex; flex-direction: column; gap: 12px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); }
         .aspect-item-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
         .aspect-item-row label { flex-grow: 1; cursor: pointer; font-size: 14px; color: var(--text-main); font-weight: 600; text-transform: none; }
-        .aspect-item-row input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: var(--accent-cyan); }
+        .aspect-item-row input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: var(--accent-neon); }
         .aspect-item-row input[type="number"] { width: 65px; padding: 6px; text-align: center; }
         .aspect-config { display: none; padding: 12px; background: rgba(255,255,255,0.02); border-radius: 8px; margin-bottom: 5px; border: 1px dashed rgba(255,255,255,0.1); }
 
@@ -94,19 +104,19 @@
 
         .switch { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
         .switch input { opacity: 0; width: 0; height: 0; }
-        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #374151; transition: .3s; border-radius: 24px; }
+        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #334155; transition: .3s; border-radius: 24px; }
         .slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 4px; bottom: 4px; background-color: white; transition: .3s; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }
         input:checked + .slider { background-color: var(--accent-neon); }
         input:checked + .slider:before { transform: translateX(20px); }
 
-        .btn { background: linear-gradient(135deg, var(--accent-neon), var(--accent-cyan)); color: white; border: none; padding: 14px 20px; border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 14px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.2); }
+        .btn { background: linear-gradient(135deg, var(--accent-cyan), var(--accent-neon)); color: #0a0c14; border: none; padding: 14px 20px; border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 14px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3); }
         .btn:hover { transform: translateY(-2px); box-shadow: var(--glow-neon); filter: brightness(1.1); }
-        .btn-secondary { background: rgba(6, 182, 212, 0.05); border: 1px solid var(--accent-cyan); color: var(--accent-cyan); box-shadow: none; }
-        .btn-secondary:hover { background: rgba(6, 182, 212, 0.15); box-shadow: var(--glow-cyan); }
+        .btn-secondary { background: rgba(0, 210, 255, 0.08); border: 1px solid var(--accent-neon); color: var(--accent-neon); box-shadow: none; }
+        .btn-secondary:hover { background: rgba(0, 210, 255, 0.15); box-shadow: var(--glow-neon); color: white; }
         .btn-small { padding: 10px 14px; font-size: 11px; }
         .btn-icon { padding: 6px 10px; font-size: 12px; min-width: 34px; border-radius: 8px; }
 
-        .output-box { background-color: #05060a; border-radius: 12px; padding: 18px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent-cyan); border: 1px solid rgba(6, 182, 212, 0.3); height: 90px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; box-shadow: inset 0 0 15px rgba(0,0,0,0.5); }
+        .output-box { background-color: #05060a; border-radius: 12px; padding: 18px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent-neon); border: 1px solid rgba(0, 210, 255, 0.3); height: 90px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; box-shadow: inset 0 0 15px rgba(0,0,0,0.5); }
         .preview-area { flex-grow: 1; border: 2px dashed rgba(255, 255, 255, 0.15); border-radius: 16px; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.3); position: relative; overflow: hidden; min-height: 400px; }
         iframe { width: 100%; height: 100%; border: none; background: transparent; }
 
@@ -117,8 +127,7 @@
         .artifact-row { display: flex; flex-direction: column; gap: 10px; background: rgba(0,0,0,0.25); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); position: relative; }
         .artifact-main-inputs { display: flex; gap: 12px; align-items: center; width: 100%; }
         
-        /* Свои задания */
-        .custom-tasks-wrapper { background: rgba(6, 182, 212, 0.05); padding: 20px; border-radius: 12px; border: 2px dashed rgba(6, 182, 212, 0.3); margin-top: 5px; }
+        .custom-tasks-wrapper { background: rgba(0, 210, 255, 0.05); padding: 20px; border-radius: 12px; border: 2px dashed rgba(0, 210, 255, 0.3); margin-top: 5px; }
         .custom-tasks-wrapper textarea { height: 80px; font-size: 12px; }
 
         @media(max-width: 1024px) { .main-container { grid-template-columns: 1fr; padding: 15px; } .panel { height: auto; } }
@@ -128,8 +137,8 @@
 
     <header>
         <div>
-            <h1>EET Builder (PRO v2.7)</h1>
-            <div class="subtitle">Smart Blocks // Custom Tasks Injector // Delayed Hints // Post-game Artifacts</div>
+            <h1>EET Builder (PRO v3.0 Cloud)</h1>
+            <div class="subtitle">Cloud JSON Integration // Smart Cover Artifacts // Base64 Iframe</div>
         </div>
         <div class="header-controls">
             <select class="lang-select" id="editor-lang" onchange="updateEditorLang()">
@@ -212,6 +221,7 @@
                             <select id="topic-reading-match">
                                 <option value="all">Случайная тема</option>
                                 <option value="heading">Подбор заголовков</option>
+                                <option value="reading-comprehension">Понимание текста (ВПР)</option>
                             </select>
                         </div>
                     </div>
@@ -230,7 +240,7 @@
             </div>
 
             <div class="custom-tasks-wrapper">
-                <label style="color: var(--accent-cyan); font-size: 15px;">✍️ Массовая загрузка своих заданий</label>
+                <label style="color: var(--accent-neon); font-size: 15px;">✍️ Массовая загрузка своих заданий</label>
                 <div style="font-size: 12px; color:var(--text-muted); margin-bottom: 15px; margin-top: 5px;">Каждая новая строка = новое задание. Количество строк во всех полях должно совпадать.</div>
                 
                 <div id="custom-fields" style="display:flex; flex-direction:column; gap:12px;">
@@ -274,7 +284,7 @@
 
             <div class="form-group" id="artifacts-config" style="margin-top: 5px; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 15px;">
                 <label style="color: var(--accent-neon);">Система Артефактов (Игровые награды и мини-игры)</label>
-                <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 10px;">Загрузите картинку и укажите балл. Вставленная ссылка запустит игру прямо в тренажере по клику на артефакт.</div>
+                <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 10px;">Загрузите картинку (автоматически обрезается до квадрата) и укажите балл. Вставленная ссылка запустит игру по клику.</div>
                 <div id="artifacts-list" style="display:flex; flex-direction:column; gap:12px;"></div>
                 <button class="btn btn-secondary btn-small" onclick="addArtifactField()" style="width:fit-content; margin-top:10px;">+ Добавить артефакт</button>
             </div>
@@ -338,14 +348,14 @@
                 <div class="form-group">
                     <label data-i18n="cont_bg_lbl">Фон экрана (Контейнер)</label>
                     <div class="color-picker-group">
-                        <div class="color-picker-wrapper"><input type="color" id="cont-bg-color" value="#161824"></div>
+                        <div class="color-picker-wrapper"><input type="color" id="cont-bg-color" value="#121626"></div>
                         <input type="range" id="cont-opacity" min="0" max="1" step="0.05" value="0.9" title="Прозрачность">
                     </div>
                 </div>
                 <div class="form-group">
                     <label data-i18n="accent_lbl">Кнопки / Акценты</label>
                     <div class="color-picker-group">
-                        <div class="color-picker-wrapper"><input type="color" id="color-accent" value="#a855f7"></div>
+                        <div class="color-picker-wrapper"><input type="color" id="color-accent" value="#00d2ff"></div>
                     </div>
                 </div>
             </div>
@@ -370,7 +380,7 @@
             </div>
 
             <button class="btn" style="margin-top: 15px;" onclick="generateTrainer()">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0a0c14" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                 <span data-i18n="btn_gen">Сгенерировать тренажер</span>
             </button>
         </div>
@@ -407,65 +417,62 @@
     </div>
 
     <script>
-        const mockDatabase = {
-            'ЕГЭ': {
-                'grammar': [
-                    { q: "By the time the rescuers arrived, the climbers ______ (survive) for three days in ice.", a: "had survived", hint: "Past Perfect: Действие завершилось до определенного момента в прошлом.", level: 3, type: "times", distractors: { easy: ["survived", "survives", "surviving"], medium: ["has survived", "was survived", "were surviving"], hard: ["would survive", "had been survived", "have survived"] } },
-                    { q: "If they had checked the weather forecast, they ______ (not go) to the mountains.", a: "would not have gone", hint: "Third Conditional (ирреальное условие в прошлом): would not have + V3.", level: 3, type: "times", distractors: { easy: ["won't go", "didn't go", "had not gone"], medium: ["would not go", "will not have gone", "shouldn't go"], hard: ["haven't gone", "weren't going", "wouldn't be going"] } },
-                    { q: "While the students ______ (write) the test, the fire alarm went off.", a: "were writing", hint: "Past Continuous: Длительное действие, прерванное кратким.", level: 2, type: "times", distractors: { easy: ["write", "wrote", "writing"], medium: ["had written", "are writing", "have written"], hard: ["would write", "had been writing", "will write"] } },
-                    { q: "The new bridge ______ (build) by the end of next year.", a: "will have been built", hint: "Future Perfect Passive: Действие будет завершено к моменту в будущем над объектом.", level: 3, type: "voice", distractors: { easy: ["will build", "builds", "built"], medium: ["will be built", "has built", "is building"], hard: ["would be built", "will have built", "had been built"] } }
-                ],
-                'word-formation': [
-                    { q: "The local community is fighting against the ______ (FOREST) of the Amazon region.", a: "deforestation", hint: "Отрицательная приставка de- и суффикс отглагольного существительного -ation.", level: 3, type: "prefixes", distractors: { easy: ["forestration", "unforest", "disforest"], medium: ["reforestation", "forester", "deforestring"], hard: ["forestment", "deforestable", "deforesting"] } },
-                    { q: "His unexpected arrival caused a lot of ______ (EXCITE) among the fans.", a: "excitement", hint: "Суффикс существительного -ment.", level: 2, type: "suffixes", distractors: { easy: ["exciting", "excited", "exciter"], medium: ["excitment", "excition", "excitability"], hard: ["overexcite", "unexcited", "excitingly"] } },
-                    { q: "It is highly ______ (PROBABLE) that he will win the race given his injury.", a: "improbable", hint: "Отрицательная приставка im- перед буквой p.", level: 3, type: "prefixes", distractors: { easy: ["unprobable", "disprobable", "nonprobable"], medium: ["probability", "probably", "inprobable"], hard: ["reprobable", "misprobable", "probabless"] } },
-                    { q: "She looked at him in total ______ (BELIEF) when he told the news.", a: "disbelief", hint: "Отрицательная приставка dis-.", level: 2, type: "prefixes", distractors: { easy: ["unbelief", "believer", "believing"], medium: ["misbelief", "nonbelief", "inbelief"], hard: ["beliefless", "overbelief", "debelief"] } }
-                ],
-                'vocabulary': [
-                    { q: "The manager had to ______ the meeting because of an emergency.", a: "postpone", hint: "Лексическая сочетаемость: postpone/put off a meeting (отложить).", level: 3, type: "collocations", distractors: { easy: ["cancel", "forget", "destroy"], medium: ["delay", "reject", "refuse"], hard: ["adjourn", "procrastinate", "suspend"] } },
-                    { q: "I can't ______ up with his bad behavior anymore.", a: "put", hint: "Фразовый глагол: put up with (мириться с чем-либо).", level: 2, type: "phrasal", distractors: { easy: ["take", "make", "get"], medium: ["stand", "keep", "set"], hard: ["bring", "catch", "hold"] } },
-                    { q: "The company is going to ______ a new marketing campaign next month.", a: "launch", hint: "Устойчивое выражение: launch a campaign (запустить кампанию).", level: 3, type: "collocations", distractors: { easy: ["start", "open", "begin"], medium: ["create", "introduce", "produce"], hard: ["commence", "initiate", "trigger"] } }
-                ],
-                'reading-match': [
-                    { q: "Match the text heading about extreme climate impacts. Options: A) Weather Hazards, B) Urban Architecture, C) Standard Logistics.", a: "A", hint: "Ключевые слова текста содержат 'extreme climate', 'storms', 'destruction'.", level: 3, type: "heading", distractors: { easy: ["B", "C", "None"], medium: ["B", "C", "Both"], hard: ["B", "C", "A and B"] } },
-                    { q: "Match the text about preserving ancient manuscripts. Options: A) Digital Archives, B) Historical Conservation, C) Modern Art.", a: "B", hint: "Ключевые слова: 'ancient', 'protecting', 'history'.", level: 2, type: "heading", distractors: { easy: ["A", "C", "None"], medium: ["A", "C", "Both"], hard: ["A", "C", "A and B"] } }
-                ],
-                'multiple-choice': [
-                    { q: "She is highly responsible and can always be relied ______.", a: "upon", hint: "Фразовый глагол: rely on / rely upon (полагаться на кого-то).", level: 3, type: "prepositions", distractors: { easy: ["at", "with", "for"], medium: ["in", "about", "to"], hard: ["of", "by", "through"] } },
-                    { q: "He was accused ______ stealing the documents.", a: "of", hint: "Управление глагола: accuse someone OF something.", level: 2, type: "prepositions", distractors: { easy: ["for", "about", "in"], medium: ["with", "on", "at"], hard: ["to", "by", "from"] } }
-                ]
+        // =====================================================================
+        // 🌐 1. КОНФИГУРАЦИЯ ССЫЛОК НА GITHUB JSON (Вставьте ваши Raw ссылки)
+        // =====================================================================
+        const GITHUB_DATABASE_URLS = {
+            "ЕГЭ": {
+                "grammar": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/ege_grammar.json",
+                "word-formation": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/ege_word_formation.json",
+                "vocabulary": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/ege_vocabulary.json",
+                "reading-match": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/ege_reading_match.json",
+                "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/ege_multiple_choice.json"
             },
-            'ОГЭ': {
-                'grammar': [
-                    { q: "Yesterday my brother ______ (bring) a small homeless puppy into the house.", a: "brought", hint: "Past Simple: Маркер Yesterday указывает на простое прошедшее. Глагол Неправильный.", level: 2, type: "times", distractors: { easy: ["brings", "bringed", "bringing"], medium: ["has brought", "was bring", "had brought"], hard: ["was brought", "would bring", "has been bringing"] } },
-                    { q: "This text is much ______ (easy) than the previous one.", a: "easier", hint: "Сравнительная степень прилагательного: у коротких на -y меняется на -ier.", level: 2, type: "times", distractors: { easy: ["more easy", "easiest", "most easy"], medium: ["easyer", "more easier", "less easy"], hard: ["easierly", "as easy", "the easiest"] } }
-                ],
-                'word-formation': [
-                    { q: "Alexander is a very clever and ______ (TALENT) student.", a: "talented", hint: "Суффикс прилагательного -ed для описания качеств человека.", level: 2, type: "suffixes", distractors: { easy: ["talently", "talentful", "talenter"], medium: ["talenting", "talentous", "intalent"], hard: ["talentable", "talentedly", "talentism"] } }
-                ],
-                'vocabulary': [
-                    { q: "We should ______ a solution to this urgent problem as soon as possible.", a: "find", hint: "Устойчивое сочетание (Collocation): find a solution.", level: 2, type: "collocations", distractors: { easy: ["do", "make", "take"], medium: ["resolve", "build", "provide"], hard: ["execute", "settle", "uncover"] } }
-                ],
-                'reading-match': [], 'multiple-choice': []
+            "ОГЭ": {
+                "grammar": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/oge_grammar.json",
+                "word-formation": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/oge_word_formation.json",
+                "vocabulary": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/oge_vocabulary.json",
+                "reading-match": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/oge_reading_match.json",
+                "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/oge_multiple_choice.json"
             },
-            'ВПР': { 
-                '4': {
-                    'grammar': [{ q: "Every day he ______ (go) to school by bus.", a: "goes", hint: "Present Simple (3-е лицо) -> окончание -es.", level: 1, type: "times", distractors: { easy: ["go", "going", "went"], medium: ["was go", "gone", "goesed"], hard: ["has gone", "will go", "is going"] } },
-                                { q: "They ______ (play) football right now.", a: "are playing", hint: "Present Continuous (прямо сейчас).", level: 1, type: "times", distractors: { easy: ["play", "played", "playing"], medium: ["is playing", "were playing", "plays"], hard: ["have played", "will play", "was playing"] } }],
-                    'word-formation': [{ q: "My mom is a wonderful ______ (COOK).", a: "cook", hint: "Слово cook означает и повар, и готовить.", level: 1, type: "suffixes", distractors: { easy: ["cooker", "cooking", "cookman"], medium: ["cookor", "cookist", "beautiful cook"], hard: ["cookable", "cookery", "cooked"] } }],
-                    'vocabulary': [{ q: "The sky is clear and the ______ is shining.", a: "sun", hint: "Базовое существительное по контексту.", level: 1, type: "collocations", distractors: { easy: ["moon", "rain", "wind"], medium: ["cloud", "star", "snow"], hard: ["sky", "weather", "atmosphere"] } }],
-                    'reading-match': [{ q: "Match text about a pet dog. Options: A) My Pet, B) Wild Forest, C) Big Car.", a: "A", hint: "Текст описывает домашнюю собаку.", level: 1, type: "heading", distractors: { easy: ["B", "C", "None"], medium: ["B", "C", "Both"], hard: ["B", "C", "A and B"] } }],
-                    'multiple-choice': [{ q: "There is ______ apple on the table.", a: "an", hint: "Неопределенный артикль перед гласной буквой.", level: 1, type: "articles", distractors: { easy: ["a", "the", "---"], medium: ["some", "any", "this"], hard: ["many", "few", "one"] } }]
-                } 
+            "ВПР": {
+                "4": {
+                    "grammar": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_grammar.json",
+                    "word-formation": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_word_formation.json",
+                    "vocabulary": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_vocabulary.json",
+                    "reading-match": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_%20Reading_4%20rkfcc.json",
+                    "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_multiple_choice.json"
+                },
+                // Продублируйте ключи "5", "6", "7" и т.д. по аналогии, если у вас есть отдельные файлы для других классов
             }
         };
 
-        // Дублируем базы на пропущенные классы ВПР
-        mockDatabase['ВПР']['5'] = mockDatabase['ВПР']['4'];
-        mockDatabase['ВПР']['6'] = mockDatabase['ВПР']['4'];
-        mockDatabase['ВПР']['7'] = mockDatabase['ВПР']['4'];
-        mockDatabase['ВПР']['8'] = mockDatabase['ОГЭ'];
-        mockDatabase['ВПР']['11'] = mockDatabase['ЕГЭ'];
+        // Глобальное хранилище
+        let globalExamDatabase = { "ЕГЭ": {}, "ОГЭ": {}, "ВПР": {} };
+
+        // =====================================================================
+        // 🚀 2. АСИНХРОННЫЙ ЗАГРУЗЧИК (Вызывается при старте редактора)
+        // =====================================================================
+        async function loadAllDatabasesFromGithub() {
+            console.log("Старт синхронизации баз данных с GitHub...");
+            
+            for (const [aspect, url] of Object.entries(GITHUB_DATABASE_URLS["ЕГЭ"])) {
+                if(url.includes('ВАШ_ЛОГИН')) continue;
+                try { const res = await fetch(url); if (res.ok) globalExamDatabase["ЕГЭ"][aspect] = await res.json(); } catch(e){}
+            }
+            for (const [aspect, url] of Object.entries(GITHUB_DATABASE_URLS["ОГЭ"])) {
+                if(url.includes('ВАШ_ЛОГИН')) continue;
+                try { const res = await fetch(url); if (res.ok) globalExamDatabase["ОГЭ"][aspect] = await res.json(); } catch(e){}
+            }
+            for (const [grade, aspects] of Object.entries(GITHUB_DATABASE_URLS["ВПР"])) {
+                if (!globalExamDatabase["ВПР"][grade]) globalExamDatabase["ВПР"][grade] = {};
+                for (const [aspect, url] of Object.entries(aspects)) {
+                    if(url.includes('ВАШ_ЛОГИН')) continue;
+                    try { const res = await fetch(url); if (res.ok) globalExamDatabase["ВПР"][grade][aspect] = await res.json(); } catch(e){}
+                }
+            }
+            console.log("Все доступные файлы с GitHub загружены в память:", globalExamDatabase);
+        }
 
         const i18n = {
             ru: {
@@ -537,7 +544,6 @@
             const container = document.createElement('div');
             container.className = 'artifact-row';
             container.id = `artifact-idx-${index}`;
-
             container.innerHTML = `
                 <div class="artifact-main-inputs">
                     <input type="file" accept="image/*" class="art-img" onchange="compressArtifact(${index}, event)" style="flex-grow:1;">
@@ -549,9 +555,7 @@
                 </div>
             `;
             list.appendChild(container);
-            if (savedData && savedData.img) {
-                artifactsData[index] = savedData.img;
-            }
+            if (savedData && savedData.img) { artifactsData[index] = savedData.img; }
         }
 
         function removeArtifactField(idx) {
@@ -559,6 +563,7 @@
             if (target) { target.remove(); artifactsData[idx] = null; }
         }
 
+        // SMART COVER LOGIC - Обрезка артефактов
         function compressArtifact(idx, event) {
             const file = event.target.files[0];
             if (!file) return;
@@ -567,14 +572,18 @@
                 const img = new Image();
                 img.onload = function() {
                     const canvas = document.createElement('canvas');
-                    const max = 250;
-                    let w = img.width, h = img.height;
-                    if (w > h) { if (w > max) { h *= max / w; w = max; } }
-                    else { if (h > max) { w *= max / h; h = max; } }
-                    canvas.width = w; canvas.height = h;
+                    const targetSize = 250; 
+                    canvas.width = targetSize;
+                    canvas.height = targetSize;
                     const ctx = canvas.getContext('2d');
-                    ctx.drawImage(img, 0, 0, w, h);
-                    artifactsData[idx] = canvas.toDataURL('image/jpeg', 0.8);
+                    
+                    // Сохраняем пропорции и заполняем квадрат (Smart Cover)
+                    const scale = Math.max(targetSize / img.width, targetSize / img.height);
+                    const x = (targetSize / 2) - (img.width / 2) * scale;
+                    const y = (targetSize / 2) - (img.height / 2) * scale;
+
+                    ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
+                    artifactsData[idx] = canvas.toDataURL('image/jpeg', 0.85);
                 };
                 img.src = e.target.result;
             };
@@ -582,7 +591,8 @@
         }
 
         function handleBackgroundUpload(e) {
-            const file = e.target.files[0]; if (!file) return;
+            const file = e.target.files[0];
+            if (!file) return;
             const reader = new FileReader();
             reader.onload = function(evt) {
                 const image = new Image();
@@ -592,7 +602,7 @@
                     if (w > 1200) { h *= 1200 / w; w = 1200; }
                     canvas.width = w; canvas.height = h;
                     canvas.getContext('2d').drawImage(image, 0, 0, w, h);
-                    loadedBgImage = canvas.toDataURL('image/jpeg', 0.65);
+                    loadedBgImage = canvas.toDataURL('image/jpeg', 0.7);
                 };
                 image.src = evt.target.result;
             };
@@ -600,43 +610,58 @@
         }
 
         function handleAudioUpload(e) {
-            const file = e.target.files[0]; if (!file) return;
+            const file = e.target.files[0];
+            if (!file) return;
             const reader = new FileReader();
             reader.onload = function(evt) { loadedBgAudio = evt.target.result; };
             reader.readAsDataURL(file);
         }
 
-        function fetchSelectedTasks() {
+        function getRandomTasks(array, count) {
+            if (!array || !Array.isArray(array) || array.length === 0) return [];
+            const shuffled = [...array].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, parseInt(count) || 5);
+        }
+
+        // =====================================================================
+        // 🧠 3. ФОРМИРОВАНИЕ БАЗЫ ДЛЯ ТРЕНАЖЕРА (ИЗ ПАМЯТИ РЕДАКТОРА)
+        // =====================================================================
+        async function fetchSelectedTasks() {
             const spec = document.getElementById('exam-type').value;
             const grade = document.getElementById('vpr-grade').value;
-            let dataset = (spec === 'ВПР') ? (mockDatabase['ВПР'][grade] || {}) : (mockDatabase[spec] || {});
-
             let groupedTasks = {};
             const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
-            
-            strands.forEach(strand => {
+
+            for (const strand of strands) {
                 const check = document.getElementById(`cb-${strand}`);
                 if (check && check.checked) {
                     const targetCount = parseInt(document.getElementById(`count-${strand}`).value) || 1;
-                    const pool = dataset[strand] || [];
                     const topicFilter = document.getElementById(`topic-${strand}`).value;
-                    
-                    let filteredPool = topicFilter !== 'all' ? pool.filter(item => item.type === topicFilter) : pool;
-                    let selectedFromStrand = [];
-                    let available = [...filteredPool].sort(() => 0.5 - Math.random());
-                    
-                    while (selectedFromStrand.length < targetCount && available.length > 0) {
-                        for (let i = 0; i < available.length && selectedFromStrand.length < targetCount; i++) {
-                            let task = JSON.parse(JSON.stringify(available[i]));
-                            task.aspectName = strandNamesMap[strand];
-                            selectedFromStrand.push(task);
+                    let sourcePool = [];
+
+                    if (spec === 'ВПР') {
+                        if (globalExamDatabase["ВПР"][grade] && globalExamDatabase["ВПР"][grade][strand]) {
+                            sourcePool = globalExamDatabase["ВПР"][grade][strand];
+                        }
+                    } else {
+                        if (globalExamDatabase[spec] && globalExamDatabase[spec][strand]) {
+                            sourcePool = globalExamDatabase[spec][strand];
                         }
                     }
+
+                    // Фильтрация по теме и рандомный выбор заданного количества (targetCount)
+                    let filteredPool = topicFilter !== 'all' ? sourcePool.filter(item => item.type === topicFilter) : sourcePool;
+                    let selectedFromStrand = getRandomTasks(filteredPool, targetCount).map(task => {
+                        let t = JSON.parse(JSON.stringify(task)); // Клонирование
+                        t.aspectName = strandNamesMap[strand];
+                        return t;
+                    });
+
                     if(selectedFromStrand.length > 0) groupedTasks[strandNamesMap[strand]] = selectedFromStrand;
                 }
-            });
+            }
 
-            // Парсинг своих заданий
+            // Парсинг своих кастомных заданий
             const customAspect = document.getElementById('custom-aspect').value;
             const qs = document.getElementById('custom-q').value.split('\n').map(s=>s.trim());
             const as = document.getElementById('custom-a').value.split('\n').map(s=>s.trim());
@@ -648,13 +673,8 @@
                 if(qs[i]) {
                     let distractors = ds[i] ? ds[i].split(',').map(s=>s.trim()) : [];
                     customArr.push({
-                        q: qs[i],
-                        a: as[i] || "Yes",
-                        hint: hs[i] || "",
-                        level: 2,
-                        type: "custom",
-                        distractors: { easy: distractors, medium: distractors, hard: distractors },
-                        aspectName: customAspect
+                        q: qs[i], a: as[i] || "Yes", hint: hs[i] || "", level: 2, type: "custom",
+                        distractors: { easy: distractors, medium: distractors, hard: distractors }, aspectName: customAspect
                     });
                 }
             }
@@ -664,15 +684,13 @@
             }
 
             let finalTasks = [];
-            for (let blockName in groupedTasks) {
-                finalTasks = finalTasks.concat(groupedTasks[blockName]);
-            }
+            for (let blockName in groupedTasks) finalTasks = finalTasks.concat(groupedTasks[blockName]);
             
             return finalTasks;
         }
 
-        function compileCoreWidgetCode() {
-            const targetTasks = fetchSelectedTasks();
+        async function compileCoreWidgetCode() {
+            const targetTasks = await fetchSelectedTasks();
             const compiledLang = document.getElementById('trainer-lang').value;
             const maxLives = parseInt(document.getElementById('game-lives').value) || 3;
             const timerActive = document.getElementById('timer-toggle').checked;
@@ -699,11 +717,7 @@
                 const linkInput = row.querySelector('.art-link');
                 const idx = parseInt(row.id.replace('artifact-idx-', ''));
                 if (artifactsData[idx]) {
-                    parsedArtifacts.push({
-                        img: artifactsData[idx],
-                        score: parseInt(scoreInput.value) || 10,
-                        link: linkInput ? linkInput.value.trim() : ''
-                    });
+                    parsedArtifacts.push({ img: artifactsData[idx], score: parseInt(scoreInput.value) || 10, link: linkInput ? linkInput.value.trim() : '' });
                 }
             }
 
@@ -714,7 +728,7 @@
                 return `${(num >> 16) & 255}, ${(num >> 8) & 255}, ${num & 255}`;
             };
             const rgbaContainer = `rgba(${hexToRgb(bgColor)}, ${bgOpacity})`;
-
+            
             return `<!DOCTYPE html>
 <html lang="${compiledLang}">
 <head>
@@ -726,9 +740,7 @@
         body {
             font-family: ${selectedFont};
             background: ${loadedBgImage ? `url('${loadedBgImage}') no-repeat center center / cover` : '#07080e'};
-            color: ${txtColor};
-            min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px;
-            overflow-x: hidden;
+            color: ${txtColor}; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; overflow-x: hidden;
         }
         .widget-wrapper {
             background: ${rgbaContainer}; border: 2px solid ${accentColor}40;
@@ -743,41 +755,31 @@
         
         .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; }
         .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
-        
         @media(max-width: 500px) { .options-stack { grid-template-columns: 1fr; } }
         
-        .opt-btn {
-            background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 12px; padding: 16px; text-align: center; color: inherit;
-            font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;
-        }
+        .opt-btn { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; text-align: center; color: inherit; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
         .opt-btn:hover:not(:disabled) { background: ${accentColor}20; border-color: ${accentColor}; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
         .opt-btn:disabled { cursor: not-allowed; opacity: 0.7; }
         
-        .hint-box { background: rgba(6,182,212,0.1); border-left: 4px solid #06b6d4; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 14px; display: none; color: #e5e7eb; line-height: 1.5; }
+        .hint-box { background: rgba(0, 210, 255, 0.1); border-left: 4px solid ${accentColor}; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 14px; display: none; color: #e5e7eb; line-height: 1.5; }
         .feedback-banner { padding: 14px; border-radius: 10px; text-align: center; font-weight: 800; margin-bottom: 15px; display: none; font-size: 15px; letter-spacing: 0.5px; }
         
-        .btn-action {
-            background: ${accentColor}; border: none; color: white; padding: 14px 28px; border-radius: 10px;
-            font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-left: auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s;
-        }
-        .btn-action:hover { filter: brightness(1.1); transform: translateY(-2px); }
+        .btn-action { background: ${accentColor}; border: none; color: #000; padding: 14px 28px; border-radius: 10px; font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-left: auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s; }
+        .btn-action:hover { filter: brightness(1.1); transform: translateY(-2px); color: white; }
         
         .rewards-shelf { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); }
         .reward-icon-wrapper { position: relative; width: 75px; height: 75px; border-radius: 12px; border: 2px solid ${accentColor}; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; box-shadow: 0 0 15px ${accentColor}40; }
         .reward-icon-wrapper:hover { transform: scale(1.05); }
         .reward-icon-wrapper img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
         .reward-badge { position: absolute; bottom: -8px; right: -8px; background: #10b981; color: white; font-size: 10px; padding: 3px 6px; border-radius: 10px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-        .reward-play-badge { position: absolute; top: -8px; left: -8px; background: ${accentColor}; color: white; font-size: 9px; padding: 3px 8px; border-radius: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 5px rgba(0,0,0,0.5); pointer-events: none; }
+        .reward-play-badge { position: absolute; top: -8px; left: -8px; background: ${accentColor}; color: #000; font-size: 9px; padding: 3px 8px; border-radius: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 5px rgba(0,0,0,0.5); pointer-events: none; }
         
-        /* Модальное окно для встроенной игры и артефакта */
         .game-modal { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(5px); }
         .game-modal-content { position: relative; width: 100%; max-width: 900px; height: 80vh; background: #121420; border-radius: 16px; border: 2px solid ${accentColor}; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
         .game-modal-header { padding: 12px 20px; background: rgba(0,0,0,0.6); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
         .game-modal-close { background: none; border: none; color: #f43f5e; font-size: 24px; font-weight: 700; cursor: pointer; }
         .game-modal-iframe { width: 100%; flex-grow: 1; border: none; background: #000; }
         
-        /* Всплывающий артефакт */
         .artifact-popup-card { width: 280px; height: 280px; border-radius: 20px; border: 3px solid ${accentColor}; overflow: hidden; margin-bottom: 20px; transition: 0.3s; box-shadow: 0 0 20px ${accentColor}80; }
     </style>
 </head>
@@ -785,10 +787,7 @@
 
     <div class="widget-wrapper" id="main-node">
         <div class="top-hud">
-            <div>
-                <span class="block-label" id="hud-block-name"></span>
-                <span id="hud-progress" style="margin-left: 10px;"></span>
-            </div>
+            <div><span class="block-label" id="hud-block-name"></span><span id="hud-progress" style="margin-left: 10px;"></span></div>
             ${timerActive ? `<div class="timer-container">⏱ <span id="hud-timer">00</span></div>` : ''}
             <div class="lives-container" id="hud-lives"></div>
         </div>
@@ -802,13 +801,11 @@
             <div id="hud-score" style="font-weight:800; font-size:16px; color:#10b981;">Score: 0</div>
             <button class="btn-action" id="next-action-btn" onclick="advanceWorkflow()">Next</button>
         </div>
-
         <div class="rewards-shelf" id="shelf-block" style="display:none;"></div>
     </div>
 
     <div class="game-modal" id="modal-game-box">
-        <div class="game-modal-content" id="modal-inner-content">
-            </div>
+        <div class="game-modal-content" id="modal-inner-content"></div>
     </div>
 
     ${loadedBgAudio ? `<audio id="bg-audio-player" src="${loadedBgAudio}" loop autoplay style="display:none;"></audio>` : ''}
@@ -822,11 +819,10 @@
             streakThresh: ${streakThresh}, distractorSetting: "${distractorSetting}",
             lang: "${compiledLang}", artifactTiming: "${artifactTiming}"
         };
-
         let currentIdx = 0; let score = 0; let currentLives = config.maxLives;
-        let timerInterval = null; let timeLeft = config.timerDuration; let correctStreak = 0;
-        let isAnswered = false; let earnedArtifacts = new Set();
-
+        let timerInterval = null; let timeLeft = config.timerDuration;
+        let correctStreak = 0; let isAnswered = false; let earnedArtifacts = new Set();
+        
         const labels = {
             ru: { win: "🏆 Поздравляем! Все задания пройдены!", lose: "💀 Игра окончена! Закончились жизни.", correct: "🎉 Верно!", wrong: "❌ Ошибка!", next: "Далее", finish: "Завершить", hintTitle: "Пояснение: ", clickToPlay: "Кликни, чтобы играть!" },
             en: { win: "🏆 Outstanding! Simulation complete!", lose: "💀 Simulation failure! 0 HP.", correct: "🎉 Correct!", wrong: "❌ Incorrect!", next: "Advance", finish: "Terminate", hintTitle: "Explanation: ", clickToPlay: "Click to play game!" }
@@ -834,27 +830,21 @@
 
         function initSimulation() {
             if(!runtimeTasks || runtimeTasks.length === 0) {
-                document.getElementById('q-text').innerText = "Нет выбранных заданий для генерации.";
-                return;
+                document.getElementById('q-text').innerText = "Нет выбранных заданий для генерации."; return;
             }
-            renderHP();
-            renderQuestion();
+            renderHP(); renderQuestion();
         }
 
-        function renderHP() {
-            const box = document.getElementById('hud-lives');
-            box.innerHTML = "❤️".repeat(Math.max(0, currentLives));
-        }
+        function renderHP() { document.getElementById('hud-lives').innerHTML = "❤️".repeat(Math.max(0, currentLives)); }
 
         function renderQuestion() {
             isAnswered = false;
             document.getElementById('feedback-block').style.display = 'none';
             document.getElementById('hint-block').style.display = 'none';
             document.getElementById('next-action-btn').style.display = 'none';
+            if(timerInterval) clearInterval(timerInterval); // Защита таймера от багов перекрытия
             
-            if(currentIdx >= runtimeTasks.length) {
-                endSimulation(true); return;
-            }
+            if(currentIdx >= runtimeTasks.length) { endSimulation(true); return; }
 
             const t = runtimeTasks[currentIdx];
             document.getElementById('hud-block-name').innerText = t.aspectName || "Task";
@@ -870,14 +860,12 @@
             oBox.innerHTML = '';
             answers.forEach(ans => {
                 const b = document.createElement('button');
-                b.className = 'opt-btn';
-                b.innerText = ans;
-                b.onclick = () => verifyAnswer(ans, b);
+                b.className = 'opt-btn'; b.innerText = ans; b.onclick = () => verifyAnswer(ans, b);
                 oBox.appendChild(b);
             });
 
             if(config.timerActive) { 
-                timeLeft = config.timerDuration; 
+                timeLeft = config.timerDuration;
                 document.getElementById('hud-timer').innerText = timeLeft;
                 startClock();
             }
@@ -885,12 +873,11 @@
 
         function startClock() {
             if(!config.timerActive) return;
-            clearInterval(timerInterval);
             timerInterval = setInterval(() => {
                 if(!isAnswered) {
                     timeLeft--;
                     document.getElementById('hud-timer').innerText = timeLeft < 10 ? '0' + timeLeft : timeLeft;
-                    if(timeLeft <= 0) { handleTimeout(); }
+                    if(timeLeft <= 0) { clearInterval(timerInterval); handleTimeout(); }
                 }
             }, 1000);
         }
@@ -900,55 +887,42 @@
         function verifyAnswer(chosen, buttonEl) {
             if(isAnswered) return;
             isAnswered = true;
-            clearInterval(timerInterval);
+            if(timerInterval) clearInterval(timerInterval);
 
             const t = runtimeTasks[currentIdx];
             const fBlock = document.getElementById('feedback-block');
-            
             document.querySelectorAll('.opt-btn').forEach(b => {
                 b.disabled = true;
                 if(b.innerText === t.a) { b.style.borderColor = "#10b981"; b.style.background = "rgba(16,185,129,0.1)"; }
             });
-
             if(config.hintsActive && t.hint) {
                 const hBlock = document.getElementById('hint-block');
-                hBlock.innerHTML = \`<strong style="color:#06b6d4;">\${labels.hintTitle}</strong> \${t.hint}\`;
+                hBlock.innerHTML = \`<strong style="color:${accentColor};">\${labels.hintTitle}</strong> \${t.hint}\`;
                 hBlock.style.display = 'block';
             }
 
             if(chosen === t.a) {
                 score += 10; correctStreak++;
                 if(config.aiAdaptive && correctStreak >= config.streakThresh) score += 5;
-                
                 document.getElementById('hud-score').innerText = \`Score: \${score}\`;
-                fBlock.className = "feedback-banner";
-                fBlock.style.backgroundColor = "rgba(16,185,129,0.2)";
-                fBlock.style.color = "#10b981";
+                fBlock.className = "feedback-banner"; fBlock.style.backgroundColor = "rgba(16,185,129,0.2)"; fBlock.style.color = "#10b981";
                 fBlock.innerText = labels.correct;
-                
                 checkArtifactUnlock(score);
-                
                 document.getElementById('next-action-btn').style.display = 'block';
                 document.getElementById('next-action-btn').innerText = (currentIdx === runtimeTasks.length - 1) ? labels.finish : labels.next;
             } else {
                 correctStreak = 0; currentLives--; renderHP();
-                fBlock.className = "feedback-banner";
-                fBlock.style.backgroundColor = "rgba(244,63,94,0.2)";
-                fBlock.style.color = "#f43f5e";
+                fBlock.className = "feedback-banner"; fBlock.style.backgroundColor = "rgba(244,63,94,0.2)"; fBlock.style.color = "#f43f5e";
                 fBlock.innerText = \`\${labels.wrong} Correct: \${t.a}\`;
                 if(buttonEl) buttonEl.style.borderColor = "#f43f5e";
-
                 if(currentLives <= 0) {
                     setTimeout(() => { endSimulation(false); }, 2000);
                 } else {
                     if(config.repeatOnErr) {
                         isAnswered = false;
                         setTimeout(() => {
-                            fBlock.style.display = 'none';
-                            document.getElementById('hint-block').style.display = 'none';
-                            document.querySelectorAll('.opt-btn').forEach(b => {
-                                b.disabled = false; b.style.borderColor = "rgba(255,255,255,0.1)"; b.style.background = "rgba(0,0,0,0.4)";
-                            });
+                            fBlock.style.display = 'none'; document.getElementById('hint-block').style.display = 'none';
+                            document.querySelectorAll('.opt-btn').forEach(b => { b.disabled = false; b.style.borderColor = "rgba(255,255,255,0.1)"; b.style.background = "rgba(0,0,0,0.4)"; });
                             if(config.timerActive) startClock();
                         }, 2000);
                     } else {
@@ -965,9 +939,7 @@
             foundArts.forEach(art => {
                 if(!earnedArtifacts.has(art.score)) {
                     earnedArtifacts.add(art.score);
-                    if(config.artifactTiming === 'immediate') {
-                        showArtifactPopup(art);
-                    }
+                    if(config.artifactTiming === 'immediate') showArtifactPopup(art);
                 }
             });
         }
@@ -975,63 +947,33 @@
         function showArtifactPopup(art) {
             const modal = document.getElementById('modal-game-box');
             const content = document.getElementById('modal-inner-content');
-            
-            content.style.maxWidth = "400px";
-            content.style.height = "auto";
-            content.style.alignItems = "center";
-            content.style.padding = "30px";
-            content.style.background = "#121420";
-            
-            let clickBtn = art.link ? \`<button class="btn-action" style="display:block; margin: 15px auto 0; background: #10b981; width: 100%; box-shadow: 0 4px 15px rgba(16,185,129,0.4);" onclick="openGameFrame('\${art.link}')">🎮 Играть сейчас!</button>\` : '';
-
-            content.innerHTML = \`
-                <h2 style="color:white; margin-bottom:20px; text-align:center;">Новый Артефакт!</h2>
-                <div class="artifact-popup-card">
-                    <img src="\${art.img}" style="width:100%; height:100%; object-fit:cover;">
-                </div>
-                \${clickBtn}
-                <button class="btn-action" style="display:block; margin: 15px auto 0; width: 100%;" onclick="closeModal()">Продолжить тренажер</button>
-            \`;
+            content.style.maxWidth = "400px"; content.style.height = "auto"; content.style.alignItems = "center"; content.style.padding = "30px"; content.style.background = "#121420";
+            let clickBtn = art.link ? \`<button class="btn-action" style="display:block; margin: 15px auto 0; background: #10b981; color: white; width: 100%; box-shadow: 0 4px 15px rgba(16,185,129,0.4);" onclick="openGameFrame('\${art.link}')">🎮 Играть сейчас!</button>\` : '';
+            content.innerHTML = \`<h2 style="color:white; margin-bottom:20px; text-align:center;">Новый Артефакт!</h2>
+                <div class="artifact-popup-card"><img src="\${art.img}" style="width:100%; height:100%; object-fit:cover;"></div>\${clickBtn}
+                <button class="btn-action" style="display:block; margin: 15px auto 0; width: 100%; color: #000;" onclick="closeModal()">Продолжить тренажер</button>\`;
             modal.style.display = 'flex';
         }
 
         window.openGameFrame = function(url) {
             const modal = document.getElementById('modal-game-box');
             const content = document.getElementById('modal-inner-content');
-            
-            content.style.maxWidth = "900px";
-            content.style.height = "80vh";
-            content.style.padding = "0";
-            
-            content.innerHTML = \`
-                <div class="game-modal-header">
-                    <span style="font-weight:700; font-size:14px;">🎮 Игровая зона артефакта</span>
-                    <button class="game-modal-close" onclick="closeModal()">✕</button>
-                </div>
-                <iframe class="game-modal-iframe" src="\${url}" allow="autoplay; fullscreen"></iframe>
-            \`;
+            content.style.maxWidth = "900px"; content.style.height = "80vh"; content.style.padding = "0";
+            content.innerHTML = \`<div class="game-modal-header"><span style="font-weight:700; font-size:14px;">🎮 Игровая зона артефакта</span><button class="game-modal-close" onclick="closeModal()">✕</button></div>
+                <iframe class="game-modal-iframe" src="\${url}" allow="autoplay; fullscreen"></iframe>\`;
             modal.style.display = 'flex';
         }
 
-        window.closeModal = function() {
-            document.getElementById('modal-game-box').style.display = 'none';
-            document.getElementById('modal-inner-content').innerHTML = '';
-        }
-
-        function advanceWorkflow() {
-            currentIdx++;
-            renderQuestion();
-        }
+        window.closeModal = function() { document.getElementById('modal-game-box').style.display = 'none'; document.getElementById('modal-inner-content').innerHTML = ''; }
+        function advanceWorkflow() { currentIdx++; renderQuestion(); }
 
         function endSimulation(isWin) {
-            clearInterval(timerInterval);
+            if(timerInterval) clearInterval(timerInterval);
             const node = document.getElementById('main-node');
-            
             if(config.artifactTiming === 'end') {
                 const foundArts = rewardsPool.filter(a => a.score <= score);
                 foundArts.forEach(art => earnedArtifacts.add(art.score));
             }
-
             let artifactsHTML = '';
             rewardsPool.forEach(r => {
                 if(earnedArtifacts.has(r.score)) {
@@ -1039,25 +981,16 @@
                     let titleAttr = r.link ? \`title="\${labels.clickToPlay}"\` : '';
                     let cursorStyle = r.link ? 'cursor:pointer; border-color:#10b981;' : '';
                     let playBadge = r.link ? \`<span class="reward-play-badge">▶ Играть</span>\` : '';
-                    
-                    artifactsHTML += \`
-                        <div class="reward-icon-wrapper" style="\${cursorStyle}" \${clickEvt} \${titleAttr}>
-                            <img src="\${r.img}">
-                            <span class="reward-badge">\${r.score} XP</span>
-                            \${playBadge}
-                        </div>\`;
+                    artifactsHTML += \`<div class="reward-icon-wrapper" style="\${cursorStyle}" \${clickEvt} \${titleAttr}>
+                            <img src="\${r.img}"><span class="reward-badge">\${r.score} XP</span>\${playBadge}</div>\`;
                 }
             });
-
-            node.innerHTML = \`
-                <div style="text-align:center; padding:20px;">
+            node.innerHTML = \`<div style="text-align:center; padding:20px;">
                     <h2 style="font-size:26px; margin-bottom:15px; color:\${isWin ? 'white' : '#f43f5e'}">\${isWin ? labels.win : labels.lose}</h2>
                     <p style="font-size:20px; color:#10b981; font-weight:800; margin-bottom:30px;">Final Score: \${score} XP</p>
                     \${artifactsHTML ? \`<div style="font-size:14px; color:var(--text-muted); margin-bottom:10px;">Заработанные Артефакты \${rewardsPool.some(r => r.link && earnedArtifacts.has(r.score)) ? '(Кликните, чтобы играть)' : ''}:</div>\` : ''}
-                    <div class="rewards-shelf" style="border:none; margin-top:0; padding-top:0;">
-                        \${artifactsHTML}
-                    </div>
-                    <button class="btn-action" style="display:block; margin: 30px auto 0;" onclick="window.location.reload()">Начать заново</button>
+                    <div class="rewards-shelf" style="border:none; margin-top:0; padding-top:0;">\${artifactsHTML}</div>
+                    <button class="btn-action" style="display:block; margin: 30px auto 0; color: #000;" onclick="window.location.reload()">Начать заново</button>
                 </div>\`;
         }
 
@@ -1067,9 +1000,18 @@
 </html>`;
         }
 
-        function generateTrainer() {
-            const code = compileCoreWidgetCode();
-            const finalIframe = `<iframe srcdoc="${code.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}" width='100%' height='550px' style='border:none; border-radius:12px; background:transparent;' allow='autoplay; fullscreen'></iframe>`;
+        // =====================================================================
+        // 💾 4. ГЕНЕРАЦИЯ, КОДИРОВКА IFRAME BASE64 И ЭКСПОРТ
+        // =====================================================================
+        async function generateTrainer() {
+            const code = await compileCoreWidgetCode();
+            
+            // Надежное кодирование для Genially: превращаем весь код в Base64 data-URI
+            // Это решает проблему со слишком длинным srcdoc, который обрезается на других платформах
+            const encodedHtml = btoa(unescape(encodeURIComponent(code)));
+            const dataUri = `data:text/html;base64,${encodedHtml}`;
+
+            const finalIframe = `<iframe src="${dataUri}" width='100%' height='550px' style='border:none; border-radius:12px; background:transparent;' allow='autoplay; fullscreen'></iframe>`;
             document.getElementById('iframe-output').innerText = finalIframe;
 
             const viewport = document.getElementById('preview-viewport');
@@ -1094,67 +1036,38 @@
             });
         }
 
-        function downloadHTML() {
-            const code = compileCoreWidgetCode();
+        async function downloadHTML() {
+            const code = await compileCoreWidgetCode();
             const blob = new Blob([code], { type: 'text/html' });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = 'trainer_production.html';
-            link.click();
+            const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
+            link.download = 'trainer_production.html'; link.click();
         }
-
-        function downloadGame() { downloadHTML(); }
+        async function downloadGame() { await downloadHTML(); }
         function downloadPDF() { alert('PDF Generation is native via Browser. Press Ctrl+P or Cmd+P.'); window.print(); }
 
         function saveJSON() {
             let configState = {
-                examType: document.getElementById('exam-type').value,
-                vprGrade: document.getElementById('vpr-grade').value,
-                lives: document.getElementById('game-lives').value,
-                artifactTiming: document.getElementById('artifact-timing').value,
-                timer: document.getElementById('timer-toggle').checked,
-                timerDuration: document.getElementById('timer-duration').value,
-                repeat: document.getElementById('repeat-toggle').checked,
-                theory: document.getElementById('theory-toggle').checked,
-                adaptive: document.getElementById('adaptive-toggle').checked,
-                threshold: document.getElementById('adaptive-threshold').value,
-                distractors: document.getElementById('distractor-trickiness').value,
-                aspects: {},
-                customTasks: {
-                    q: document.getElementById('custom-q').value,
-                    a: document.getElementById('custom-a').value,
-                    d: document.getElementById('custom-d').value,
-                    h: document.getElementById('custom-h').value,
-                    aspect: document.getElementById('custom-aspect').value
-                },
+                examType: document.getElementById('exam-type').value, vprGrade: document.getElementById('vpr-grade').value,
+                lives: document.getElementById('game-lives').value, artifactTiming: document.getElementById('artifact-timing').value,
+                timer: document.getElementById('timer-toggle').checked, timerDuration: document.getElementById('timer-duration').value,
+                repeat: document.getElementById('repeat-toggle').checked, theory: document.getElementById('theory-toggle').checked,
+                adaptive: document.getElementById('adaptive-toggle').checked, threshold: document.getElementById('adaptive-threshold').value,
+                distractors: document.getElementById('distractor-trickiness').value, aspects: {},
+                customTasks: { q: document.getElementById('custom-q').value, a: document.getElementById('custom-a').value, d: document.getElementById('custom-d').value, h: document.getElementById('custom-h').value, aspect: document.getElementById('custom-aspect').value },
                 savedArtifacts: []
             };
-
             const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
             strands.forEach(strand => {
-                configState.aspects[strand] = {
-                    checked: document.getElementById(`cb-${strand}`).checked,
-                    count: document.getElementById(`count-${strand}`).value,
-                    topic: document.getElementById(`topic-${strand}`).value
-                };
+                configState.aspects[strand] = { checked: document.getElementById(`cb-${strand}`).checked, count: document.getElementById(`count-${strand}`).value, topic: document.getElementById(`topic-${strand}`).value };
             });
-
             const listDivs = document.getElementById('artifacts-list').children;
             for (let i = 0; i < listDivs.length; i++) {
-                const row = listDivs[i];
-                const scoreVal = row.querySelector('.art-score').value;
-                const linkVal = row.querySelector('.art-link').value;
+                const row = listDivs[i]; const scoreVal = row.querySelector('.art-score').value; const linkVal = row.querySelector('.art-link').value;
                 const idx = parseInt(row.id.replace('artifact-idx-', ''));
-                if (artifactsData[idx]) {
-                    configState.savedArtifacts.push({ img: artifactsData[idx], score: scoreVal, link: linkVal });
-                }
+                if (artifactsData[idx]) configState.savedArtifacts.push({ img: artifactsData[idx], score: scoreVal, link: linkVal });
             }
-
             const blob = new Blob([JSON.stringify(configState, null, 2)], { type: 'application/json' });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = 'eet_config.json';
-            link.click();
+            const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = 'eet_config.json'; link.click();
         }
 
         function loadJSON(event) {
@@ -1174,7 +1087,6 @@
                 document.getElementById('adaptive-toggle').checked = !!parsed.adaptive;
                 document.getElementById('adaptive-threshold').value = parsed.threshold || '2';
                 document.getElementById('distractor-trickiness').value = parsed.distractors || 'medium';
-                
                 if (parsed.customTasks) {
                     document.getElementById('custom-q').value = parsed.customTasks.q || '';
                     document.getElementById('custom-a').value = parsed.customTasks.a || '';
@@ -1182,7 +1094,6 @@
                     document.getElementById('custom-h').value = parsed.customTasks.h || '';
                     document.getElementById('custom-aspect').value = parsed.customTasks.aspect || 'Лексика и Грамматика';
                 }
-
                 if (parsed.aspects) {
                     const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
                     strands.forEach(strand => {
@@ -1193,18 +1104,20 @@
                         }
                     });
                 }
-                
-                document.getElementById('artifacts-list').innerHTML = '';
-                artifactsData = [];
-                if (parsed.savedArtifacts && Array.isArray(parsed.savedArtifacts)) {
-                    parsed.savedArtifacts.forEach((art) => { addArtifactField(art); });
-                }
+                document.getElementById('artifacts-list').innerHTML = ''; artifactsData = [];
+                if (parsed.savedArtifacts && Array.isArray(parsed.savedArtifacts)) parsed.savedArtifacts.forEach((art) => { addArtifactField(art); });
                 toggleVPR(); toggleAdaptiveSettings(); generateTrainer();
             };
             reader.readAsText(file);
         }
         
-        window.onload = () => { updateEditorLang(); toggleVPR(); toggleAdaptiveSettings(); generateTrainer(); };
+        window.onload = async () => { 
+            updateEditorLang(); 
+            toggleVPR(); 
+            toggleAdaptiveSettings(); 
+            await loadAllDatabasesFromGithub(); // 1. Качаем базу данных
+            generateTrainer(); // 2. Собираем тренажер из скачанного
+        };
     </script>
 </body>
 </html>
