@@ -1,0 +1,222 @@
+[
+  {
+    "q": "I wake up at seven o'clock. I brush my teeth and wash my face. Then I have breakfast with my family. I go to school at eight o'clock.",
+    "question": "What time does the child go to school?",
+    "a": "At eight o'clock",
+    "options": ["At seven o'clock", "At eight o'clock", "At nine o'clock"],
+    "hint": "В тексте прямо сказано: «I go to school at eight o'clock» — значит, ребёнок идёт в школу в восемь часов.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "We visit a farm today. I see a big cow and two small pigs. The sheep is white and fluffy. I like the farm very much.",
+    "question": "True or False: The child sees three pigs on the farm.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте говорится: «I see a big cow and two small pigs» — ребёнок видит двух свинок, а не трёх, поэтому утверждение неверно.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "Today is sunny and warm. I wear a red T-shirt and blue shorts. My sister wears a yellow dress. We play in the park.",
+    "question": "What does the child wear today?",
+    "a": "A red T-shirt and blue shorts",
+    "options": ["A red T-shirt and blue shorts", "A yellow dress", "A green jacket and jeans"],
+    "hint": "В тексте чётко указано: «I wear a red T-shirt and blue shorts» — именно это носит ребёнок в солнечный день.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "My mum is a teacher. My dad is a doctor. I have a little sister. Her name is Anna. We love our family.",
+    "question": "True or False: The child's father is a teacher.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «My dad is a doctor» — папа работает врачом, а не учителем, поэтому утверждение неверно.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "I like to draw pictures. My friend Tom likes to play football. We play together after school. It is fun!",
+    "question": "What does Tom like to do?",
+    "a": "Play football",
+    "options": ["Draw pictures", "Play football", "Read books"],
+    "hint": "В тексте прямо указано: «My friend Tom likes to play football» — Том любит играть в футбол.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "Look at my cat! Her name is Kitty. She is white and small. She likes milk and fish. She sleeps on my bed.",
+    "question": "True or False: Kitty likes water and bread.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «She likes milk and fish» — Китти любит молоко и рыбу, а не воду и хлеб.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "I go to school from Monday to Friday. I have English, Maths and Art lessons. My favourite subject is English. I like my school.",
+    "question": "What is the child's favourite subject?",
+    "a": "English",
+    "options": ["Maths", "Art", "English"],
+    "hint": "В тексте чётко написано: «My favourite subject is English» — любимый предмет ребёнка — английский язык.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "For breakfast I eat an apple and drink milk. For lunch I have soup and bread. For dinner I eat fish and rice. I like healthy food.",
+    "question": "True or False: The child eats cake for breakfast.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «For breakfast I eat an apple and drink milk» — на завтрак ребёнок ест яблоко и пьёт молоко, а не торт.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "My house is small and nice. It has a kitchen, a living room and two bedrooms. I have my own room. I like my house.",
+    "question": "How many bedrooms are in the house?",
+    "a": "Two",
+    "options": ["One", "Two", "Three"],
+    "hint": "В тексте прямо указано: «It has a kitchen, a living room and two bedrooms» — в доме две спальни.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "My best friend is Lena. She is eight years old. She has brown hair and blue eyes. We play and study together. I like Lena very much.",
+    "question": "True or False: Lena has black hair.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «She has brown hair and blue eyes» — у Лены каштановые волосы, а не чёрные.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "In winter it is cold and snowy. I wear a warm coat, a hat and gloves. I like to make a snowman. Winter is fun!",
+    "question": "What does the child wear in winter?",
+    "a": "A warm coat, a hat and gloves",
+    "options": ["A T-shirt and shorts", "A warm coat, a hat and gloves", "A dress and sandals"],
+    "hint": "В тексте чётко указано: «I wear a warm coat, a hat and gloves» — именно такую одежду носит ребёнок зимой.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "I play tennis on Saturdays. My brother plays basketball. On Sundays we ride bikes in the park. We like sports.",
+    "question": "True or False: The child plays basketball on Saturdays.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «I play tennis on Saturdays» — ребёнок играет в теннис по субботам, а не в баскетбол.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "Today is my birthday! I am nine years old. My friends come to my party. We eat cake and play games. I am happy!",
+    "question": "How old is the child today?",
+    "a": "Nine",
+    "options": ["Eight", "Nine", "Ten"],
+    "hint": "В тексте прямо написано: «I am nine years old» — сегодня ребёнку исполняется девять лет.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "We go to the zoo. I see a big elephant and a tall giraffe. The monkeys are funny. I like the zoo very much.",
+    "question": "True or False: The child sees a lion at the zoo.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте перечислены: слон, жираф и обезьяны. Про льва ничего не сказано, поэтому утверждение неверно.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "I go shopping with my mum. We buy bread, milk and apples. I carry a small bag. Mum carries a big bag. We go home.",
+    "question": "What do they buy at the shop?",
+    "a": "Bread, milk and apples",
+    "options": ["Bread, milk and apples", "Cheese, eggs and bananas", "Juice, cookies and oranges"],
+    "hint": "В тексте чётко указано: «We buy bread, milk and apples» — именно эти продукты они покупают в магазине.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "I have a pet dog. His name is Rex. He is brown and big. He likes to run and play ball. Rex is my best friend.",
+    "question": "True or False: Rex is a small black cat.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «I have a pet dog. His name is Rex. He is brown and big» — Рекс это большая коричневая собака, а не маленькая чёрная кошка.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "On Sunday I don't go to school. I sleep late. Then I play with my toys. In the afternoon we visit my grandma. I like weekends.",
+    "question": "What does the child do on Sunday morning?",
+    "a": "Sleeps late",
+    "options": ["Goes to school", "Sleeps late", "Visits grandma"],
+    "hint": "В тексте прямо сказано: «On Sunday I don't go to school. I sleep late» — утром в воскресенье ребёнок спит допоздна.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "We walk in the park. The trees are green. The birds sing. I see ducks on the lake. It is a nice day.",
+    "question": "True or False: The child sees cats on the lake.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «I see ducks on the lake» — на озере ребёнок видит уток, а не кошек.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "I brush my teeth twice a day. I wash my hands before eating. I eat fruit and vegetables. I want to be healthy.",
+    "question": "How often does the child brush teeth?",
+    "a": "Twice a day",
+    "options": ["Once a day", "Twice a day", "Three times a day"],
+    "hint": "В тексте чётко указано: «I brush my teeth twice a day» — ребёнок чистит зубы два раза в день.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  },
+  {
+    "q": "We go to the seaside by car. The sun is hot. I swim in the sea. I build a sandcastle. I like summer holidays.",
+    "question": "True or False: The family goes to the seaside by bus.",
+    "a": "False",
+    "options": ["True", "False"],
+    "hint": "В тексте сказано: «We go to the seaside by car» — семья едет на море на машине, а не на автобусе.",
+    "level": 1,
+    "type": "reading-comprehension",
+    "exam": "ВПР",
+    "vpr_grade": 4
+  }
+]
