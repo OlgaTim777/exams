@@ -164,7 +164,7 @@
                         <option value="ОГЭ">ОГЭ (ФИПИ / 9 класс)</option>
                         <option value="ВПР">ВПР (СдамГИА / Федеральный)</option>
                     </select>
-                </div>
+                 </div>
                 <div class="form-group" id="vpr-grade-group" style="display:none;">
                     <label data-i18n="vpr_grade">Класс (ВПР)</label>
                     <select id="vpr-grade">
@@ -200,11 +200,11 @@
                                 <option value="all">Случайная тема</option>
                                 <option value="suffixes">Суффиксы</option>
                                 <option value="prefixes">Приставки</option>
-                            </select>
+                             </select>
                         </div>
                     </div>
                     <div>
-                        <div class="aspect-item-row"><input type="checkbox" id="cb-vocabulary" value="vocabulary" checked><label for="cb-vocabulary" data-i18n="asp_vocab">Лексика</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-vocab')">⚙️</button><input type="number" id="count-vocabulary" min="1" max="20" value="2"></div>
+                         <div class="aspect-item-row"><input type="checkbox" id="cb-vocabulary" value="vocabulary" checked><label for="cb-vocabulary" data-i18n="asp_vocab">Лексика</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-vocab')">⚙️</button><input type="number" id="count-vocabulary" min="1" max="20" value="2"></div>
                         <div id="cfg-vocab" class="aspect-config">
                             <label style="font-size: 11px;">Тема заданий:</label>
                             <select id="topic-vocabulary">
@@ -258,7 +258,7 @@
                             <option value="Аудирование">Присвоить блок: Аудирование</option>
                             <option value="Свои задания">Присвоить блок: Свои задания</option>
                         </select>
-                    </div>
+                     </div>
                 </div>
             </div>
 
@@ -307,7 +307,7 @@
 
             <div class="grid-2">
                 <div class="toggle-group">
-                    <label>Пояснения после ответа</label>
+                     <label>Пояснения после ответа</label>
                     <label class="switch"><input type="checkbox" id="theory-toggle" checked><span class="slider"></span></label>
                 </div>
                 <div class="toggle-group">
@@ -370,7 +370,7 @@
                     <input type="number" id="q-size" value="18" min="10" max="30">
                 </div>
                 <div class="form-group">
-                    <label data-i18n="font_lbl">Шрифт</label>
+                     <label data-i18n="font_lbl">Шрифт</label>
                     <select id="ui-font">
                         <option value="'Plus Jakarta Sans', sans-serif">Plus Jakarta</option>
                         <option value="'JetBrains Mono', monospace">JetBrains Mono</option>
@@ -443,7 +443,7 @@
                     "reading-match": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_%20Reading_4%20rkfcc.json",
                     "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_multiple_choice.json"
                 },
-                // Продублируйте ключи "5", "6", "7" и т.д. по аналогии, если у вас есть отдельные файлы для других классов
+             // Продублируйте ключи "5", "6", "7" и т.д. по аналогии, если у вас есть отдельные файлы для других классов
             }
         };
 
@@ -455,7 +455,6 @@
         // =====================================================================
         async function loadAllDatabasesFromGithub() {
             console.log("Старт синхронизации баз данных с GitHub...");
-            
             for (const [aspect, url] of Object.entries(GITHUB_DATABASE_URLS["ЕГЭ"])) {
                 if(url.includes('ВАШ_ЛОГИН')) continue;
                 try { const res = await fetch(url); if (res.ok) globalExamDatabase["ЕГЭ"][aspect] = await res.json(); } catch(e){}
@@ -576,12 +575,10 @@
                     canvas.width = targetSize;
                     canvas.height = targetSize;
                     const ctx = canvas.getContext('2d');
-                    
                     // Сохраняем пропорции и заполняем квадрат (Smart Cover)
                     const scale = Math.max(targetSize / img.width, targetSize / img.height);
                     const x = (targetSize / 2) - (img.width / 2) * scale;
                     const y = (targetSize / 2) - (img.height / 2) * scale;
-
                     ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
                     artifactsData[idx] = canvas.toDataURL('image/jpeg', 0.85);
                 };
@@ -631,7 +628,6 @@
             const grade = document.getElementById('vpr-grade').value;
             let groupedTasks = {};
             const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
-
             for (const strand of strands) {
                 const check = document.getElementById(`cb-${strand}`);
                 if (check && check.checked) {
@@ -655,7 +651,7 @@
                         let t = JSON.parse(JSON.stringify(task)); // Клонирование
                         t.aspectName = strandNamesMap[strand];
                         return t;
-                    });
+                     });
 
                     if(selectedFromStrand.length > 0) groupedTasks[strandNamesMap[strand]] = selectedFromStrand;
                 }
@@ -728,7 +724,6 @@
                 return `${(num >> 16) & 255}, ${(num >> 8) & 255}, ${num & 255}`;
             };
             const rgbaContainer = `rgba(${hexToRgb(bgColor)}, ${bgOpacity})`;
-            
             return `<!DOCTYPE html>
 <html lang="${compiledLang}">
 <head>
@@ -753,7 +748,7 @@
         .timer-container { font-variant-numeric: tabular-nums; color: ${accentColor}; font-size: 16px; background: rgba(0,0,0,0.3); padding: 4px 12px; border-radius: 8px; }
         .block-label { color: ${accentColor}; background: ${accentColor}20; padding: 4px 10px; border-radius: 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
         
-        .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; }
+        .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; white-space: pre-line; }
         .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
         @media(max-width: 500px) { .options-stack { grid-template-columns: 1fr; } }
         
@@ -822,7 +817,6 @@
         let currentIdx = 0; let score = 0; let currentLives = config.maxLives;
         let timerInterval = null; let timeLeft = config.timerDuration;
         let correctStreak = 0; let isAnswered = false; let earnedArtifacts = new Set();
-        
         const labels = {
             ru: { win: "🏆 Поздравляем! Все задания пройдены!", lose: "💀 Игра окончена! Закончились жизни.", correct: "🎉 Верно!", wrong: "❌ Ошибка!", next: "Далее", finish: "Завершить", hintTitle: "Пояснение: ", clickToPlay: "Кликни, чтобы играть!" },
             en: { win: "🏆 Outstanding! Simulation complete!", lose: "💀 Simulation failure! 0 HP.", correct: "🎉 Correct!", wrong: "❌ Incorrect!", next: "Advance", finish: "Terminate", hintTitle: "Explanation: ", clickToPlay: "Click to play game!" }
@@ -842,18 +836,30 @@
             document.getElementById('feedback-block').style.display = 'none';
             document.getElementById('hint-block').style.display = 'none';
             document.getElementById('next-action-btn').style.display = 'none';
-            if(timerInterval) clearInterval(timerInterval); // Защита таймера от багов перекрытия
+            if(timerInterval) clearInterval(timerInterval);
             
             if(currentIdx >= runtimeTasks.length) { endSimulation(true); return; }
 
             const t = runtimeTasks[currentIdx];
             document.getElementById('hud-block-name').innerText = t.aspectName || "Task";
             document.getElementById('hud-progress').innerText = \`\${currentIdx + 1} / \${runtimeTasks.length}\`;
-            document.getElementById('q-text').innerText = t.q;
+            
+            // УМНОЕ ОБЪЕДИНЕНИЕ: Текст + Вопрос
+            let displayQ = t.q;
+            if(t.question) displayQ += '\\n\\n' + t.question;
+            document.getElementById('q-text').innerText = displayQ;
 
             const answers = [t.a];
-            const dists = (t.distractors && t.distractors[config.distractorSetting]) ? t.distractors[config.distractorSetting] : [];
-            dists.forEach(d => { if(d && answers.length < 4) answers.push(d); });
+            let dists = [];
+            
+            // УМНОЕ ЧТЕНИЕ: Старый формат (distractors) или Новый формат (options)
+            if (t.distractors && t.distractors[config.distractorSetting]) {
+                dists = t.distractors[config.distractorSetting];
+            } else if (t.options && Array.isArray(t.options)) {
+                dists = t.options.filter(opt => opt !== t.a);
+            }
+            
+            dists.forEach(d => { if(d && !answers.includes(d) && answers.length < 4) answers.push(d); });
             answers.sort(() => Math.random() - 0.5);
 
             const oBox = document.getElementById('options-box');
@@ -863,7 +869,6 @@
                 b.className = 'opt-btn'; b.innerText = ans; b.onclick = () => verifyAnswer(ans, b);
                 oBox.appendChild(b);
             });
-
             if(config.timerActive) { 
                 timeLeft = config.timerDuration;
                 document.getElementById('hud-timer').innerText = timeLeft;
@@ -1005,7 +1010,6 @@
         // =====================================================================
         async function generateTrainer() {
             const code = await compileCoreWidgetCode();
-            
             // Надежное кодирование для Genially: превращаем весь код в Base64 data-URI
             // Это решает проблему со слишком длинным srcdoc, который обрезается на других платформах
             const encodedHtml = btoa(unescape(encodeURIComponent(code)));
@@ -1013,7 +1017,6 @@
 
             const finalIframe = `<iframe src="${dataUri}" width='100%' height='550px' style='border:none; border-radius:12px; background:transparent;' allow='autoplay; fullscreen'></iframe>`;
             document.getElementById('iframe-output').innerText = finalIframe;
-
             const viewport = document.getElementById('preview-viewport');
             viewport.innerHTML = ''; 
             const previewIframe = document.createElement('iframe');
@@ -1062,7 +1065,8 @@
             });
             const listDivs = document.getElementById('artifacts-list').children;
             for (let i = 0; i < listDivs.length; i++) {
-                const row = listDivs[i]; const scoreVal = row.querySelector('.art-score').value; const linkVal = row.querySelector('.art-link').value;
+                const row = listDivs[i];
+                const scoreVal = row.querySelector('.art-score').value; const linkVal = row.querySelector('.art-link').value;
                 const idx = parseInt(row.id.replace('artifact-idx-', ''));
                 if (artifactsData[idx]) configState.savedArtifacts.push({ img: artifactsData[idx], score: scoreVal, link: linkVal });
             }
@@ -1071,7 +1075,8 @@
         }
 
         function loadJSON(event) {
-            const file = event.target.files[0]; if (!file) return;
+            const file = event.target.files[0];
+            if (!file) return;
             const reader = new FileReader();
             reader.onload = function(e) {
                 const parsed = JSON.parse(e.target.result);
@@ -1104,7 +1109,8 @@
                         }
                     });
                 }
-                document.getElementById('artifacts-list').innerHTML = ''; artifactsData = [];
+                document.getElementById('artifacts-list').innerHTML = '';
+                artifactsData = [];
                 if (parsed.savedArtifacts && Array.isArray(parsed.savedArtifacts)) parsed.savedArtifacts.forEach((art) => { addArtifactField(art); });
                 toggleVPR(); toggleAdaptiveSettings(); generateTrainer();
             };
@@ -1112,7 +1118,7 @@
         }
         
         window.onload = async () => { 
-            updateEditorLang(); 
+            updateEditorLang();
             toggleVPR(); 
             toggleAdaptiveSettings(); 
             await loadAllDatabasesFromGithub(); // 1. Качаем базу данных
