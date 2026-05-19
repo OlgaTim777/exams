@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EET Builder - Exam English Trainer Builder (PRO v2.7)</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #0a0b10;
+            --bg-card: rgba(18, 20, 32, 0.7);
+            --bg-input: #1a1d30;
+            --accent-neon: #a855f7;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-red: #f43f5e;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --glow-neon: 0 0 15px rgba(168, 85, 247, 0.4);
+            --glow-cyan: 0 0 15px rgba(6, 182, 212, 0.4);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-main);
+            background-image: radial-gradient(circle at 10% 20%, rgba(168, 85, 247, 0.05) 0%, transparent 40%), radial-gradient(circle at 90% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 40%);
+            color: var(--text-main); min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(18, 20, 32, 0.85); backdrop-filter: blur(12px);
+            padding: 15px 40px; border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 24px; font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-neon), var(--accent-cyan));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 1px;
+        }
+
+        .subtitle { font-size: 12px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; margin-top: 4px; }
+        .header-controls { display: flex; gap: 15px; align-items: center; }
+        .lang-select { background: var(--bg-input); color: var(--text-main); border: 1px solid rgba(6, 182, 212, 0.3); padding: 8px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.3s; }
+        .lang-select:hover { border-color: var(--accent-cyan); }
+
+        .main-container {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 30px;
+            padding: 30px; flex-grow: 1; max-width: 1800px; margin: 0 auto; width: 100%;
+        }
+
+        .panel {
+            background: var(--bg-card); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.08); padding: 30px;
+            display: flex; flex-direction: column; gap: 24px;
+            height: calc(100vh - 120px); overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .panel::-webkit-scrollbar { width: 8px; }
+        .panel::-webkit-scrollbar-thumb { background: var(--bg-input); border-radius: 4px; }
+
+        .panel-title {
+            font-size: 19px; font-weight: 800; border-left: 4px solid var(--accent-cyan);
+            padding-left: 12px; margin-bottom: 5px; display: flex; align-items: center; justify-content: space-between; color: white;
+        }
+
+        .form-group { display: flex; flex-direction: column; gap: 8px; }
+        label { font-size: 13px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        select, input[type="text"], input[type="number"], input[type="file"], input[type="range"], textarea {
+            background-color: rgba(26, 29, 48, 0.6); border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 12px 14px; border-radius: 10px; color: var(--text-main); font-family: inherit;
+            font-size: 14px; transition: all 0.3s ease; width: 100%; resize: vertical;
+        }
+        input[type="number"] { padding: 8px 12px; }
+        input[type="file"] { padding: 9px; cursor: pointer; font-size: 12px; }
+        select:focus, input[type="text"]:focus, input[type="number"]:focus, textarea:focus { outline: none; border-color: var(--accent-cyan); background-color: rgba(26, 29, 48, 0.9); box-shadow: var(--glow-cyan); }
+        input[type="range"] { padding: 0; height: 6px; border-radius: 5px; background: #374151; outline: none; -webkit-appearance: none; }
+        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-cyan); cursor: pointer; box-shadow: 0 0 10px rgba(6,182,212,0.5); }
+
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+
+        .aspect-list { display: flex; flex-direction: column; gap: 12px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); }
+        .aspect-item-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+        .aspect-item-row label { flex-grow: 1; cursor: pointer; font-size: 14px; color: var(--text-main); font-weight: 600; text-transform: none; }
+        .aspect-item-row input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: var(--accent-cyan); }
+        .aspect-item-row input[type="number"] { width: 65px; padding: 6px; text-align: center; }
+        .aspect-config { display: none; padding: 12px; background: rgba(255,255,255,0.02); border-radius: 8px; margin-bottom: 5px; border: 1px dashed rgba(255,255,255,0.1); }
+
+        .toggle-group { display: flex; align-items: center; justify-content: space-between; background: rgba(0,0,0,0.2); padding: 14px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.05); }
+
+        .switch { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
+        .switch input { opacity: 0; width: 0; height: 0; }
+        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #374151; transition: .3s; border-radius: 24px; }
+        .slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 4px; bottom: 4px; background-color: white; transition: .3s; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        input:checked + .slider { background-color: var(--accent-neon); }
+        input:checked + .slider:before { transform: translateX(20px); }
+
+        .btn { background: linear-gradient(135deg, var(--accent-neon), var(--accent-cyan)); color: white; border: none; padding: 14px 20px; border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 14px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.2); }
+        .btn:hover { transform: translateY(-2px); box-shadow: var(--glow-neon); filter: brightness(1.1); }
+        .btn-secondary { background: rgba(6, 182, 212, 0.05); border: 1px solid var(--accent-cyan); color: var(--accent-cyan); box-shadow: none; }
+        .btn-secondary:hover { background: rgba(6, 182, 212, 0.15); box-shadow: var(--glow-cyan); }
+        .btn-small { padding: 10px 14px; font-size: 11px; }
+        .btn-icon { padding: 6px 10px; font-size: 12px; min-width: 34px; border-radius: 8px; }
+
+        .output-box { background-color: #05060a; border-radius: 12px; padding: 18px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent-cyan); border: 1px solid rgba(6, 182, 212, 0.3); height: 90px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; box-shadow: inset 0 0 15px rgba(0,0,0,0.5); }
+        .preview-area { flex-grow: 1; border: 2px dashed rgba(255, 255, 255, 0.15); border-radius: 16px; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.3); position: relative; overflow: hidden; min-height: 400px; }
+        iframe { width: 100%; height: 100%; border: none; background: transparent; }
+
+        .color-picker-group { display: flex; gap: 15px; align-items: center; }
+        .color-picker-wrapper { position: relative; width: 42px; height: 42px; border-radius: 10px; overflow: hidden; border: 2px solid rgba(255, 255, 255, 0.2); cursor: pointer; }
+        input[type="color"] { position: absolute; top: -10px; left: -10px; width: 60px; height: 60px; cursor: pointer; border: none; }
+        
+        .artifact-row { display: flex; flex-direction: column; gap: 10px; background: rgba(0,0,0,0.25); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); position: relative; }
+        .artifact-main-inputs { display: flex; gap: 12px; align-items: center; width: 100%; }
+        
+        /* Свои задания */
+        .custom-tasks-wrapper { background: rgba(6, 182, 212, 0.05); padding: 20px; border-radius: 12px; border: 2px dashed rgba(6, 182, 212, 0.3); margin-top: 5px; }
+        .custom-tasks-wrapper textarea { height: 80px; font-size: 12px; }
+
+        @media(max-width: 1024px) { .main-container { grid-template-columns: 1fr; padding: 15px; } .panel { height: auto; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>EET Builder (PRO v2.7)</h1>
+            <div class="subtitle">Smart Blocks // Custom Tasks Injector // Delayed Hints // Post-game Artifacts</div>
+        </div>
+        <div class="header-controls">
+            <select class="lang-select" id="editor-lang" onchange="updateEditorLang()">
+                <option value="ru">🇷🇺 Редактор: RU</option>
+                <option value="en">🇬🇧 Editor: EN</option>
+            </select>
+            <select class="lang-select" id="trainer-lang">
+                <option value="ru">🇷🇺 Тренажер: RU</option>
+                <option value="en">🇬🇧 Trainer: EN</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="panel">
+            <div class="panel-title" data-i18n="p1_title">1. Параметры Контента</div>
+            
+            <div class="grid-2">
+                <div class="form-group">
+                    <label data-i18n="exam_type">База заданий</label>
+                    <select id="exam-type" onchange="toggleVPR()">
+                        <option value="ЕГЭ">ЕГЭ (ФИПИ / 10-11 классы)</option>
+                        <option value="ОГЭ">ОГЭ (ФИПИ / 9 класс)</option>
+                        <option value="ВПР">ВПР (СдамГИА / Федеральный)</option>
+                    </select>
+                </div>
+                <div class="form-group" id="vpr-grade-group" style="display:none;">
+                    <label data-i18n="vpr_grade">Класс (ВПР)</label>
+                    <select id="vpr-grade">
+                        <option value="4">4 класс</option>
+                        <option value="5">5 класс</option>
+                        <option value="6">6 класс</option>
+                        <option value="7">7 класс</option>
+                        <option value="8">8 класс</option>
+                        <option value="11">11 класс</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label data-i18n="aspects_lbl">Встроенные разделы (выдача блоками)</label>
+                <div class="aspect-list">
+                    <div>
+                        <div class="aspect-item-row"><input type="checkbox" id="cb-grammar" value="grammar" checked><label for="cb-grammar" data-i18n="asp_gram">Грамматика</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-grammar')">⚙️</button><input type="number" id="count-grammar" min="1" max="20" value="2"></div>
+                        <div id="cfg-grammar" class="aspect-config">
+                            <label style="font-size: 11px;">Тема заданий:</label>
+                            <select id="topic-grammar">
+                                <option value="all">Случайная тема</option>
+                                <option value="times">Времена глаголов</option>
+                                <option value="voice">Залог (Active/Passive)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="aspect-item-row"><input type="checkbox" id="cb-word-formation" value="word-formation" checked><label for="cb-word-formation" data-i18n="asp_word">Словообразование</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-wordform')">⚙️</button><input type="number" id="count-word-formation" min="1" max="20" value="2"></div>
+                        <div id="cfg-wordform" class="aspect-config">
+                            <label style="font-size: 11px;">Тема заданий:</label>
+                            <select id="topic-word-formation">
+                                <option value="all">Случайная тема</option>
+                                <option value="suffixes">Суффиксы</option>
+                                <option value="prefixes">Приставки</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="aspect-item-row"><input type="checkbox" id="cb-vocabulary" value="vocabulary" checked><label for="cb-vocabulary" data-i18n="asp_vocab">Лексика</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-vocab')">⚙️</button><input type="number" id="count-vocabulary" min="1" max="20" value="2"></div>
+                        <div id="cfg-vocab" class="aspect-config">
+                            <label style="font-size: 11px;">Тема заданий:</label>
+                            <select id="topic-vocabulary">
+                                <option value="all">Случайная тема</option>
+                                <option value="collocations">Устойчивые выражения</option>
+                                <option value="phrasal">Фразовые глаголы</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="aspect-item-row"><input type="checkbox" id="cb-reading-match" value="reading-match"><label for="cb-reading-match" data-i18n="asp_read">Чтение</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-read')">⚙️</button><input type="number" id="count-reading-match" min="1" max="20" value="1"></div>
+                        <div id="cfg-read" class="aspect-config">
+                            <label style="font-size: 11px;">Тема заданий:</label>
+                            <select id="topic-reading-match">
+                                <option value="all">Случайная тема</option>
+                                <option value="heading">Подбор заголовков</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="aspect-item-row"><input type="checkbox" id="cb-multiple-choice" value="multiple-choice"><label for="cb-multiple-choice" data-i18n="asp_mult">Множественный выбор</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-mult')">⚙️</button><input type="number" id="count-multiple-choice" min="1" max="20" value="1"></div>
+                        <div id="cfg-mult" class="aspect-config">
+                            <label style="font-size: 11px;">Тема заданий:</label>
+                            <select id="topic-multiple-choice">
+                                <option value="all">Случайная тема</option>
+                                <option value="articles">Артикли</option>
+                                <option value="prepositions">Предлоги</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-tasks-wrapper">
+                <label style="color: var(--accent-cyan); font-size: 15px;">✍️ Массовая загрузка своих заданий</label>
+                <div style="font-size: 12px; color:var(--text-muted); margin-bottom: 15px; margin-top: 5px;">Каждая новая строка = новое задание. Количество строк во всех полях должно совпадать.</div>
+                
+                <div id="custom-fields" style="display:flex; flex-direction:column; gap:12px;">
+                    <div class="grid-3">
+                        <textarea id="custom-q" placeholder="Текст вопроса (в столбик)"></textarea>
+                        <textarea id="custom-a" placeholder="Правильный ответ (в столбик)"></textarea>
+                        <textarea id="custom-d" placeholder="Ложные ответы через запятую (в столбик)"></textarea>
+                    </div>
+                    <textarea id="custom-h" placeholder="Пояснение / Теория (в столбик) - показывается строго после ответа" style="height:60px;"></textarea>
+                    <div class="form-group">
+                        <label style="font-size: 11px;">Блок для отображения в тренажере:</label>
+                        <select id="custom-aspect">
+                            <option value="Лексика и Грамматика">Присвоить блок: Лексика и Грамматика</option>
+                            <option value="Чтение">Присвоить блок: Чтение</option>
+                            <option value="Аудирование">Присвоить блок: Аудирование</option>
+                            <option value="Свои задания">Присвоить блок: Свои задания</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-title" data-i18n="p2_title">2. Режим и Геймификация</div>
+
+            <div class="grid-2">
+                <div class="form-group" id="lives-group">
+                    <label data-i18n="lives_lbl">Количество жизней</label>
+                    <select id="game-lives">
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="1">1 (Хардкор)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Когда показывать артефакты?</label>
+                    <select id="artifact-timing">
+                        <option value="immediate">Сразу (Всплывающее окно)</option>
+                        <option value="end">Только в конце (На полке наград)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group" id="artifacts-config" style="margin-top: 5px; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 15px;">
+                <label style="color: var(--accent-neon);">Система Артефактов (Игровые награды и мини-игры)</label>
+                <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 10px;">Загрузите картинку и укажите балл. Вставленная ссылка запустит игру прямо в тренажере по клику на артефакт.</div>
+                <div id="artifacts-list" style="display:flex; flex-direction:column; gap:12px;"></div>
+                <button class="btn btn-secondary btn-small" onclick="addArtifactField()" style="width:fit-content; margin-top:10px;">+ Добавить артефакт</button>
+            </div>
+
+            <div class="grid-2" style="margin-top: 5px;">
+                <div class="toggle-group">
+                    <div style="display:flex; flex-direction:column; gap:4px;">
+                        <label data-i18n="timer_lbl">Таймер на задание</label>
+                        <div style="display:flex; align-items:center; gap:10px;">
+                            <label class="switch"><input type="checkbox" id="timer-toggle" checked onchange="document.getElementById('timer-duration').disabled = !this.checked"><span class="slider"></span></label>
+                            <input type="number" id="timer-duration" value="30" min="5" max="300" style="width: 70px; padding: 6px;"> сек.
+                        </div>
+                    </div>
+                </div>
+                <div class="toggle-group">
+                    <label data-i18n="repeat_err_lbl">Повтор при ошибке</label>
+                    <label class="switch"><input type="checkbox" id="repeat-toggle" checked><span class="slider"></span></label>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="toggle-group">
+                    <label>Пояснения после ответа</label>
+                    <label class="switch"><input type="checkbox" id="theory-toggle" checked><span class="slider"></span></label>
+                </div>
+                <div class="toggle-group">
+                    <label data-i18n="adaptive_lbl">Адаптивность (ИИ)</label>
+                    <label class="switch"><input type="checkbox" id="adaptive-toggle" checked onchange="toggleAdaptiveSettings()"><span class="slider"></span></label>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="form-group" id="adaptive-threshold-group">
+                    <label data-i18n="adaptive_th_lbl">Порог повышения (серия)</label>
+                    <input type="number" id="adaptive-threshold" min="1" max="5" value="2">
+                </div>
+                <div class="form-group">
+                    <label data-i18n="distractor_lbl">Уровень дистракторов</label>
+                    <select id="distractor-trickiness">
+                        <option value="easy" data-i18n="dist_easy">Базовый</option>
+                        <option value="medium" data-i18n="dist_med" selected>Средний (Ловушки)</option>
+                        <option value="hard" data-i18n="dist_hard">Высокий</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="panel-title" data-i18n="p3_title">3. Дизайн и UI Тренажера</div>
+            
+            <div class="grid-2">
+                <div class="form-group">
+                    <label data-i18n="bg_img_lbl">Фоновое изображение</label>
+                    <input type="file" id="bg-image-upload" accept="image/*" onchange="handleBackgroundUpload(event)">
+                </div>
+                <div class="form-group">
+                    <label data-i18n="bg_aud_lbl">Фоновая музыка</label>
+                    <input type="file" id="bg-audio-upload" accept="audio/*" onchange="handleAudioUpload(event)">
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="form-group">
+                    <label data-i18n="cont_bg_lbl">Фон экрана (Контейнер)</label>
+                    <div class="color-picker-group">
+                        <div class="color-picker-wrapper"><input type="color" id="cont-bg-color" value="#161824"></div>
+                        <input type="range" id="cont-opacity" min="0" max="1" step="0.05" value="0.9" title="Прозрачность">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label data-i18n="accent_lbl">Кнопки / Акценты</label>
+                    <div class="color-picker-group">
+                        <div class="color-picker-wrapper"><input type="color" id="color-accent" value="#a855f7"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-3">
+                <div class="form-group">
+                    <label data-i18n="q_col_lbl">Цвет текста</label>
+                    <div class="color-picker-wrapper"><input type="color" id="q-color" value="#ffffff"></div>
+                </div>
+                <div class="form-group">
+                    <label data-i18n="q_size_lbl">Размер (px)</label>
+                    <input type="number" id="q-size" value="18" min="10" max="30">
+                </div>
+                <div class="form-group">
+                    <label data-i18n="font_lbl">Шрифт</label>
+                    <select id="ui-font">
+                        <option value="'Plus Jakarta Sans', sans-serif">Plus Jakarta</option>
+                        <option value="'JetBrains Mono', monospace">JetBrains Mono</option>
+                        <option value="system-ui, sans-serif">System Sans</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="btn" style="margin-top: 15px;" onclick="generateTrainer()">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <span data-i18n="btn_gen">Сгенерировать тренажер</span>
+            </button>
+        </div>
+
+        <div class="panel">
+            <div class="panel-title" data-i18n="p4_title">4. Готовый Iframe-код для Genially</div>
+            <div class="output-box" id="iframe-output" data-i18n="iframe_placeholder">Нажмите кнопку «Сгенерировать», чтобы получить код...</div>
+            <button class="btn btn-secondary" onclick="copyIframeCode()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span data-i18n="btn_copy">Копировать iframe код</span>
+            </button>
+
+            <div class="panel-title" style="margin-top:5px;" data-i18n="export_title">5. Экспорт и Сохранение</div>
+            <div class="grid-3">
+                <button class="btn btn-secondary btn-small" onclick="downloadHTML()">💾 <span data-i18n="btn_dl_html">Скачать HTML</span></button>
+                <button class="btn btn-secondary btn-small" onclick="downloadGame()">🎮 <span data-i18n="btn_dl_game">HTML-Игра</span></button>
+                <button class="btn btn-secondary btn-small" onclick="downloadPDF()">📄 <span data-i18n="btn_dl_pdf">Скачать PDF</span></button>
+            </div>
+            <div class="grid-2">
+                <button class="btn btn-secondary btn-small" onclick="saveJSON()">📁 <span data-i18n="btn_save_json">Сохранить Config (.json)</span></button>
+                <label class="btn btn-secondary btn-small" style="text-align: center; margin:0; cursor:pointer;">
+                    📂 <span data-i18n="btn_load_json">Загрузить Config</span>
+                    <input type="file" id="json-loader" accept=".json" style="display:none;" onchange="loadJSON(event)">
+                </label>
+            </div>
+
+            <div class="panel-title" style="margin-top:5px;" data-i18n="p5_title">6. Интерактивное Превью</div>
+            <div class="preview-area" id="preview-viewport">
+                <div style="color:var(--text-muted); font-size:14px; text-align:center; padding: 20px;" data-i18n="preview_placeholder">
+                    Здесь будет отображаться живой тренажер после генерации
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const mockDatabase = {
+            'ЕГЭ': {
+                'grammar': [
+                    { q: "By the time the rescuers arrived, the climbers ______ (survive) for three days in ice.", a: "had survived", hint: "Past Perfect: Действие завершилось до определенного момента в прошлом.", level: 3, type: "times", distractors: { easy: ["survived", "survives", "surviving"], medium: ["has survived", "was survived", "were surviving"], hard: ["would survive", "had been survived", "have survived"] } },
+                    { q: "If they had checked the weather forecast, they ______ (not go) to the mountains.", a: "would not have gone", hint: "Third Conditional (ирреальное условие в прошлом): would not have + V3.", level: 3, type: "times", distractors: { easy: ["won't go", "didn't go", "had not gone"], medium: ["would not go", "will not have gone", "shouldn't go"], hard: ["haven't gone", "weren't going", "wouldn't be going"] } },
+                    { q: "While the students ______ (write) the test, the fire alarm went off.", a: "were writing", hint: "Past Continuous: Длительное действие, прерванное кратким.", level: 2, type: "times", distractors: { easy: ["write", "wrote", "writing"], medium: ["had written", "are writing", "have written"], hard: ["would write", "had been writing", "will write"] } },
+                    { q: "The new bridge ______ (build) by the end of next year.", a: "will have been built", hint: "Future Perfect Passive: Действие будет завершено к моменту в будущем над объектом.", level: 3, type: "voice", distractors: { easy: ["will build", "builds", "built"], medium: ["will be built", "has built", "is building"], hard: ["would be built", "will have built", "had been built"] } }
+                ],
+                'word-formation': [
+                    { q: "The local community is fighting against the ______ (FOREST) of the Amazon region.", a: "deforestation", hint: "Отрицательная приставка de- и суффикс отглагольного существительного -ation.", level: 3, type: "prefixes", distractors: { easy: ["forestration", "unforest", "disforest"], medium: ["reforestation", "forester", "deforestring"], hard: ["forestment", "deforestable", "deforesting"] } },
+                    { q: "His unexpected arrival caused a lot of ______ (EXCITE) among the fans.", a: "excitement", hint: "Суффикс существительного -ment.", level: 2, type: "suffixes", distractors: { easy: ["exciting", "excited", "exciter"], medium: ["excitment", "excition", "excitability"], hard: ["overexcite", "unexcited", "excitingly"] } },
+                    { q: "It is highly ______ (PROBABLE) that he will win the race given his injury.", a: "improbable", hint: "Отрицательная приставка im- перед буквой p.", level: 3, type: "prefixes", distractors: { easy: ["unprobable", "disprobable", "nonprobable"], medium: ["probability", "probably", "inprobable"], hard: ["reprobable", "misprobable", "probabless"] } },
+                    { q: "She looked at him in total ______ (BELIEF) when he told the news.", a: "disbelief", hint: "Отрицательная приставка dis-.", level: 2, type: "prefixes", distractors: { easy: ["unbelief", "believer", "believing"], medium: ["misbelief", "nonbelief", "inbelief"], hard: ["beliefless", "overbelief", "debelief"] } }
+                ],
+                'vocabulary': [
+                    { q: "The manager had to ______ the meeting because of an emergency.", a: "postpone", hint: "Лексическая сочетаемость: postpone/put off a meeting (отложить).", level: 3, type: "collocations", distractors: { easy: ["cancel", "forget", "destroy"], medium: ["delay", "reject", "refuse"], hard: ["adjourn", "procrastinate", "suspend"] } },
+                    { q: "I can't ______ up with his bad behavior anymore.", a: "put", hint: "Фразовый глагол: put up with (мириться с чем-либо).", level: 2, type: "phrasal", distractors: { easy: ["take", "make", "get"], medium: ["stand", "keep", "set"], hard: ["bring", "catch", "hold"] } },
+                    { q: "The company is going to ______ a new marketing campaign next month.", a: "launch", hint: "Устойчивое выражение: launch a campaign (запустить кампанию).", level: 3, type: "collocations", distractors: { easy: ["start", "open", "begin"], medium: ["create", "introduce", "produce"], hard: ["commence", "initiate", "trigger"] } }
+                ],
+                'reading-match': [
+                    { q: "Match the text heading about extreme climate impacts. Options: A) Weather Hazards, B) Urban Architecture, C) Standard Logistics.", a: "A", hint: "Ключевые слова текста содержат 'extreme climate', 'storms', 'destruction'.", level: 3, type: "heading", distractors: { easy: ["B", "C", "None"], medium: ["B", "C", "Both"], hard: ["B", "C", "A and B"] } },
+                    { q: "Match the text about preserving ancient manuscripts. Options: A) Digital Archives, B) Historical Conservation, C) Modern Art.", a: "B", hint: "Ключевые слова: 'ancient', 'protecting', 'history'.", level: 2, type: "heading", distractors: { easy: ["A", "C", "None"], medium: ["A", "C", "Both"], hard: ["A", "C", "A and B"] } }
+                ],
+                'multiple-choice': [
+                    { q: "She is highly responsible and can always be relied ______.", a: "upon", hint: "Фразовый глагол: rely on / rely upon (полагаться на кого-то).", level: 3, type: "prepositions", distractors: { easy: ["at", "with", "for"], medium: ["in", "about", "to"], hard: ["of", "by", "through"] } },
+                    { q: "He was accused ______ stealing the documents.", a: "of", hint: "Управление глагола: accuse someone OF something.", level: 2, type: "prepositions", distractors: { easy: ["for", "about", "in"], medium: ["with", "on", "at"], hard: ["to", "by", "from"] } }
+                ]
+            },
+            'ОГЭ': {
+                'grammar': [
+                    { q: "Yesterday my brother ______ (bring) a small homeless puppy into the house.", a: "brought", hint: "Past Simple: Маркер Yesterday указывает на простое прошедшее. Глагол Неправильный.", level: 2, type: "times", distractors: { easy: ["brings", "bringed", "bringing"], medium: ["has brought", "was bring", "had brought"], hard: ["was brought", "would bring", "has been bringing"] } },
+                    { q: "This text is much ______ (easy) than the previous one.", a: "easier", hint: "Сравнительная степень прилагательного: у коротких на -y меняется на -ier.", level: 2, type: "times", distractors: { easy: ["more easy", "easiest", "most easy"], medium: ["easyer", "more easier", "less easy"], hard: ["easierly", "as easy", "the easiest"] } }
+                ],
+                'word-formation': [
+                    { q: "Alexander is a very clever and ______ (TALENT) student.", a: "talented", hint: "Суффикс прилагательного -ed для описания качеств человека.", level: 2, type: "suffixes", distractors: { easy: ["talently", "talentful", "talenter"], medium: ["talenting", "talentous", "intalent"], hard: ["talentable", "talentedly", "talentism"] } }
+                ],
+                'vocabulary': [
+                    { q: "We should ______ a solution to this urgent problem as soon as possible.", a: "find", hint: "Устойчивое сочетание (Collocation): find a solution.", level: 2, type: "collocations", distractors: { easy: ["do", "make", "take"], medium: ["resolve", "build", "provide"], hard: ["execute", "settle", "uncover"] } }
+                ],
+                'reading-match': [], 'multiple-choice': []
+            },
+            'ВПР': { 
+                '4': {
+                    'grammar': [{ q: "Every day he ______ (go) to school by bus.", a: "goes", hint: "Present Simple (3-е лицо) -> окончание -es.", level: 1, type: "times", distractors: { easy: ["go", "going", "went"], medium: ["was go", "gone", "goesed"], hard: ["has gone", "will go", "is going"] } },
+                                { q: "They ______ (play) football right now.", a: "are playing", hint: "Present Continuous (прямо сейчас).", level: 1, type: "times", distractors: { easy: ["play", "played", "playing"], medium: ["is playing", "were playing", "plays"], hard: ["have played", "will play", "was playing"] } }],
+                    'word-formation': [{ q: "My mom is a wonderful ______ (COOK).", a: "cook", hint: "Слово cook означает и повар, и готовить.", level: 1, type: "suffixes", distractors: { easy: ["cooker", "cooking", "cookman"], medium: ["cookor", "cookist", "beautiful cook"], hard: ["cookable", "cookery", "cooked"] } }],
+                    'vocabulary': [{ q: "The sky is clear and the ______ is shining.", a: "sun", hint: "Базовое существительное по контексту.", level: 1, type: "collocations", distractors: { easy: ["moon", "rain", "wind"], medium: ["cloud", "star", "snow"], hard: ["sky", "weather", "atmosphere"] } }],
+                    'reading-match': [{ q: "Match text about a pet dog. Options: A) My Pet, B) Wild Forest, C) Big Car.", a: "A", hint: "Текст описывает домашнюю собаку.", level: 1, type: "heading", distractors: { easy: ["B", "C", "None"], medium: ["B", "C", "Both"], hard: ["B", "C", "A and B"] } }],
+                    'multiple-choice': [{ q: "There is ______ apple on the table.", a: "an", hint: "Неопределенный артикль перед гласной буквой.", level: 1, type: "articles", distractors: { easy: ["a", "the", "---"], medium: ["some", "any", "this"], hard: ["many", "few", "one"] } }]
+                } 
+            }
+        };
+
+        // Дублируем базы на пропущенные классы ВПР
+        mockDatabase['ВПР']['5'] = mockDatabase['ВПР']['4'];
+        mockDatabase['ВПР']['6'] = mockDatabase['ВПР']['4'];
+        mockDatabase['ВПР']['7'] = mockDatabase['ВПР']['4'];
+        mockDatabase['ВПР']['8'] = mockDatabase['ОГЭ'];
+        mockDatabase['ВПР']['11'] = mockDatabase['ЕГЭ'];
+
+        const i18n = {
+            ru: {
+                p1_title: "1. Параметры Контента", exam_type: "База заданий", vpr_grade: "Класс (ВПР)", aspects_lbl: "Встроенные разделы (выдача блоками)",
+                asp_gram: "Грамматика", asp_word: "Словообразование", asp_vocab: "Лексика", asp_read: "Чтение", asp_mult: "Множественный выбор",
+                p2_title: "2. Режим и Геймификация", lives_lbl: "Количество жизней", timer_lbl: "Таймер на задание", repeat_err_lbl: "Повтор при ошибке",
+                theory_lbl: "Пояснения после ответа", adaptive_lbl: "Адаптивность (ИИ)", adaptive_th_lbl: "Порог повышения (серия)", distractor_lbl: "Уровень дистракторов",
+                dist_easy: "Базовый", dist_med: "Средний (Ловушки)", dist_hard: "Высокий", p3_title: "3. Дизайн и UI Тренажера",
+                bg_img_lbl: "Фоновое изображение", bg_aud_lbl: "Фоновая музыка", cont_bg_lbl: "Фон экрана (Контейнер)", accent_lbl: "Кнопки / Акценты",
+                q_col_lbl: "Цвет текста", q_size_lbl: "Размер (px)", font_lbl: "Шрифт", btn_gen: "Сгенерировать тренажер",
+                p4_title: "4. Готовый Iframe-код для Genially", iframe_placeholder: "Нажмите кнопку «Сгенерировать», чтобы получить код...",
+                btn_copy: "Копировать iframe код", export_title: "5. Экспорт и Сохранение", btn_dl_html: "Скачать HTML",
+                btn_dl_game: "HTML-Игра", btn_dl_pdf: "Скачать PDF", btn_save_json: "Сохранить Config", btn_load_json: "Загрузить Config",
+                p5_title: "6. Интерактивное Превью", preview_placeholder: "Здесь будет отображаться живой тренажер после генерации"
+            },
+            en: {
+                p1_title: "1. Content Options", exam_type: "Database Core", vpr_grade: "VPR Grade Block", aspects_lbl: "Language Strands (Sequential blocks)",
+                asp_gram: "Grammar", asp_word: "Word Formation", asp_vocab: "Lexis", asp_read: "Reading", asp_mult: "Multiple Choice",
+                p2_title: "2. Gamification", lives_lbl: "Total HP / Lives", timer_lbl: "Countdown Timer", repeat_err_lbl: "Retry on Mistake",
+                theory_lbl: "Explanations after answer", adaptive_lbl: "Adaptive AI Logic", adaptive_th_lbl: "Level Up Streak Threshold", distractor_lbl: "Distractor Complexity",
+                dist_easy: "Basic", dist_med: "Intermediate", dist_hard: "Tricky/Advanced", p3_title: "3. Interface Design & Typography",
+                bg_img_lbl: "Background Canvas Image", bg_aud_lbl: "Background Audio Stream", cont_bg_lbl: "Container Background Color", accent_lbl: "Accent Colors",
+                q_col_lbl: "Text Palette", q_size_lbl: "Font Size (px)", font_lbl: "Font Family", btn_gen: "Compile Engine Assets",
+                p4_title: "4. Production Ready Genially Embed Code", iframe_placeholder: "Trigger generation workflow to fetch active embed layout...",
+                btn_copy: "Copy Secure Iframe Element", export_title: "5. Configuration Management Hub", btn_dl_html: "Export HTML",
+                btn_dl_game: "Compile Standalone", btn_dl_pdf: "Generate PDF Printout", btn_save_json: "Freeze State to JSON", btn_load_json: "Hydrate State from JSON",
+                p5_title: "6. Sandbox Interactive Viewport", preview_placeholder: "Awaiting template compilation. Live interactive instance will render here..."
+            }
+        };
+
+        const strandNamesMap = {
+            'grammar': 'Грамматика', 'word-formation': 'Словообразование', 
+            'vocabulary': 'Лексика', 'reading-match': 'Чтение', 'multiple-choice': 'Множественный выбор'
+        };
+
+        let loadedBgImage = '';
+        let loadedBgAudio = '';
+        let artifactsData = [];
+
+        function updateEditorLang() {
+            const current = document.getElementById('editor-lang').value;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[current] && i18n[current][key]) {
+                    if (el.tagName === 'INPUT' && el.type === 'button') el.value = i18n[current][key];
+                    else el.innerHTML = i18n[current][key];
+                }
+            });
+        }
+
+        function toggleVPR() {
+            const spec = document.getElementById('exam-type').value;
+            document.getElementById('vpr-grade-group').style.display = (spec === 'ВПР') ? 'block' : 'none';
+        }
+
+        function toggleDisplay(id) {
+            const el = document.getElementById(id);
+            el.style.display = (el.style.display === 'flex' || el.style.display === 'block') ? 'none' : (id === 'custom-fields' ? 'flex' : 'block');
+        }
+
+        function toggleAdaptiveSettings() {
+            const active = document.getElementById('adaptive-toggle').checked;
+            document.getElementById('adaptive-threshold-group').style.display = active ? 'flex' : 'none';
+        }
+
+        function addArtifactField(savedData = null) {
+            const list = document.getElementById('artifacts-list');
+            const index = list.children.length;
+            const container = document.createElement('div');
+            container.className = 'artifact-row';
+            container.id = `artifact-idx-${index}`;
+
+            container.innerHTML = `
+                <div class="artifact-main-inputs">
+                    <input type="file" accept="image/*" class="art-img" onchange="compressArtifact(${index}, event)" style="flex-grow:1;">
+                    <input type="number" placeholder="Баллы" class="art-score" style="width:85px;" value="${savedData ? savedData.score : '10'}">
+                    <button class="btn btn-secondary btn-icon" style="color:var(--accent-red); border-color:rgba(244,63,94,0.3);" onclick="removeArtifactField(${index})">✕</button>
+                </div>
+                <div class="artifact-game-link">
+                    <input type="text" placeholder="Ссылка на игру (например, LearningApps или Genially) - откроется по клику" class="art-link" value="${savedData && savedData.link ? savedData.link : ''}">
+                </div>
+            `;
+            list.appendChild(container);
+            if (savedData && savedData.img) {
+                artifactsData[index] = savedData.img;
+            }
+        }
+
+        function removeArtifactField(idx) {
+            const target = document.getElementById(`artifact-idx-${idx}`);
+            if (target) { target.remove(); artifactsData[idx] = null; }
+        }
+
+        function compressArtifact(idx, event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = new Image();
+                img.onload = function() {
+                    const canvas = document.createElement('canvas');
+                    const max = 250;
+                    let w = img.width, h = img.height;
+                    if (w > h) { if (w > max) { h *= max / w; w = max; } }
+                    else { if (h > max) { w *= max / h; h = max; } }
+                    canvas.width = w; canvas.height = h;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0, w, h);
+                    artifactsData[idx] = canvas.toDataURL('image/jpeg', 0.8);
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handleBackgroundUpload(e) {
+            const file = e.target.files[0]; if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(evt) {
+                const image = new Image();
+                image.onload = function() {
+                    const canvas = document.createElement('canvas');
+                    let w = image.width, h = image.height;
+                    if (w > 1200) { h *= 1200 / w; w = 1200; }
+                    canvas.width = w; canvas.height = h;
+                    canvas.getContext('2d').drawImage(image, 0, 0, w, h);
+                    loadedBgImage = canvas.toDataURL('image/jpeg', 0.65);
+                };
+                image.src = evt.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handleAudioUpload(e) {
+            const file = e.target.files[0]; if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(evt) { loadedBgAudio = evt.target.result; };
+            reader.readAsDataURL(file);
+        }
+
+        function fetchSelectedTasks() {
+            const spec = document.getElementById('exam-type').value;
+            const grade = document.getElementById('vpr-grade').value;
+            let dataset = (spec === 'ВПР') ? (mockDatabase['ВПР'][grade] || {}) : (mockDatabase[spec] || {});
+
+            let groupedTasks = {};
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            
+            strands.forEach(strand => {
+                const check = document.getElementById(`cb-${strand}`);
+                if (check && check.checked) {
+                    const targetCount = parseInt(document.getElementById(`count-${strand}`).value) || 1;
+                    const pool = dataset[strand] || [];
+                    const topicFilter = document.getElementById(`topic-${strand}`).value;
+                    
+                    let filteredPool = topicFilter !== 'all' ? pool.filter(item => item.type === topicFilter) : pool;
+                    let selectedFromStrand = [];
+                    let available = [...filteredPool].sort(() => 0.5 - Math.random());
+                    
+                    while (selectedFromStrand.length < targetCount && available.length > 0) {
+                        for (let i = 0; i < available.length && selectedFromStrand.length < targetCount; i++) {
+                            let task = JSON.parse(JSON.stringify(available[i]));
+                            task.aspectName = strandNamesMap[strand];
+                            selectedFromStrand.push(task);
+                        }
+                    }
+                    if(selectedFromStrand.length > 0) groupedTasks[strandNamesMap[strand]] = selectedFromStrand;
+                }
+            });
+
+            // Парсинг своих заданий
+            const customAspect = document.getElementById('custom-aspect').value;
+            const qs = document.getElementById('custom-q').value.split('\n').map(s=>s.trim());
+            const as = document.getElementById('custom-a').value.split('\n').map(s=>s.trim());
+            const ds = document.getElementById('custom-d').value.split('\n').map(s=>s.trim());
+            const hs = document.getElementById('custom-h').value.split('\n').map(s=>s.trim());
+            
+            let customArr = [];
+            for(let i=0; i < qs.length; i++) {
+                if(qs[i]) {
+                    let distractors = ds[i] ? ds[i].split(',').map(s=>s.trim()) : [];
+                    customArr.push({
+                        q: qs[i],
+                        a: as[i] || "Yes",
+                        hint: hs[i] || "",
+                        level: 2,
+                        type: "custom",
+                        distractors: { easy: distractors, medium: distractors, hard: distractors },
+                        aspectName: customAspect
+                    });
+                }
+            }
+            if(customArr.length > 0) {
+                if(!groupedTasks[customAspect]) groupedTasks[customAspect] = [];
+                groupedTasks[customAspect] = groupedTasks[customAspect].concat(customArr);
+            }
+
+            let finalTasks = [];
+            for (let blockName in groupedTasks) {
+                finalTasks = finalTasks.concat(groupedTasks[blockName]);
+            }
+            
+            return finalTasks;
+        }
+
+        function compileCoreWidgetCode() {
+            const targetTasks = fetchSelectedTasks();
+            const compiledLang = document.getElementById('trainer-lang').value;
+            const maxLives = parseInt(document.getElementById('game-lives').value) || 3;
+            const timerActive = document.getElementById('timer-toggle').checked;
+            const timerDuration = parseInt(document.getElementById('timer-duration').value) || 30;
+            const repeatOnErr = document.getElementById('repeat-toggle').checked;
+            const hintsActive = document.getElementById('theory-toggle').checked;
+            const aiAdaptive = document.getElementById('adaptive-toggle').checked;
+            const streakThresh = parseInt(document.getElementById('adaptive-threshold').value) || 2;
+            const distractorSetting = document.getElementById('distractor-trickiness').value;
+            const artifactTiming = document.getElementById('artifact-timing').value;
+
+            const bgColor = document.getElementById('cont-bg-color').value;
+            const bgOpacity = document.getElementById('cont-opacity').value;
+            const accentColor = document.getElementById('color-accent').value;
+            const txtColor = document.getElementById('q-color').value;
+            const txtSize = document.getElementById('q-size').value;
+            const selectedFont = document.getElementById('ui-font').value;
+
+            let parsedArtifacts = [];
+            const listDivs = document.getElementById('artifacts-list').children;
+            for (let i = 0; i < listDivs.length; i++) {
+                const row = listDivs[i];
+                const scoreInput = row.querySelector('.art-score');
+                const linkInput = row.querySelector('.art-link');
+                const idx = parseInt(row.id.replace('artifact-idx-', ''));
+                if (artifactsData[idx]) {
+                    parsedArtifacts.push({
+                        img: artifactsData[idx],
+                        score: parseInt(scoreInput.value) || 10,
+                        link: linkInput ? linkInput.value.trim() : ''
+                    });
+                }
+            }
+
+            const hexToRgb = (hex) => {
+                let c = hex.substring(1);
+                if(c.length === 3) c = c[0]+c[0]+c[1]+c[1]+c[2]+c[2];
+                const num = parseInt(c, 16);
+                return `${(num >> 16) & 255}, ${(num >> 8) & 255}, ${num & 255}`;
+            };
+            const rgbaContainer = `rgba(${hexToRgb(bgColor)}, ${bgOpacity})`;
+
+            return `<!DOCTYPE html>
+<html lang="${compiledLang}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EET Interactive Simulator Node</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: ${selectedFont};
+            background: ${loadedBgImage ? `url('${loadedBgImage}') no-repeat center center / cover` : '#07080e'};
+            color: ${txtColor};
+            min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px;
+            overflow-x: hidden;
+        }
+        .widget-wrapper {
+            background: ${rgbaContainer}; border: 2px solid ${accentColor}40;
+            border-radius: 20px; padding: 30px; width: 100%; max-width: 750px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6), 0 0 20px ${accentColor}20;
+            position: relative; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+        }
+        .top-hud { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 14px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 12px; }
+        .lives-container { color: #f43f5e; font-size: 16px; letter-spacing: 2px; }
+        .timer-container { font-variant-numeric: tabular-nums; color: ${accentColor}; font-size: 16px; background: rgba(0,0,0,0.3); padding: 4px 12px; border-radius: 8px; }
+        .block-label { color: ${accentColor}; background: ${accentColor}20; padding: 4px 10px; border-radius: 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; }
+        .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+        
+        @media(max-width: 500px) { .options-stack { grid-template-columns: 1fr; } }
+        
+        .opt-btn {
+            background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px; padding: 16px; text-align: center; color: inherit;
+            font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;
+        }
+        .opt-btn:hover:not(:disabled) { background: ${accentColor}20; border-color: ${accentColor}; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .opt-btn:disabled { cursor: not-allowed; opacity: 0.7; }
+        
+        .hint-box { background: rgba(6,182,212,0.1); border-left: 4px solid #06b6d4; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 14px; display: none; color: #e5e7eb; line-height: 1.5; }
+        .feedback-banner { padding: 14px; border-radius: 10px; text-align: center; font-weight: 800; margin-bottom: 15px; display: none; font-size: 15px; letter-spacing: 0.5px; }
+        
+        .btn-action {
+            background: ${accentColor}; border: none; color: white; padding: 14px 28px; border-radius: 10px;
+            font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-left: auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s;
+        }
+        .btn-action:hover { filter: brightness(1.1); transform: translateY(-2px); }
+        
+        .rewards-shelf { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); }
+        .reward-icon-wrapper { position: relative; width: 75px; height: 75px; border-radius: 12px; border: 2px solid ${accentColor}; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; box-shadow: 0 0 15px ${accentColor}40; }
+        .reward-icon-wrapper:hover { transform: scale(1.05); }
+        .reward-icon-wrapper img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+        .reward-badge { position: absolute; bottom: -8px; right: -8px; background: #10b981; color: white; font-size: 10px; padding: 3px 6px; border-radius: 10px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
+        .reward-play-badge { position: absolute; top: -8px; left: -8px; background: ${accentColor}; color: white; font-size: 9px; padding: 3px 8px; border-radius: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 5px rgba(0,0,0,0.5); pointer-events: none; }
+        
+        /* Модальное окно для встроенной игры и артефакта */
+        .game-modal { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(5px); }
+        .game-modal-content { position: relative; width: 100%; max-width: 900px; height: 80vh; background: #121420; border-radius: 16px; border: 2px solid ${accentColor}; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
+        .game-modal-header { padding: 12px 20px; background: rgba(0,0,0,0.6); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .game-modal-close { background: none; border: none; color: #f43f5e; font-size: 24px; font-weight: 700; cursor: pointer; }
+        .game-modal-iframe { width: 100%; flex-grow: 1; border: none; background: #000; }
+        
+        /* Всплывающий артефакт */
+        .artifact-popup-card { width: 280px; height: 280px; border-radius: 20px; border: 3px solid ${accentColor}; overflow: hidden; margin-bottom: 20px; transition: 0.3s; box-shadow: 0 0 20px ${accentColor}80; }
+    </style>
+</head>
+<body>
+
+    <div class="widget-wrapper" id="main-node">
+        <div class="top-hud">
+            <div>
+                <span class="block-label" id="hud-block-name"></span>
+                <span id="hud-progress" style="margin-left: 10px;"></span>
+            </div>
+            ${timerActive ? `<div class="timer-container">⏱ <span id="hud-timer">00</span></div>` : ''}
+            <div class="lives-container" id="hud-lives"></div>
+        </div>
+
+        <div class="q-body" id="q-text">Loading simulation data...</div>
+        <div class="options-stack" id="options-box"></div>
+        <div class="feedback-banner" id="feedback-block"></div>
+        <div class="hint-box" id="hint-block"></div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div id="hud-score" style="font-weight:800; font-size:16px; color:#10b981;">Score: 0</div>
+            <button class="btn-action" id="next-action-btn" onclick="advanceWorkflow()">Next</button>
+        </div>
+
+        <div class="rewards-shelf" id="shelf-block" style="display:none;"></div>
+    </div>
+
+    <div class="game-modal" id="modal-game-box">
+        <div class="game-modal-content" id="modal-inner-content">
+            </div>
+    </div>
+
+    ${loadedBgAudio ? `<audio id="bg-audio-player" src="${loadedBgAudio}" loop autoplay style="display:none;"></audio>` : ''}
+
+    <script>
+        const runtimeTasks = ${JSON.stringify(targetTasks)};
+        const rewardsPool = ${JSON.stringify(parsedArtifacts)};
+        const config = {
+            maxLives: ${maxLives}, timerActive: ${timerActive}, timerDuration: ${timerDuration},
+            repeatOnErr: ${repeatOnErr}, hintsActive: ${hintsActive}, aiAdaptive: ${aiAdaptive},
+            streakThresh: ${streakThresh}, distractorSetting: "${distractorSetting}",
+            lang: "${compiledLang}", artifactTiming: "${artifactTiming}"
+        };
+
+        let currentIdx = 0; let score = 0; let currentLives = config.maxLives;
+        let timerInterval = null; let timeLeft = config.timerDuration; let correctStreak = 0;
+        let isAnswered = false; let earnedArtifacts = new Set();
+
+        const labels = {
+            ru: { win: "🏆 Поздравляем! Все задания пройдены!", lose: "💀 Игра окончена! Закончились жизни.", correct: "🎉 Верно!", wrong: "❌ Ошибка!", next: "Далее", finish: "Завершить", hintTitle: "Пояснение: ", clickToPlay: "Кликни, чтобы играть!" },
+            en: { win: "🏆 Outstanding! Simulation complete!", lose: "💀 Simulation failure! 0 HP.", correct: "🎉 Correct!", wrong: "❌ Incorrect!", next: "Advance", finish: "Terminate", hintTitle: "Explanation: ", clickToPlay: "Click to play game!" }
+        }[config.lang];
+
+        function initSimulation() {
+            if(!runtimeTasks || runtimeTasks.length === 0) {
+                document.getElementById('q-text').innerText = "Нет выбранных заданий для генерации.";
+                return;
+            }
+            renderHP();
+            renderQuestion();
+        }
+
+        function renderHP() {
+            const box = document.getElementById('hud-lives');
+            box.innerHTML = "❤️".repeat(Math.max(0, currentLives));
+        }
+
+        function renderQuestion() {
+            isAnswered = false;
+            document.getElementById('feedback-block').style.display = 'none';
+            document.getElementById('hint-block').style.display = 'none';
+            document.getElementById('next-action-btn').style.display = 'none';
+            
+            if(currentIdx >= runtimeTasks.length) {
+                endSimulation(true); return;
+            }
+
+            const t = runtimeTasks[currentIdx];
+            document.getElementById('hud-block-name').innerText = t.aspectName || "Task";
+            document.getElementById('hud-progress').innerText = \`\${currentIdx + 1} / \${runtimeTasks.length}\`;
+            document.getElementById('q-text').innerText = t.q;
+
+            const answers = [t.a];
+            const dists = (t.distractors && t.distractors[config.distractorSetting]) ? t.distractors[config.distractorSetting] : [];
+            dists.forEach(d => { if(d && answers.length < 4) answers.push(d); });
+            answers.sort(() => Math.random() - 0.5);
+
+            const oBox = document.getElementById('options-box');
+            oBox.innerHTML = '';
+            answers.forEach(ans => {
+                const b = document.createElement('button');
+                b.className = 'opt-btn';
+                b.innerText = ans;
+                b.onclick = () => verifyAnswer(ans, b);
+                oBox.appendChild(b);
+            });
+
+            if(config.timerActive) { 
+                timeLeft = config.timerDuration; 
+                document.getElementById('hud-timer').innerText = timeLeft;
+                startClock();
+            }
+        }
+
+        function startClock() {
+            if(!config.timerActive) return;
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                if(!isAnswered) {
+                    timeLeft--;
+                    document.getElementById('hud-timer').innerText = timeLeft < 10 ? '0' + timeLeft : timeLeft;
+                    if(timeLeft <= 0) { handleTimeout(); }
+                }
+            }, 1000);
+        }
+
+        function handleTimeout() { verifyAnswer("", null); }
+
+        function verifyAnswer(chosen, buttonEl) {
+            if(isAnswered) return;
+            isAnswered = true;
+            clearInterval(timerInterval);
+
+            const t = runtimeTasks[currentIdx];
+            const fBlock = document.getElementById('feedback-block');
+            
+            document.querySelectorAll('.opt-btn').forEach(b => {
+                b.disabled = true;
+                if(b.innerText === t.a) { b.style.borderColor = "#10b981"; b.style.background = "rgba(16,185,129,0.1)"; }
+            });
+
+            if(config.hintsActive && t.hint) {
+                const hBlock = document.getElementById('hint-block');
+                hBlock.innerHTML = \`<strong style="color:#06b6d4;">\${labels.hintTitle}</strong> \${t.hint}\`;
+                hBlock.style.display = 'block';
+            }
+
+            if(chosen === t.a) {
+                score += 10; correctStreak++;
+                if(config.aiAdaptive && correctStreak >= config.streakThresh) score += 5;
+                
+                document.getElementById('hud-score').innerText = \`Score: \${score}\`;
+                fBlock.className = "feedback-banner";
+                fBlock.style.backgroundColor = "rgba(16,185,129,0.2)";
+                fBlock.style.color = "#10b981";
+                fBlock.innerText = labels.correct;
+                
+                checkArtifactUnlock(score);
+                
+                document.getElementById('next-action-btn').style.display = 'block';
+                document.getElementById('next-action-btn').innerText = (currentIdx === runtimeTasks.length - 1) ? labels.finish : labels.next;
+            } else {
+                correctStreak = 0; currentLives--; renderHP();
+                fBlock.className = "feedback-banner";
+                fBlock.style.backgroundColor = "rgba(244,63,94,0.2)";
+                fBlock.style.color = "#f43f5e";
+                fBlock.innerText = \`\${labels.wrong} Correct: \${t.a}\`;
+                if(buttonEl) buttonEl.style.borderColor = "#f43f5e";
+
+                if(currentLives <= 0) {
+                    setTimeout(() => { endSimulation(false); }, 2000);
+                } else {
+                    if(config.repeatOnErr) {
+                        isAnswered = false;
+                        setTimeout(() => {
+                            fBlock.style.display = 'none';
+                            document.getElementById('hint-block').style.display = 'none';
+                            document.querySelectorAll('.opt-btn').forEach(b => {
+                                b.disabled = false; b.style.borderColor = "rgba(255,255,255,0.1)"; b.style.background = "rgba(0,0,0,0.4)";
+                            });
+                            if(config.timerActive) startClock();
+                        }, 2000);
+                    } else {
+                        document.getElementById('next-action-btn').style.display = 'block';
+                        document.getElementById('next-action-btn').innerText = (currentIdx === runtimeTasks.length - 1) ? labels.finish : labels.next;
+                    }
+                }
+            }
+            fBlock.style.display = 'block';
+        }
+
+        function checkArtifactUnlock(currentScore) {
+            const foundArts = rewardsPool.filter(a => a.score <= currentScore);
+            foundArts.forEach(art => {
+                if(!earnedArtifacts.has(art.score)) {
+                    earnedArtifacts.add(art.score);
+                    if(config.artifactTiming === 'immediate') {
+                        showArtifactPopup(art);
+                    }
+                }
+            });
+        }
+
+        function showArtifactPopup(art) {
+            const modal = document.getElementById('modal-game-box');
+            const content = document.getElementById('modal-inner-content');
+            
+            content.style.maxWidth = "400px";
+            content.style.height = "auto";
+            content.style.alignItems = "center";
+            content.style.padding = "30px";
+            content.style.background = "#121420";
+            
+            let clickBtn = art.link ? \`<button class="btn-action" style="display:block; margin: 15px auto 0; background: #10b981; width: 100%; box-shadow: 0 4px 15px rgba(16,185,129,0.4);" onclick="openGameFrame('\${art.link}')">🎮 Играть сейчас!</button>\` : '';
+
+            content.innerHTML = \`
+                <h2 style="color:white; margin-bottom:20px; text-align:center;">Новый Артефакт!</h2>
+                <div class="artifact-popup-card">
+                    <img src="\${art.img}" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                \${clickBtn}
+                <button class="btn-action" style="display:block; margin: 15px auto 0; width: 100%;" onclick="closeModal()">Продолжить тренажер</button>
+            \`;
+            modal.style.display = 'flex';
+        }
+
+        window.openGameFrame = function(url) {
+            const modal = document.getElementById('modal-game-box');
+            const content = document.getElementById('modal-inner-content');
+            
+            content.style.maxWidth = "900px";
+            content.style.height = "80vh";
+            content.style.padding = "0";
+            
+            content.innerHTML = \`
+                <div class="game-modal-header">
+                    <span style="font-weight:700; font-size:14px;">🎮 Игровая зона артефакта</span>
+                    <button class="game-modal-close" onclick="closeModal()">✕</button>
+                </div>
+                <iframe class="game-modal-iframe" src="\${url}" allow="autoplay; fullscreen"></iframe>
+            \`;
+            modal.style.display = 'flex';
+        }
+
+        window.closeModal = function() {
+            document.getElementById('modal-game-box').style.display = 'none';
+            document.getElementById('modal-inner-content').innerHTML = '';
+        }
+
+        function advanceWorkflow() {
+            currentIdx++;
+            renderQuestion();
+        }
+
+        function endSimulation(isWin) {
+            clearInterval(timerInterval);
+            const node = document.getElementById('main-node');
+            
+            if(config.artifactTiming === 'end') {
+                const foundArts = rewardsPool.filter(a => a.score <= score);
+                foundArts.forEach(art => earnedArtifacts.add(art.score));
+            }
+
+            let artifactsHTML = '';
+            rewardsPool.forEach(r => {
+                if(earnedArtifacts.has(r.score)) {
+                    let clickEvt = r.link ? \`onclick="openGameFrame('\${r.link}')"\` : '';
+                    let titleAttr = r.link ? \`title="\${labels.clickToPlay}"\` : '';
+                    let cursorStyle = r.link ? 'cursor:pointer; border-color:#10b981;' : '';
+                    let playBadge = r.link ? \`<span class="reward-play-badge">▶ Играть</span>\` : '';
+                    
+                    artifactsHTML += \`
+                        <div class="reward-icon-wrapper" style="\${cursorStyle}" \${clickEvt} \${titleAttr}>
+                            <img src="\${r.img}">
+                            <span class="reward-badge">\${r.score} XP</span>
+                            \${playBadge}
+                        </div>\`;
+                }
+            });
+
+            node.innerHTML = \`
+                <div style="text-align:center; padding:20px;">
+                    <h2 style="font-size:26px; margin-bottom:15px; color:\${isWin ? 'white' : '#f43f5e'}">\${isWin ? labels.win : labels.lose}</h2>
+                    <p style="font-size:20px; color:#10b981; font-weight:800; margin-bottom:30px;">Final Score: \${score} XP</p>
+                    \${artifactsHTML ? \`<div style="font-size:14px; color:var(--text-muted); margin-bottom:10px;">Заработанные Артефакты \${rewardsPool.some(r => r.link && earnedArtifacts.has(r.score)) ? '(Кликните, чтобы играть)' : ''}:</div>\` : ''}
+                    <div class="rewards-shelf" style="border:none; margin-top:0; padding-top:0;">
+                        \${artifactsHTML}
+                    </div>
+                    <button class="btn-action" style="display:block; margin: 30px auto 0;" onclick="window.location.reload()">Начать заново</button>
+                </div>\`;
+        }
+
+        window.onload = initSimulation;
+    <\/script>
+</body>
+</html>`;
+        }
+
+        function generateTrainer() {
+            const code = compileCoreWidgetCode();
+            const finalIframe = `<iframe srcdoc="${code.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}" width='100%' height='550px' style='border:none; border-radius:12px; background:transparent;' allow='autoplay; fullscreen'></iframe>`;
+            document.getElementById('iframe-output').innerText = finalIframe;
+
+            const viewport = document.getElementById('preview-viewport');
+            viewport.innerHTML = ''; 
+            const previewIframe = document.createElement('iframe');
+            previewIframe.style.width = '100%'; previewIframe.style.height = '100%'; previewIframe.style.border = 'none';
+            viewport.appendChild(previewIframe);
+            
+            previewIframe.contentWindow.document.open();
+            previewIframe.contentWindow.document.write(code);
+            previewIframe.contentWindow.document.close();
+        }
+
+        function copyIframeCode() {
+            const outputText = document.getElementById('iframe-output').innerText;
+            if(outputText.startsWith("Нажмите") || outputText.startsWith("Click")) return;
+            navigator.clipboard.writeText(outputText).then(() => {
+                const btn = document.querySelector('.btn-secondary');
+                const oldText = btn.innerHTML;
+                btn.innerHTML = `✓ Скопировано!`;
+                setTimeout(() => { btn.innerHTML = oldText; }, 2000);
+            });
+        }
+
+        function downloadHTML() {
+            const code = compileCoreWidgetCode();
+            const blob = new Blob([code], { type: 'text/html' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'trainer_production.html';
+            link.click();
+        }
+
+        function downloadGame() { downloadHTML(); }
+        function downloadPDF() { alert('PDF Generation is native via Browser. Press Ctrl+P or Cmd+P.'); window.print(); }
+
+        function saveJSON() {
+            let configState = {
+                examType: document.getElementById('exam-type').value,
+                vprGrade: document.getElementById('vpr-grade').value,
+                lives: document.getElementById('game-lives').value,
+                artifactTiming: document.getElementById('artifact-timing').value,
+                timer: document.getElementById('timer-toggle').checked,
+                timerDuration: document.getElementById('timer-duration').value,
+                repeat: document.getElementById('repeat-toggle').checked,
+                theory: document.getElementById('theory-toggle').checked,
+                adaptive: document.getElementById('adaptive-toggle').checked,
+                threshold: document.getElementById('adaptive-threshold').value,
+                distractors: document.getElementById('distractor-trickiness').value,
+                aspects: {},
+                customTasks: {
+                    q: document.getElementById('custom-q').value,
+                    a: document.getElementById('custom-a').value,
+                    d: document.getElementById('custom-d').value,
+                    h: document.getElementById('custom-h').value,
+                    aspect: document.getElementById('custom-aspect').value
+                },
+                savedArtifacts: []
+            };
+
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            strands.forEach(strand => {
+                configState.aspects[strand] = {
+                    checked: document.getElementById(`cb-${strand}`).checked,
+                    count: document.getElementById(`count-${strand}`).value,
+                    topic: document.getElementById(`topic-${strand}`).value
+                };
+            });
+
+            const listDivs = document.getElementById('artifacts-list').children;
+            for (let i = 0; i < listDivs.length; i++) {
+                const row = listDivs[i];
+                const scoreVal = row.querySelector('.art-score').value;
+                const linkVal = row.querySelector('.art-link').value;
+                const idx = parseInt(row.id.replace('artifact-idx-', ''));
+                if (artifactsData[idx]) {
+                    configState.savedArtifacts.push({ img: artifactsData[idx], score: scoreVal, link: linkVal });
+                }
+            }
+
+            const blob = new Blob([JSON.stringify(configState, null, 2)], { type: 'application/json' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'eet_config.json';
+            link.click();
+        }
+
+        function loadJSON(event) {
+            const file = event.target.files[0]; if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const parsed = JSON.parse(e.target.result);
+                document.getElementById('exam-type').value = parsed.examType || 'ЕГЭ';
+                document.getElementById('vpr-grade').value = parsed.vprGrade || '4';
+                document.getElementById('game-lives').value = parsed.lives || '3';
+                if(parsed.artifactTiming) document.getElementById('artifact-timing').value = parsed.artifactTiming;
+                document.getElementById('timer-toggle').checked = !!parsed.timer;
+                if(parsed.timerDuration) document.getElementById('timer-duration').value = parsed.timerDuration;
+                document.getElementById('timer-duration').disabled = !parsed.timer;
+                document.getElementById('repeat-toggle').checked = !!parsed.repeat;
+                document.getElementById('theory-toggle').checked = !!parsed.theory;
+                document.getElementById('adaptive-toggle').checked = !!parsed.adaptive;
+                document.getElementById('adaptive-threshold').value = parsed.threshold || '2';
+                document.getElementById('distractor-trickiness').value = parsed.distractors || 'medium';
+                
+                if (parsed.customTasks) {
+                    document.getElementById('custom-q').value = parsed.customTasks.q || '';
+                    document.getElementById('custom-a').value = parsed.customTasks.a || '';
+                    document.getElementById('custom-d').value = parsed.customTasks.d || '';
+                    document.getElementById('custom-h').value = parsed.customTasks.h || '';
+                    document.getElementById('custom-aspect').value = parsed.customTasks.aspect || 'Лексика и Грамматика';
+                }
+
+                if (parsed.aspects) {
+                    const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+                    strands.forEach(strand => {
+                        if (parsed.aspects[strand]) {
+                            document.getElementById(`cb-${strand}`).checked = parsed.aspects[strand].checked;
+                            document.getElementById(`count-${strand}`).value = parsed.aspects[strand].count;
+                            document.getElementById(`topic-${strand}`).value = parsed.aspects[strand].topic;
+                        }
+                    });
+                }
+                
+                document.getElementById('artifacts-list').innerHTML = '';
+                artifactsData = [];
+                if (parsed.savedArtifacts && Array.isArray(parsed.savedArtifacts)) {
+                    parsed.savedArtifacts.forEach((art) => { addArtifactField(art); });
+                }
+                toggleVPR(); toggleAdaptiveSettings(); generateTrainer();
+            };
+            reader.readAsText(file);
+        }
+        
+        window.onload = () => { updateEditorLang(); toggleVPR(); toggleAdaptiveSettings(); generateTrainer(); };
+    </script>
+</body>
+</html>
