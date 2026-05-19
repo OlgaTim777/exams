@@ -1,902 +1,332 @@
 [
   {
-    "question": "Choose the correct sentence: She ___ to school every day.",
-    "answerOptions": [
-      {
-        "text": "go",
-        "isCorrect": false,
-        "rationale": "Неверно: с местоимением she (3-е лицо) в Present Simple к глаголу добавляется -s.",
-        "hint": "Помни: he, she, it → глагол + s!"
-      },
-      {
-        "text": "goes",
-        "isCorrect": true,
-        "rationale": "Верно: с she в Present Simple глагол получает окончание -es (go → goes).",
-        "hint": "Помни: he, she, it → глагол + s!"
-      },
-      {
-        "text": "going",
-        "isCorrect": false,
-        "rationale": "Неверно: going используется с am/is/are для Present Continuous, а здесь простое действие по расписанию.",
-        "hint": "Помни: he, she, it → глагол + s!"
-      }
-    ],
+    "q": "Choose the correct sentence: She ___ to school every day.",
+    "question": "Which word completes the sentence?",
+    "a": "goes",
+    "options": ["go", "goes", "going"],
     "hint": "Помни: he, she, it → глагол + s!",
-    "metadata": {
-      "topic": "Present Simple",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete the sentence: I ___ my teeth every morning.",
-    "answerOptions": [
-      {
-        "text": "brush",
-        "isCorrect": true,
-        "rationale": "Верно: с I в Present Simple глагол используется без окончаний.",
-        "hint": "С I, you, we, they глагол без -s."
-      },
-      {
-        "text": "brushes",
-        "isCorrect": false,
-        "rationale": "Неверно: окончание -es добавляется только с he, she, it.",
-        "hint": "С I, you, we, they глагол без -s."
-      },
-      {
-        "text": "brushing",
-        "isCorrect": false,
-        "rationale": "Неверно: -ing форма нужна с am/is/are для действий сейчас.",
-        "hint": "С I, you, we, they глагол без -s."
-      }
-    ],
+    "q": "Complete the sentence: I ___ my teeth every morning.",
+    "question": "Which verb form is correct?",
+    "a": "brush",
+    "options": ["brush", "brushes", "brushing"],
     "hint": "С I, you, we, they глагол без -s.",
-    "metadata": {
-      "topic": "Present Simple",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Which sentence is correct?",
-    "answerOptions": [
-      {
-        "text": "He don't like apples.",
-        "isCorrect": false,
-        "rationale": "Неверно: с he в отрицании Present Simple используется doesn't, а не don't.",
-        "hint": "He/she/it → doesn't; I/you/we/they → don't."
-      },
-      {
-        "text": "He doesn't likes apples.",
-        "isCorrect": false,
-        "rationale": "Неверно: после doesn't глагол идёт без -s (like, а не likes).",
-        "hint": "He/she/it → doesn't; I/you/we/they → don't."
-      },
-      {
-        "text": "He doesn't like apples.",
-        "isCorrect": true,
-        "rationale": "Верно: с he используется doesn't + глагол без окончания.",
-        "hint": "He/she/it → doesn't; I/you/we/they → don't."
-      }
-    ],
+    "q": "Which sentence is correct: He ___ like apples.",
+    "question": "Choose the right negative form.",
+    "a": "doesn't",
+    "options": ["don't", "doesn't likes", "doesn't"],
     "hint": "He/she/it → doesn't; I/you/we/they → don't.",
-    "metadata": {
-      "topic": "Present Simple",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose the correct form: Yesterday I ___ to the park.",
-    "answerOptions": [
-      {
-        "text": "go",
-        "isCorrect": false,
-        "rationale": "Неверно: go — это форма для Present Simple, а yesterday указывает на прошедшее время.",
-        "hint": "Yesterday → глагол во 2-й форме или с -ed."
-      },
-      {
-        "text": "went",
-        "isCorrect": true,
-        "rationale": "Верно: went — это вторая форма глагола go для Past Simple.",
-        "hint": "Yesterday → глагол во 2-й форме или с -ed."
-      },
-      {
-        "text": "going",
-        "isCorrect": false,
-        "rationale": "Неверно: going используется с was/were для Past Continuous или с am/is/are.",
-        "hint": "Yesterday → глагол во 2-й форме или с -ed."
-      }
-    ],
+    "q": "Choose the correct form: Yesterday I ___ to the park.",
+    "question": "Which verb is in Past Simple?",
+    "a": "went",
+    "options": ["go", "went", "going"],
     "hint": "Yesterday → глагол во 2-й форме или с -ed.",
-    "metadata": {
-      "topic": "Past Simple",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete: She ___ a cake last Sunday.",
-    "answerOptions": [
-      {
-        "text": "bake",
-        "isCorrect": false,
-        "rationale": "Неверно: bake — форма для Present Simple, а last Sunday требует прошедшего времени.",
-        "hint": "Правильные глаголы в Past Simple +ed."
-      },
-      {
-        "text": "baked",
-        "isCorrect": true,
-        "rationale": "Верно: bake — правильный глагол, в Past Simple добавляем -ed.",
-        "hint": "Правильные глаголы в Past Simple +ed."
-      },
-      {
-        "text": "bakes",
-        "isCorrect": false,
-        "rationale": "Неверно: bakes — это Present Simple с she, а не прошедшее время.",
-        "hint": "Правильные глаголы в Past Simple +ed."
-      }
-    ],
+    "q": "Complete: She ___ a cake last Sunday.",
+    "question": "Which form shows past action?",
+    "a": "baked",
+    "options": ["bake", "baked", "bakes"],
     "hint": "Правильные глаголы в Past Simple +ed.",
-    "metadata": {
-      "topic": "Past Simple",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Which sentence is in Past Simple?",
-    "answerOptions": [
-      {
-        "text": "I play football now.",
-        "isCorrect": false,
-        "rationale": "Неверно: now указывает на настоящее время (Present Continuous).",
-        "hint": "Ищи слова yesterday, last week, ago."
-      },
-      {
-        "text": "I played football yesterday.",
-        "isCorrect": true,
-        "rationale": "Верно: played + yesterday — признаки Past Simple.",
-        "hint": "Ищи слова yesterday, last week, ago."
-      },
-      {
-        "text": "I will play football tomorrow.",
-        "isCorrect": false,
-        "rationale": "Неверно: will + tomorrow — это будущее время.",
-        "hint": "Ищи слова yesterday, last week, ago."
-      }
-    ],
+    "q": "Which sentence is in Past Simple?",
+    "question": "Find the sentence about the past.",
+    "a": "I played football yesterday.",
+    "options": ["I play football now.", "I played football yesterday.", "I will play football tomorrow."],
     "hint": "Ищи слова yesterday, last week, ago.",
-    "metadata": {
-      "topic": "Past Simple",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Look! The cat ___ on the sofa.",
-    "answerOptions": [
-      {
-        "text": "sleep",
-        "isCorrect": false,
-        "rationale": "Неверно: sleep — форма Present Simple, а Look! указывает на действие сейчас.",
-        "hint": "Look!/Listen! → am/is/are + verb-ing."
-      },
-      {
-        "text": "sleeps",
-        "isCorrect": false,
-        "rationale": "Неверно: sleeps — это привычное действие, а не то, что происходит прямо сейчас.",
-        "hint": "Look!/Listen! → am/is/are + verb-ing."
-      },
-      {
-        "text": "is sleeping",
-        "isCorrect": true,
-        "rationale": "Верно: Look! + is sleeping — действие происходит в момент речи (Present Continuous).",
-        "hint": "Look!/Listen! → am/is/are + verb-ing."
-      }
-    ],
+    "q": "Look! The cat ___ on the sofa.",
+    "question": "What is the cat doing now?",
+    "a": "is sleeping",
+    "options": ["sleep", "sleeps", "is sleeping"],
     "hint": "Look!/Listen! → am/is/are + verb-ing.",
-    "metadata": {
-      "topic": "Present Continuous",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete: They ___ TV at the moment.",
-    "answerOptions": [
-      {
-        "text": "watch",
-        "isCorrect": false,
-        "rationale": "Неверно: watch — это регулярное действие, а at the moment требует Present Continuous.",
-        "hint": "At the moment → am/is/are + verb-ing."
-      },
-      {
-        "text": "watches",
-        "isCorrect": false,
-        "rationale": "Неверно: watches — Present Simple с he/she/it, а здесь they + действие сейчас.",
-        "hint": "At the moment → am/is/are + verb-ing."
-      },
-      {
-        "text": "are watching",
-        "isCorrect": true,
-        "rationale": "Верно: they + are watching — правильное сочетание для Present Continuous.",
-        "hint": "At the moment → am/is/are + verb-ing."
-      }
-    ],
+    "q": "Complete: They ___ TV at the moment.",
+    "question": "What are they doing now?",
+    "a": "are watching",
+    "options": ["watch", "watches", "are watching"],
     "hint": "At the moment → am/is/are + verb-ing.",
-    "metadata": {
-      "topic": "Present Continuous",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose the correct sentence:",
-    "answerOptions": [
-      {
-        "text": "She is read a book now.",
-        "isCorrect": false,
-        "rationale": "Неверно: после is нужен глагол с -ing (reading), а не начальная форма.",
-        "hint": "am/is/are + глагол-ing!"
-      },
-      {
-        "text": "She is reading a book now.",
-        "isCorrect": true,
-        "rationale": "Верно: is + reading — правильная форма Present Continuous.",
-        "hint": "am/is/are + глагол-ing!"
-      },
-      {
-        "text": "She reading a book now.",
-        "isCorrect": false,
-        "rationale": "Неверно: пропущен вспомогательный глагол is перед reading.",
-        "hint": "am/is/are + глагол-ing!"
-      }
-    ],
+    "q": "Choose the correct sentence about now.",
+    "question": "Which sentence uses Present Continuous?",
+    "a": "She is reading a book now.",
+    "options": ["She is read a book now.", "She is reading a book now.", "She reading a book now."],
     "hint": "am/is/are + глагол-ing!",
-    "metadata": {
-      "topic": "Present Continuous",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose the plural form: one child — two ___",
-    "answerOptions": [
-      {
-        "text": "childs",
-        "isCorrect": false,
-        "rationale": "Неверно: child — исключение, множественное число не образуется добавлением -s.",
-        "hint": "Запомни исключения: child → children!"
-      },
-      {
-        "text": "children",
-        "isCorrect": true,
-        "rationale": "Верно: children — правильная форма множественного числа от child.",
-        "hint": "Запомни исключения: child → children!"
-      },
-      {
-        "text": "childes",
-        "isCorrect": false,
-        "rationale": "Неверно: такой формы не существует в английском языке.",
-        "hint": "Запомни исключения: child → children!"
-      }
-    ],
+    "q": "Choose the plural form: one child — two ___",
+    "question": "What is the plural of 'child'?",
+    "a": "children",
+    "options": ["childs", "children", "childes"],
     "hint": "Запомни исключения: child → children!",
-    "metadata": {
-      "topic": "Plural nouns",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "What is the plural of 'box'?",
-    "answerOptions": [
-      {
-        "text": "boxs",
-        "isCorrect": false,
-        "rationale": "Неверно: слова на -x, -s, -sh, -ch во множественном числе получают -es.",
-        "hint": "Окончания -x, -s, -sh, -ch → +es."
-      },
-      {
-        "text": "boxes",
-        "isCorrect": true,
-        "rationale": "Верно: box заканчивается на -x, поэтому добавляем -es.",
-        "hint": "Окончания -x, -s, -sh, -ch → +es."
-      },
-      {
-        "text": "boxies",
-        "isCorrect": false,
-        "rationale": "Неверно: такая форма не используется в английском языке.",
-        "hint": "Окончания -x, -s, -sh, -ch → +es."
-      }
-    ],
+    "q": "What is the plural of 'box'?",
+    "question": "How do we write more than one box?",
+    "a": "boxes",
+    "options": ["boxs", "boxes", "boxies"],
     "hint": "Окончания -x, -s, -sh, -ch → +es.",
-    "metadata": {
-      "topic": "Plural nouns",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose the correct plural: one mouse — three ___",
-    "answerOptions": [
-      {
-        "text": "mouses",
-        "isCorrect": false,
-        "rationale": "Неверно: mouse — исключение, множественное число — mice.",
-        "hint": "Запомни: mouse → mice, tooth → teeth!"
-      },
-      {
-        "text": "mice",
-        "isCorrect": true,
-        "rationale": "Верно: mice — правильная форма множественного числа от mouse.",
-        "hint": "Запомни: mouse → mice, tooth → teeth!"
-      },
-      {
-        "text": "mouse",
-        "isCorrect": false,
-        "rationale": "Неверно: mouse — это единственное число, а нужно множественное.",
-        "hint": "Запомни: mouse → mice, tooth → teeth!"
-      }
-    ],
+    "q": "Choose the correct plural: one mouse — three ___",
+    "question": "What is the plural of 'mouse'?",
+    "a": "mice",
+    "options": ["mouses", "mice", "mouse"],
     "hint": "Запомни: mouse → mice, tooth → teeth!",
-    "metadata": {
-      "topic": "Plural nouns",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "This is ___ book. (Anna)",
-    "answerOptions": [
-      {
-        "text": "Anna",
-        "isCorrect": false,
-        "rationale": "Неверно: нужно показать принадлежность, а не просто имя.",
-        "hint": "Имя + 's = чья вещь."
-      },
-      {
-        "text": "Anna's",
-        "isCorrect": true,
-        "rationale": "Верно: Anna's = книга принадлежит Анне (притяжательный падеж).",
-        "hint": "Имя + 's = чья вещь."
-      },
-      {
-        "text": "Annas",
-        "isCorrect": false,
-        "rationale": "Неверно: без апострофа это просто множественное число имён, а не принадлежность.",
-        "hint": "Имя + 's = чья вещь."
-      }
-    ],
+    "q": "This is ___ book. (Anna)",
+    "question": "Whose book is it?",
+    "a": "Anna's",
+    "options": ["Anna", "Anna's", "Annas"],
     "hint": "Имя + 's = чья вещь.",
-    "metadata": {
-      "topic": "Possessive case",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "The ___ toys are on the floor. (children)",
-    "answerOptions": [
-      {
-        "text": "children",
-        "isCorrect": false,
-        "rationale": "Неверно: нужно показать, что игрушки принадлежат детям.",
-        "hint": "Если слово уже во мн.ч. без -s → добавляем ' + s."
-      },
-      {
-        "text": "childrens'",
-        "isCorrect": false,
-        "rationale": "Неверно: children — уже множественное число, но оно не оканчивается на -s, поэтому правило другое.",
-        "hint": "Если слово уже во мн.ч. без -s → добавляем ' + s."
-      },
-      {
-        "text": "children's",
-        "isCorrect": true,
-        "rationale": "Верно: children — исключение во множественном числе, поэтому притяжательный падеж: children's.",
-        "hint": "Если слово уже во мн.ч. без -s → добавляем ' + s."
-      }
-    ],
+    "q": "The ___ toys are on the floor. (children)",
+    "question": "Whose toys are these?",
+    "a": "children's",
+    "options": ["children", "childrens'", "children's"],
     "hint": "Если слово уже во мн.ч. без -s → добавляем ' + s.",
-    "metadata": {
-      "topic": "Possessive case",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose the correct sentence:",
-    "answerOptions": [
-      {
-        "text": "This is my brother room.",
-        "isCorrect": false,
-        "rationale": "Неверно: пропущен знак притяжательного падежа 's.",
-        "hint": "Кто владеет? → имя + 's."
-      },
-      {
-        "text": "This is my brothers' room.",
-        "isCorrect": false,
-        "rationale": "Неверно: brothers' — если братьев много, а здесь один (brother).",
-        "hint": "Кто владеет? → имя + 's."
-      },
-      {
-        "text": "This is my brother's room.",
-        "isCorrect": true,
-        "rationale": "Верно: brother's = комната принадлежит одному брату.",
-        "hint": "Кто владеет? → имя + 's."
-      }
-    ],
+    "q": "Choose the correct sentence about one brother.",
+    "question": "Which shows possession correctly?",
+    "a": "This is my brother's room.",
+    "options": ["This is my brother room.", "This is my brothers' room.", "This is my brother's room."],
     "hint": "Кто владеет? → имя + 's.",
-    "metadata": {
-      "topic": "Possessive case",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete: I ___ a student.",
-    "answerOptions": [
-      {
-        "text": "am",
-        "isCorrect": true,
-        "rationale": "Верно: с местоимением I всегда используется am.",
-        "hint": "I → am; He/She/It → is; You/We/They → are."
-      },
-      {
-        "text": "is",
-        "isCorrect": false,
-        "rationale": "Неверно: is используется только с he, she, it.",
-        "hint": "I → am; He/She/It → is; You/We/They → are."
-      },
-      {
-        "text": "are",
-        "isCorrect": false,
-        "rationale": "Неверно: are используется с you, we, they, но не с I.",
-        "hint": "I → am; He/She/It → is; You/We/They → are."
-      }
-    ],
+    "q": "Complete: I ___ a student.",
+    "question": "Which form of 'to be' is correct?",
+    "a": "am",
+    "options": ["am", "is", "are"],
     "hint": "I → am; He/She/It → is; You/We/They → are.",
-    "metadata": {
-      "topic": "to be",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose: She ___ happy today.",
-    "answerOptions": [
-      {
-        "text": "am",
-        "isCorrect": false,
-        "rationale": "Неверно: am используется только с I.",
-        "hint": "She → is!"
-      },
-      {
-        "text": "is",
-        "isCorrect": true,
-        "rationale": "Верно: с she всегда используется is.",
-        "hint": "She → is!"
-      },
-      {
-        "text": "are",
-        "isCorrect": false,
-        "rationale": "Неверно: are используется с you, we, they.",
-        "hint": "She → is!"
-      }
-    ],
+    "q": "Choose: She ___ happy today.",
+    "question": "Which verb matches 'she'?",
+    "a": "is",
+    "options": ["am", "is", "are"],
     "hint": "She → is!",
-    "metadata": {
-      "topic": "to be",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete the negative: They ___ at home now.",
-    "answerOptions": [
-      {
-        "text": "isn't",
-        "isCorrect": false,
-        "rationale": "Неверно: isn't используется только с he, she, it.",
-        "hint": "They → aren't."
-      },
-      {
-        "text": "am not",
-        "isCorrect": false,
-        "rationale": "Неверно: am not используется только с I.",
-        "hint": "They → aren't."
-      },
-      {
-        "text": "aren't",
-        "isCorrect": true,
-        "rationale": "Верно: they + aren't — правильная отрицательная форма to be.",
-        "hint": "They → aren't."
-      }
-    ],
+    "q": "Complete the negative: They ___ at home now.",
+    "question": "How to make 'they are' negative?",
+    "a": "aren't",
+    "options": ["isn't", "am not", "aren't"],
     "hint": "They → aren't.",
-    "metadata": {
-      "topic": "to be",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete: He ___ a new bike.",
-    "answerOptions": [
-      {
-        "text": "have",
-        "isCorrect": false,
-        "rationale": "Неверно: have используется с I, you, we, they, но не с he.",
-        "hint": "He/She/It → has!"
-      },
-      {
-        "text": "has",
-        "isCorrect": true,
-        "rationale": "Верно: с he используется has.",
-        "hint": "He/She/It → has!"
-      },
-      {
-        "text": "haves",
-        "isCorrect": false,
-        "rationale": "Неверно: такой формы глагола have не существует.",
-        "hint": "He/She/It → has!"
-      }
-    ],
+    "q": "Complete: He ___ a new bike.",
+    "question": "Which verb shows possession?",
+    "a": "has",
+    "options": ["have", "has", "haves"],
     "hint": "He/She/It → has!",
-    "metadata": {
-      "topic": "have/has",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose: We ___ two cats.",
-    "answerOptions": [
-      {
-        "text": "has",
-        "isCorrect": false,
-        "rationale": "Неверно: has используется только с he, she, it.",
-        "hint": "We → have!"
-      },
-      {
-        "text": "have",
-        "isCorrect": true,
-        "rationale": "Верно: с we используется have.",
-        "hint": "We → have!"
-      },
-      {
-        "text": "haves",
-        "isCorrect": false,
-        "rationale": "Неверно: такой формы не существует в английском языке.",
-        "hint": "We → have!"
-      }
-    ],
+    "q": "Choose: We ___ two cats.",
+    "question": "Which verb matches 'we'?",
+    "a": "have",
+    "options": ["has", "have", "haves"],
     "hint": "We → have!",
-    "metadata": {
-      "topic": "have/has",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete the question: ___ you got a pencil?",
-    "answerOptions": [
-      {
-        "text": "Has",
-        "isCorrect": false,
-        "rationale": "Неверно: Has используется с he, she, it, а здесь you.",
-        "hint": "You → Have!"
-      },
-      {
-        "text": "Have",
-        "isCorrect": true,
-        "rationale": "Верно: Have you got...? — правильный вопрос с you.",
-        "hint": "You → Have!"
-      },
-      {
-        "text": "Do",
-        "isCorrect": false,
-        "rationale": "Неверно: Do you have...? тоже возможно, но здесь конструкция с got требует Have.",
-        "hint": "You → Have!"
-      }
-    ],
+    "q": "Complete the question: ___ you got a pencil?",
+    "question": "Which word starts the question?",
+    "a": "Have",
+    "options": ["Has", "Have", "Do"],
     "hint": "You → Have!",
-    "metadata": {
-      "topic": "have/has",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete: I ___ swim very well.",
-    "answerOptions": [
-      {
-        "text": "can",
-        "isCorrect": true,
-        "rationale": "Верно: can + глагол без to выражает умение.",
-        "hint": "Can + глагол (без to)!"
-      },
-      {
-        "text": "can to",
-        "isCorrect": false,
-        "rationale": "Неверно: после can глагол идёт без частицы to.",
-        "hint": "Can + глагол (без to)!"
-      },
-      {
-        "text": "cans",
-        "isCorrect": false,
-        "rationale": "Неверно: can — модальный глагол, он не меняется по лицам и не получает -s.",
-        "hint": "Can + глагол (без to)!"
-      }
-    ],
+    "q": "Complete: I ___ swim very well.",
+    "question": "Which word shows ability?",
+    "a": "can",
+    "options": ["can", "can to", "cans"],
     "hint": "Can + глагол (без to)!",
-    "metadata": {
-      "topic": "can",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Choose the negative: She ___ ride a bike.",
-    "answerOptions": [
-      {
-        "text": "can not",
-        "isCorrect": false,
-        "rationale": "Неверно: правильно писать слитно — cannot, или сокращённо can't.",
-        "hint": "Cannot или can't — слитно!"
-      },
-      {
-        "text": "can't",
-        "isCorrect": true,
-        "rationale": "Верно: can't — правильное сокращение от cannot.",
-        "hint": "Cannot или can't — слитно!"
-      },
-      {
-        "text": "doesn't can",
-        "isCorrect": false,
-        "rationale": "Неверно: can — модальный глагол, с ним не используется does/doesn't.",
-        "hint": "Cannot или can't — слитно!"
-      }
-    ],
+    "q": "Choose the negative: She ___ ride a bike.",
+    "question": "How to say she cannot do it?",
+    "a": "can't",
+    "options": ["can not", "can't", "doesn't can"],
     "hint": "Cannot или can't — слитно!",
-    "metadata": {
-      "topic": "can",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "Complete the question: ___ you play the piano?",
-    "answerOptions": [
-      {
-        "text": "Can",
-        "isCorrect": true,
-        "rationale": "Верно: Can you...? — правильный вопрос о умении.",
-        "hint": "Вопрос с can: Can + подлежащее + глагол?"
-      },
-      {
-        "text": "Do",
-        "isCorrect": false,
-        "rationale": "Неверно: Do you play...? спрашивает о привычке, а не об умении.",
-        "hint": "Вопрос с can: Can + подлежащее + глагол?"
-      },
-      {
-        "text": "Are",
-        "isCorrect": false,
-        "rationale": "Неверно: Are you playing...? — вопрос о действии сейчас, а не об умении.",
-        "hint": "Вопрос с can: Can + подлежащее + глагол?"
-      }
-    ],
+    "q": "Complete the question: ___ you play the piano?",
+    "question": "Which word asks about ability?",
+    "a": "Can",
+    "options": ["Can", "Do", "Are"],
     "hint": "Вопрос с can: Can + подлежащее + глагол?",
-    "metadata": {
-      "topic": "can",
-      "level": 2,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 2,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "The cat is ___ the table.",
-    "answerOptions": [
-      {
-        "text": "in",
-        "isCorrect": false,
-        "rationale": "Неверно: in = внутри, а кошка обычно не внутри стола.",
-        "hint": "on = на поверхности; in = внутри; under = под."
-      },
-      {
-        "text": "on",
-        "isCorrect": true,
-        "rationale": "Верно: on the table = на поверхности стола.",
-        "hint": "on = на поверхности; in = внутри; under = под."
-      },
-      {
-        "text": "at",
-        "isCorrect": false,
-        "rationale": "Неверно: at используется с точками (at school), а не с поверхностями.",
-        "hint": "on = на поверхности; in = внутри; under = под."
-      }
-    ],
+    "q": "The cat is ___ the table.",
+    "question": "Where is the cat?",
+    "a": "on",
+    "options": ["in", "on", "at"],
     "hint": "on = на поверхности; in = внутри; under = под.",
-    "metadata": {
-      "topic": "Prepositions of place",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "My shoes are ___ the bed.",
-    "answerOptions": [
-      {
-        "text": "under",
-        "isCorrect": true,
-        "rationale": "Верно: under the bed = под кроватью — логичное место для обуви.",
-        "hint": "Под чем-то → under."
-      },
-      {
-        "text": "on",
-        "isCorrect": false,
-        "rationale": "Неверно: on the bed = на кровати, но обувь обычно не хранят на кровати.",
-        "hint": "Под чем-то → under."
-      },
-      {
-        "text": "between",
-        "isCorrect": false,
-        "rationale": "Неверно: between используется между двумя предметами, а здесь один (bed).",
-        "hint": "Под чем-то → under."
-      }
-    ],
+    "q": "My shoes are ___ the bed.",
+    "question": "Where are the shoes?",
+    "a": "under",
+    "options": ["under", "on", "between"],
     "hint": "Под чем-то → under.",
-    "metadata": {
-      "topic": "Prepositions of place",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "The picture is ___ the wall.",
-    "answerOptions": [
-      {
-        "text": "in",
-        "isCorrect": false,
-        "rationale": "Неверно: in the wall = внутри стены (как розетка), а картина висит на поверхности.",
-        "hint": "На стене → on the wall."
-      },
-      {
-        "text": "on",
-        "isCorrect": true,
-        "rationale": "Верно: on the wall = на поверхности стены.",
-        "hint": "На стене → on the wall."
-      },
-      {
-        "text": "at",
-        "isCorrect": false,
-        "rationale": "Неверно: at не используется с поверхностями вроде стены.",
-        "hint": "На стене → on the wall."
-      }
-    ],
+    "q": "The picture is ___ the wall.",
+    "question": "Where is the picture?",
+    "a": "on",
+    "options": ["in", "on", "at"],
     "hint": "На стене → on the wall.",
-    "metadata": {
-      "topic": "Prepositions of place",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "I get up ___ 7 o'clock.",
-    "answerOptions": [
-      {
-        "text": "in",
-        "isCorrect": false,
-        "rationale": "Неверно: in используется с месяцами, годами, частями дня, но не с точным временем.",
-        "hint": "Точное время → at."
-      },
-      {
-        "text": "on",
-        "isCorrect": false,
-        "rationale": "Неверно: on используется с днями недели и датами.",
-        "hint": "Точное время → at."
-      },
-      {
-        "text": "at",
-        "isCorrect": true,
-        "rationale": "Верно: at используется с точным временем (at 7 o'clock).",
-        "hint": "Точное время → at."
-      }
-    ],
+    "q": "I get up ___ 7 o'clock.",
+    "question": "Which preposition for exact time?",
+    "a": "at",
+    "options": ["in", "on", "at"],
     "hint": "Точное время → at.",
-    "metadata": {
-      "topic": "Prepositions of time",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "We go to school ___ Monday.",
-    "answerOptions": [
-      {
-        "text": "in",
-        "isCorrect": false,
-        "rationale": "Неверно: in используется с месяцами и годами, но не с днями недели.",
-        "hint": "Дни недели → on."
-      },
-      {
-        "text": "on",
-        "isCorrect": true,
-        "rationale": "Верно: on используется с днями недели (on Monday).",
-        "hint": "Дни недели → on."
-      },
-      {
-        "text": "at",
-        "isCorrect": false,
-        "rationale": "Неверно: at используется с точным временем и праздниками (at Christmas).",
-        "hint": "Дни недели → on."
-      }
-    ],
+    "q": "We go to school ___ Monday.",
+    "question": "Which preposition for days?",
+    "a": "on",
+    "options": ["in", "on", "at"],
     "hint": "Дни недели → on.",
-    "metadata": {
-      "topic": "Prepositions of time",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   },
   {
-    "question": "My birthday is ___ July.",
-    "answerOptions": [
-      {
-        "text": "in",
-        "isCorrect": true,
-        "rationale": "Верно: in используется с месяцами (in July).",
-        "hint": "Месяцы и годы → in."
-      },
-      {
-        "text": "on",
-        "isCorrect": false,
-        "rationale": "Неверно: on используется с конкретными датами (on July 5th), а не с месяцами.",
-        "hint": "Месяцы и годы → in."
-      },
-      {
-        "text": "at",
-        "isCorrect": false,
-        "rationale": "Неверно: at не используется с месяцами.",
-        "hint": "Месяцы и годы → in."
-      }
-    ],
+    "q": "My birthday is ___ July.",
+    "question": "Which preposition for months?",
+    "a": "in",
+    "options": ["in", "on", "at"],
     "hint": "Месяцы и годы → in.",
-    "metadata": {
-      "topic": "Prepositions of time",
-      "level": 1,
-      "exam": "ВПР",
-      "grade": 4
-    }
+    "level": 1,
+    "type": "grammar-vocabulary",
+    "exam": "ВПР",
+    "vpr_grade": 4
   }
 ]
