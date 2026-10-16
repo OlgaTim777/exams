@@ -3,423 +3,555 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EET Builder - Exam English Trainer Builder (PRO v3.0 Cloud)</title>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Экзаменариум - Exam Trainer Builder (PRO v3.5 Ultimate)</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;800&family=Fredoka:wght@500;700&family=Comic+Neue:wght@700&family=Press+Start+2P&family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-main: #0a0c14;
-            --bg-card: rgba(18, 22, 38, 0.75);
-            --bg-input: #151a2d;
-            --accent-neon: #00d2ff;
-            --accent-cyan: #3a86ff;
+            --bg-main: #0c0f1d;
+            --bg-card: rgba(22, 27, 46, 0.65);
+            --bg-input: rgba(15, 20, 35, 0.75);
+            --accent-neon: #00f2fe;
+            --accent-cyan: #4facfe;
+            --accent-pink: #f72585;
+            --accent-purple: #7209b7;
             --accent-green: #10b981;
-            --accent-red: #f43f5e;
+            --accent-red: #ff3366;
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
-            --glow-neon: 0 0 15px rgba(0, 210, 255, 0.5);
-            --glow-cyan: 0 0 15px rgba(58, 134, 255, 0.4);
+            --glow-neon: 0 0 20px rgba(0, 242, 254, 0.4);
+            --glow-pink: 0 0 20px rgba(247, 37, 133, 0.4);
         }
-
         * { box-sizing: border-box; margin: 0; padding: 0; }
-
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--bg-main);
-            background-image: radial-gradient(circle at 15% 20%, rgba(0, 210, 255, 0.08) 0%, transparent 40%), 
-                              radial-gradient(circle at 85% 80%, rgba(58, 134, 255, 0.08) 0%, transparent 40%);
-            color: var(--text-main); min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden;
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: var(--bg-main); 
+            background-image: 
+                radial-gradient(circle at 10% 15%, rgba(114, 9, 183, 0.25) 0%, transparent 45%), 
+                radial-gradient(circle at 90% 85%, rgba(247, 37, 133, 0.2) 0%, transparent 45%),
+                radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.12) 0%, transparent 60%);
+            background-attachment: fixed;
+            color: var(--text-main); 
+            min-height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+            overflow-x: hidden; 
+            transition: background 0.5s ease;
         }
-
-        header {
-            background: rgba(18, 22, 38, 0.85);
-            backdrop-filter: blur(12px);
-            padding: 15px 40px; border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            display: flex; justify-content: space-between; align-items: center;
-            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        header { 
+            background: rgba(18, 23, 42, 0.75); 
+            backdrop-filter: blur(20px); 
+            -webkit-backdrop-filter: blur(20px);
+            padding: 20px 40px; 
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
         }
-
-        header h1 {
-            font-size: 24px;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--accent-neon), var(--accent-cyan));
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 1px;
+        header h1 { 
+            font-size: 26px; 
+            font-weight: 800; 
+            background: linear-gradient(135deg, var(--accent-neon), var(--accent-pink)); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+            letter-spacing: 1px; 
         }
-
-        .subtitle { font-size: 12px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; margin-top: 4px; }
+        .subtitle { font-size: 13px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; margin-top: 4px; }
+        .subtitle a { color: var(--accent-neon); text-decoration: none; font-weight: 600; transition: 0.2s; }
+        .subtitle a:hover { text-shadow: var(--glow-neon); color: white; }
+        .editor-notice { font-family: 'Comic Neue', 'Comic Sans MS', cursive; font-size: 14px; color: #ffb703; margin-top: 6px; text-shadow: 0 0 10px rgba(255, 183, 3, 0.3); }
+        
         .header-controls { display: flex; gap: 15px; align-items: center; }
-        .lang-select { background: var(--bg-input); color: var(--text-main);
-            border: 1px solid rgba(0, 210, 255, 0.3); padding: 8px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.3s;
+        .lang-select, .subject-select-hdr { background: var(--bg-input); color: var(--text-main); border: 1px solid rgba(0, 242, 254, 0.3); padding: 10px 16px; border-radius: 12px; font-size: 13px; font-weight: 600; cursor: pointer; transition: 0.3s; backdrop-filter: blur(10px); }
+        .lang-select:hover, .subject-select-hdr:hover { border-color: var(--accent-neon); box-shadow: var(--glow-neon); }
+        
+        .main-container { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; padding: 30px; flex-grow: 1; max-width: 1800px; margin: 0 auto; width: 100%; }
+        .panel { 
+            background: var(--bg-card); 
+            backdrop-filter: blur(25px); 
+            -webkit-backdrop-filter: blur(25px);
+            border-radius: 24px; 
+            border: 1px solid rgba(255, 255, 255, 0.12); 
+            padding: 30px; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 20px; 
+            height: calc(100vh - 140px); 
+            overflow-y: auto; 
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(255,255,255,0.05); 
         }
-        .lang-select:hover { border-color: var(--accent-neon); box-shadow: var(--glow-neon); }
-
-        .main-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr; gap: 30px;
-            padding: 30px; flex-grow: 1; max-width: 1800px; margin: 0 auto; width: 100%;
-        }
-
-        .panel {
-            background: var(--bg-card);
-            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-            border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.08); padding: 30px;
-            display: flex; flex-direction: column; gap: 24px;
-            height: calc(100vh - 120px); overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-        }
-
         .panel::-webkit-scrollbar { width: 8px; }
-        .panel::-webkit-scrollbar-thumb { background: var(--bg-input); border-radius: 4px; }
-
-        .panel-title {
-            font-size: 19px;
-            font-weight: 800; border-left: 4px solid var(--accent-neon);
-            padding-left: 12px; margin-bottom: 5px; display: flex; align-items: center; justify-content: space-between; color: white;
-        }
+        .panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 4px; }
+        .panel-title { font-size: 17px; font-weight: 800; border-left: 4px solid var(--accent-neon); padding-left: 12px; margin-bottom: 5px; display: flex; align-items: center; justify-content: space-between; color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+        
+        /* Вкладки редактора */
+        .editor-tabs { display: flex; gap: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px; flex-wrap: wrap; }
+        .editor-tab-btn { background: var(--bg-input); border: 1px solid rgba(255,255,255,0.12); color: var(--text-muted); padding: 8px 14px; border-radius: 10px; font-size: 12px; font-weight: 700; cursor: pointer; transition: 0.3s; }
+        .editor-tab-btn.active { background: linear-gradient(135deg, var(--accent-cyan), var(--accent-neon)); color: #0c0f1d; border-color: var(--accent-neon); box-shadow: var(--glow-neon); }
+        .editor-tab-pane { display: none; flex-direction: column; gap: 18px; }
+        .editor-tab-pane.active { display: flex; }
 
         .form-group { display: flex; flex-direction: column; gap: 8px; }
-        label { font-size: 13px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
-
-        select, input[type="text"], input[type="number"], input[type="file"], input[type="range"], textarea {
-            background-color: rgba(21, 26, 45, 0.8);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 12px 14px; border-radius: 10px; color: var(--text-main); font-family: inherit;
-            font-size: 14px; transition: all 0.3s ease; width: 100%; resize: vertical;
+        label { font-size: 12px; color: var(--text-muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; }
+        select, input[type="text"], input[type="number"], input[type="file"], input[type="range"], textarea { 
+            background-color: var(--bg-input); 
+            border: 1px solid rgba(255, 255, 255, 0.12); 
+            padding: 12px 16px; 
+            border-radius: 12px; 
+            color: var(--text-main); 
+            font-family: inherit; 
+            font-size: 14px; 
+            transition: all 0.3s ease; 
+            width: 100%; 
+            resize: vertical; 
+            backdrop-filter: blur(10px);
         }
         input[type="number"] { padding: 8px 12px; }
         input[type="file"] { padding: 9px; cursor: pointer; font-size: 12px; }
-        select:focus, input[type="text"]:focus, input[type="number"]:focus, textarea:focus { outline: none; border-color: var(--accent-neon); background-color: rgba(21, 26, 45, 1); box-shadow: var(--glow-neon); }
-        input[type="range"] { padding: 0; height: 6px; border-radius: 5px; background: #334155; outline: none; -webkit-appearance: none; }
-        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-neon); cursor: pointer; box-shadow: 0 0 10px rgba(0,210,255,0.6); }
-
+        select:focus, input[type="text"]:focus, input[type="number"]:focus, textarea:focus { outline: none; border-color: var(--accent-neon); background-color: rgba(20, 27, 48, 0.9); box-shadow: var(--glow-neon); }
+        input[type="range"] { padding: 0; height: 6px; border-radius: 5px; background: rgba(255,255,255,0.1); outline: none; -webkit-appearance: none; }
+        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 18px; height: 18px; border-radius: 50%; background: var(--accent-neon); cursor: pointer; box-shadow: var(--glow-neon); }
+        
         .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
         .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
-
-        .aspect-list { display: flex; flex-direction: column; gap: 12px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); }
+        .aspect-list { display: flex; flex-direction: column; gap: 12px; background: rgba(0,0,0,0.25); padding: 16px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.06); backdrop-filter: blur(10px); }
         .aspect-item-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
         .aspect-item-row label { flex-grow: 1; cursor: pointer; font-size: 14px; color: var(--text-main); font-weight: 600; text-transform: none; }
-        .aspect-item-row input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: var(--accent-neon); }
-        .aspect-item-row input[type="number"] { width: 65px; padding: 6px; text-align: center; }
-        .aspect-config { display: none; padding: 12px; background: rgba(255,255,255,0.02); border-radius: 8px; margin-bottom: 5px; border: 1px dashed rgba(255,255,255,0.1); }
-
-        .toggle-group { display: flex; align-items: center; justify-content: space-between; background: rgba(0,0,0,0.2); padding: 14px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.05); }
-
-        .switch { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
+        .aspect-item-row input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; accent-color: var(--accent-neon); border-radius: 6px; }
+        .aspect-item-row input[type="number"] { width: 70px; padding: 6px; text-align: center; }
+        .aspect-config { display: none; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 10px; margin-bottom: 5px; border: 1px dashed rgba(255,255,255,0.12); }
+        
+        .toggle-group { display: flex; align-items: center; justify-content: space-between; background: rgba(0,0,0,0.25); padding: 14px 18px; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.06); backdrop-filter: blur(10px); }
+        .switch { position: relative; display: inline-block; width: 48px; height: 26px; flex-shrink: 0; }
         .switch input { opacity: 0; width: 0; height: 0; }
-        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #334155; transition: .3s; border-radius: 24px; }
-        .slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 4px; bottom: 4px; background-color: white; transition: .3s; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-        input:checked + .slider { background-color: var(--accent-neon); }
-        input:checked + .slider:before { transform: translateX(20px); }
-
-        .btn { background: linear-gradient(135deg, var(--accent-cyan), var(--accent-neon)); color: #0a0c14; border: none; padding: 14px 20px; border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 14px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3); }
-        .btn:hover { transform: translateY(-2px); box-shadow: var(--glow-neon); filter: brightness(1.1); }
-        .btn-secondary { background: rgba(0, 210, 255, 0.08); border: 1px solid var(--accent-neon); color: var(--accent-neon); box-shadow: none; }
-        .btn-secondary:hover { background: rgba(0, 210, 255, 0.15); box-shadow: var(--glow-neon); color: white; }
-        .btn-small { padding: 10px 14px; font-size: 11px; }
-        .btn-icon { padding: 6px 10px; font-size: 12px; min-width: 34px; border-radius: 8px; }
-
-        .output-box { background-color: #05060a; border-radius: 12px; padding: 18px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent-neon); border: 1px solid rgba(0, 210, 255, 0.3); height: 90px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; box-shadow: inset 0 0 15px rgba(0,0,0,0.5); }
-        .preview-area { flex-grow: 1; border: 2px dashed rgba(255, 255, 255, 0.15); border-radius: 16px; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.3); position: relative; overflow: hidden; min-height: 400px; }
+        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255,255,255,0.15); transition: .3s; border-radius: 26px; }
+        .slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 4px; bottom: 4px; background-color: white; transition: .3s; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        input:checked + .slider { background: linear-gradient(135deg, var(--accent-cyan), var(--accent-neon)); box-shadow: var(--glow-neon); }
+        input:checked + .slider:before { transform: translateX(22px); }
+        
+        .btn { 
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-neon)); 
+            color: #0c0f1d; 
+            border: none; 
+            padding: 15px 24px; 
+            border-radius: 14px; 
+            font-weight: 800; 
+            cursor: pointer; 
+            font-size: 14px; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 10px; 
+            text-transform: uppercase; 
+            letter-spacing: 0.8px; 
+            box-shadow: 0 6px 20px rgba(0, 242, 254, 0.35); 
+        }
+        .btn:hover { transform: translateY(-3px); box-shadow: var(--glow-neon); filter: brightness(1.1); color: white; }
+        .btn-secondary { background: rgba(0, 242, 254, 0.08); border: 1px solid rgba(0, 242, 254, 0.4); color: var(--accent-neon); box-shadow: none; }
+        .btn-secondary:hover { background: rgba(0, 242, 254, 0.2); box-shadow: var(--glow-neon); color: white; border-color: var(--accent-neon); }
+        .btn-small { padding: 10px 16px; font-size: 12px; border-radius: 10px; }
+        .btn-icon { padding: 6px 10px; font-size: 12px; min-width: 36px; border-radius: 10px; }
+        
+        .output-box { background-color: rgba(5, 7, 14, 0.8); border-radius: 14px; padding: 18px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent-neon); border: 1px solid rgba(0, 242, 254, 0.3); height: 110px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; box-shadow: inset 0 0 20px rgba(0,0,0,0.6); user-select: all; }
+        
+        .preview-area { flex-grow: 1; border: 2px dashed rgba(255, 255, 255, 0.2); border-radius: 20px; display: flex; flex-direction: column; background-color: rgba(0,0,0,0.35); position: relative; overflow: hidden; min-height: 480px; backdrop-filter: blur(10px); }
+        .preview-toolbar { display: flex; background: rgba(18, 23, 42, 0.85); padding: 12px 18px; gap: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); align-items: center; justify-content: space-between; }
+        .preview-tabs { display: flex; gap: 8px; }
+        .tab-btn { background: var(--bg-input); border: 1px solid rgba(255,255,255,0.12); color: var(--text-muted); padding: 8px 16px; border-radius: 10px; font-size: 12px; font-weight: 700; cursor: pointer; transition: 0.3s; }
+        .tab-btn.active { background: linear-gradient(135deg, var(--accent-cyan), var(--accent-neon)); color: #0c0f1d; border-color: var(--accent-neon); box-shadow: var(--glow-neon); }
+        .preview-content-box { flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; width: 100%; height: 100%; }
         iframe { width: 100%; height: 100%; border: none; background: transparent; }
-
+        
         .color-picker-group { display: flex; gap: 15px; align-items: center; }
-        .color-picker-wrapper { position: relative; width: 42px; height: 42px; border-radius: 10px; overflow: hidden; border: 2px solid rgba(255, 255, 255, 0.2); cursor: pointer; }
-        input[type="color"] { position: absolute; top: -10px; left: -10px; width: 60px; height: 60px; cursor: pointer; border: none; }
+        .color-picker-wrapper { position: relative; width: 44px; height: 44px; border-radius: 12px; overflow: hidden; border: 2px solid rgba(255, 255, 255, 0.2); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+        input[type="color"] { position: absolute; top: -10px; left: -10px; width: 64px; height: 64px; cursor: pointer; border: none; }
         
-        .artifact-row { display: flex; flex-direction: column; gap: 10px; background: rgba(0,0,0,0.25); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); position: relative; }
+        .artifact-row { display: flex; flex-direction: column; gap: 10px; background: rgba(0,0,0,0.3); padding: 16px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.08); position: relative; backdrop-filter: blur(10px); }
         .artifact-main-inputs { display: flex; gap: 12px; align-items: center; width: 100%; }
-        
-        .custom-tasks-wrapper { background: rgba(0, 210, 255, 0.05); padding: 20px; border-radius: 12px; border: 2px dashed rgba(0, 210, 255, 0.3); margin-top: 5px; }
+        .custom-tasks-wrapper { background: rgba(0, 242, 254, 0.04); padding: 20px; border-radius: 16px; border: 2px dashed rgba(0, 242, 254, 0.3); margin-top: 5px; backdrop-filter: blur(10px); }
         .custom-tasks-wrapper textarea { height: 80px; font-size: 12px; }
-
+        
         @media(max-width: 1024px) { .main-container { grid-template-columns: 1fr; padding: 15px; } .panel { height: auto; } }
     </style>
 </head>
-<body>
+<body id="app-body">
 
     <header>
         <div>
-            <h1>EET Builder (PRO v3.0 Cloud)</h1>
-            <div class="subtitle">Cloud JSON Integration // Smart Cover Artifacts // Base64 Iframe</div>
+            <h1>Экзаменариум</h1>
+            <div class="subtitle">Автор: Ольга Тимофеева // <a href="https://vk.ru/club221025676" target="_blank">«Да! Доступный Английский!»</a> // Genially DIV-Format</div>
+            <div class="editor-notice">Только для личного использования. Продажа и передача третьим лицам запрещена. Все права защищены.</div>
         </div>
         <div class="header-controls">
-            <select class="lang-select" id="editor-lang" onchange="updateEditorLang()">
-                <option value="ru">🇷🇺 Редактор: RU</option>
-                <option value="en">🇬🇧 Editor: EN</option>
+            <select class="subject-select-hdr" id="subject-theme-select" onchange="changeSubjectTheme(this.value)">
+                <option value="english">🇬🇧 Английский (Неон Фиолетово-Розовый)</option>
+                <option value="math">📐 Математика (Холодный Синий)</option>
+                <option value="literature">📚 Литература (Теплый Персиковый)</option>
+                <option value="science">🔬 Науки (Изумрудный Неон)</option>
             </select>
-            <select class="lang-select" id="trainer-lang">
-                <option value="ru">🇷🇺 Тренажер: RU</option>
-                <option value="en">🇬🇧 Trainer: EN</option>
+            <select class="lang-select" id="editor-lang">
+                <option value="ru">🇷🇺 RU</option>
+                <option value="en">🇬🇧 EN</option>
             </select>
         </div>
     </header>
 
     <div class="main-container">
-        <div class="panel">
-            <div class="panel-title" data-i18n="p1_title">1. Параметры Контента</div>
+        <!-- ПАНЕЛЬ РЕДАКТОРА С ГОРИЗОНТАЛЬНЫМИ ВКЛАДКАМИ -->
+        <div class="panel" oninput="triggerLiveUpdate()" onchange="triggerLiveUpdate()">
             
-            <div class="grid-2">
-                <div class="form-group">
-                    <label data-i18n="exam_type">База заданий</label>
-                    <select id="exam-type" onchange="toggleVPR()">
-                        <option value="ЕГЭ">ЕГЭ (ФИПИ / 10-11 классы)</option>
-                        <option value="ОГЭ">ОГЭ (ФИПИ / 9 класс)</option>
-                        <option value="ВПР">ВПР (СдамГИА / Федеральный)</option>
-                    </select>
-                 </div>
-                <div class="form-group" id="vpr-grade-group" style="display:none;">
-                    <label data-i18n="vpr_grade">Класс (ВПР)</label>
-                    <select id="vpr-grade">
-                        <option value="4">4 класс</option>
-                        <option value="5">5 класс</option>
-                        <option value="6">6 класс</option>
-                        <option value="7">7 класс</option>
-                        <option value="8">8 класс</option>
-                        <option value="11">11 класс</option>
-                    </select>
-                </div>
+            <!-- Навигация по вкладкам редактора -->
+            <div class="editor-tabs">
+                <button type="button" class="editor-tab-btn active" onclick="switchEditorTab('content')">📚 Контент</button>
+                <button type="button" class="editor-tab-btn" onclick="switchEditorTab('game')">🎮 Режим игры</button>
+                <button type="button" class="editor-tab-btn" onclick="switchEditorTab('text')">💬 Текст и Артефакты</button>
+                <button type="button" class="editor-tab-btn" onclick="switchEditorTab('design')">🎨 Дизайн и UI</button>
             </div>
 
-            <div class="form-group">
-                <label data-i18n="aspects_lbl">Встроенные разделы (выдача блоками)</label>
-                <div class="aspect-list">
-                    <div>
-                        <div class="aspect-item-row"><input type="checkbox" id="cb-grammar" value="grammar" checked><label for="cb-grammar" data-i18n="asp_gram">Грамматика</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-grammar')">⚙️</button><input type="number" id="count-grammar" min="1" max="20" value="2"></div>
-                        <div id="cfg-grammar" class="aspect-config">
-                            <label style="font-size: 11px;">Тема заданий:</label>
-                            <select id="topic-grammar">
-                                <option value="all">Случайная тема</option>
-                                <option value="times">Времена глаголов</option>
-                                <option value="voice">Залог (Active/Passive)</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="aspect-item-row"><input type="checkbox" id="cb-word-formation" value="word-formation" checked><label for="cb-word-formation" data-i18n="asp_word">Словообразование</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-wordform')">⚙️</button><input type="number" id="count-word-formation" min="1" max="20" value="2"></div>
-                        <div id="cfg-wordform" class="aspect-config">
-                            <label style="font-size: 11px;">Тема заданий:</label>
-                            <select id="topic-word-formation">
-                                <option value="all">Случайная тема</option>
-                                <option value="suffixes">Суффиксы</option>
-                                <option value="prefixes">Приставки</option>
-                             </select>
-                        </div>
-                    </div>
-                    <div>
-                         <div class="aspect-item-row"><input type="checkbox" id="cb-vocabulary" value="vocabulary" checked><label for="cb-vocabulary" data-i18n="asp_vocab">Лексика</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-vocab')">⚙️</button><input type="number" id="count-vocabulary" min="1" max="20" value="2"></div>
-                        <div id="cfg-vocab" class="aspect-config">
-                            <label style="font-size: 11px;">Тема заданий:</label>
-                            <select id="topic-vocabulary">
-                                <option value="all">Случайная тема</option>
-                                <option value="collocations">Устойчивые выражения</option>
-                                <option value="phrasal">Фразовые глаголы</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="aspect-item-row"><input type="checkbox" id="cb-reading-match" value="reading-match"><label for="cb-reading-match" data-i18n="asp_read">Чтение</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-read')">⚙️</button><input type="number" id="count-reading-match" min="1" max="20" value="1"></div>
-                        <div id="cfg-read" class="aspect-config">
-                            <label style="font-size: 11px;">Тема заданий:</label>
-                            <select id="topic-reading-match">
-                                <option value="all">Случайная тема</option>
-                                <option value="heading">Подбор заголовков</option>
-                                <option value="reading-comprehension">Понимание текста (ВПР)</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="aspect-item-row"><input type="checkbox" id="cb-multiple-choice" value="multiple-choice"><label for="cb-multiple-choice" data-i18n="asp_mult">Множественный выбор</label><button class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-mult')">⚙️</button><input type="number" id="count-multiple-choice" min="1" max="20" value="1"></div>
-                        <div id="cfg-mult" class="aspect-config">
-                            <label style="font-size: 11px;">Тема заданий:</label>
-                            <select id="topic-multiple-choice">
-                                <option value="all">Случайная тема</option>
-                                <option value="articles">Артикли</option>
-                                <option value="prepositions">Предлоги</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="custom-tasks-wrapper">
-                <label style="color: var(--accent-neon); font-size: 15px;">✍️ Массовая загрузка своих заданий</label>
-                <div style="font-size: 12px; color:var(--text-muted); margin-bottom: 15px; margin-top: 5px;">Каждая новая строка = новое задание. Количество строк во всех полях должно совпадать.</div>
-                
-                <div id="custom-fields" style="display:flex; flex-direction:column; gap:12px;">
-                    <div class="grid-3">
-                        <textarea id="custom-q" placeholder="Текст вопроса (в столбик)"></textarea>
-                        <textarea id="custom-a" placeholder="Правильный ответ (в столбик)"></textarea>
-                        <textarea id="custom-d" placeholder="Ложные ответы через запятую (в столбик)"></textarea>
-                    </div>
-                    <textarea id="custom-h" placeholder="Пояснение / Теория (в столбик) - показывается строго после ответа" style="height:60px;"></textarea>
+            <!-- ВКЛАДКА 1: КОНТЕНТ -->
+            <div id="tab-content" class="editor-tab-pane active">
+                <div class="panel-title">1. Параметры Контента (ОГЭ, ЕГЭ, ВПР)</div>
+                <div class="grid-2">
                     <div class="form-group">
-                        <label style="font-size: 11px;">Блок для отображения в тренажере:</label>
-                        <select id="custom-aspect">
-                            <option value="Лексика и Грамматика">Присвоить блок: Лексика и Грамматика</option>
-                            <option value="Чтение">Присвоить блок: Чтение</option>
-                            <option value="Аудирование">Присвоить блок: Аудирование</option>
-                            <option value="Свои задания">Присвоить блок: Свои задания</option>
+                        <label>База заданий</label>
+                        <select id="exam-type" onchange="toggleVPR(); triggerLiveUpdate();">
+                            <option value="ЕГЭ">ЕГЭ (ФИПИ / 10-11 классы)</option>
+                            <option value="ОГЭ">ОГЭ (ФИПИ / 9 класс)</option>
+                            <option value="ВПР">ВПР (СдамГИА / Федеральный)</option>
                         </select>
                      </div>
+                     <div class="form-group" id="vpr-grade-group" style="display:none;">
+                        <label>Класс (ВПР)</label>
+                        <select id="vpr-grade">
+                            <option value="4">4 класс</option>
+                            <option value="5">5 класс</option>
+                            <option value="6">6 класс</option>
+                            <option value="7">7 класс</option>
+                            <option value="8">8 класс</option>
+                            <option value="11">11 класс</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
 
-            <div class="panel-title" data-i18n="p2_title">2. Режим и Геймификация</div>
-
-            <div class="grid-2">
-                <div class="form-group" id="lives-group">
-                    <label data-i18n="lives_lbl">Количество жизней</label>
-                    <select id="game-lives">
-                        <option value="3">3</option>
-                        <option value="5">5</option>
-                        <option value="1">1 (Хардкор)</option>
-                    </select>
-                </div>
                 <div class="form-group">
-                    <label>Когда показывать артефакты?</label>
-                    <select id="artifact-timing">
-                        <option value="immediate">Сразу (Всплывающее окно)</option>
-                        <option value="end">Только в конце (На полке наград)</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="form-group" id="artifacts-config" style="margin-top: 5px; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 15px;">
-                <label style="color: var(--accent-neon);">Система Артефактов (Игровые награды и мини-игры)</label>
-                <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 10px;">Загрузите картинку (автоматически обрезается до квадрата) и укажите балл. Вставленная ссылка запустит игру по клику.</div>
-                <div id="artifacts-list" style="display:flex; flex-direction:column; gap:12px;"></div>
-                <button class="btn btn-secondary btn-small" onclick="addArtifactField()" style="width:fit-content; margin-top:10px;">+ Добавить артефакт</button>
-            </div>
-
-            <div class="grid-2" style="margin-top: 5px;">
-                <div class="toggle-group">
-                    <div style="display:flex; flex-direction:column; gap:4px;">
-                        <label data-i18n="timer_lbl">Таймер на задание</label>
-                        <div style="display:flex; align-items:center; gap:10px;">
-                            <label class="switch"><input type="checkbox" id="timer-toggle" checked onchange="document.getElementById('timer-duration').disabled = !this.checked"><span class="slider"></span></label>
-                            <input type="number" id="timer-duration" value="30" min="5" max="300" style="width: 70px; padding: 6px;"> сек.
+                    <label>Встроенные разделы (выдача блоками)</label>
+                    <div class="aspect-list">
+                        <div>
+                            <div class="aspect-item-row"><input type="checkbox" id="cb-grammar" value="grammar" checked><label for="cb-grammar">Грамматика</label><button type="button" class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-grammar')">⚙️</button><input type="number" id="count-grammar" min="1" max="20" value="2"></div>
+                            <div id="cfg-grammar" class="aspect-config">
+                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <select id="topic-grammar">
+                                    <option value="all">Случайная тема</option>
+                                    <option value="times">Времена глаголов</option>
+                                    <option value="voice">Залог (Active/Passive)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="aspect-item-row"><input type="checkbox" id="cb-word-formation" value="word-formation" checked><label for="cb-word-formation">Словообразование</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-wordform')">⚙️</button><input type="number" id="count-word-formation" min="1" max="20" value="2"></div>
+                            <div id="cfg-wordform" class="aspect-config">
+                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <select id="topic-word-formation">
+                                    <option value="all">Случайная тема</option>
+                                    <option value="suffixes">Суффиксы</option>
+                                    <option value="prefixes">Приставки</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                             <div class="aspect-item-row"><input type="checkbox" id="cb-vocabulary" value="vocabulary" checked><label for="cb-vocabulary">Лексика</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-vocab')">⚙️</button><input type="number" id="count-vocabulary" min="1" max="20" value="2"></div>
+                            <div id="cfg-vocab" class="aspect-config">
+                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <select id="topic-vocabulary">
+                                    <option value="all">Случайная тема</option>
+                                    <option value="collocations">Устойчивые выражения</option>
+                                    <option value="phrasal">Фразовые глаголы</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="aspect-item-row"><input type="checkbox" id="cb-reading-match" value="reading-match"><label for="cb-reading-match">Чтение</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-read')">⚙️</button><input type="number" id="count-reading-match" min="1" max="20" value="1"></div>
+                            <div id="cfg-read" class="aspect-config">
+                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <select id="topic-reading-match">
+                                    <option value="all">Случайная тема</option>
+                                    <option value="heading">Подбор заголовков</option>
+                                    <option value="reading-comprehension">Понимание текста (ВПР)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="aspect-item-row"><input type="checkbox" id="cb-multiple-choice" value="multiple-choice"><label for="cb-multiple-choice">Множественный выбор</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-mult')">⚙️</button><input type="number" id="count-multiple-choice" min="1" max="20" value="1"></div>
+                            <div id="cfg-mult" class="aspect-config">
+                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <select id="topic-multiple-choice">
+                                    <option value="all">Случайная тема</option>
+                                    <option value="articles">Артикли</option>
+                                    <option value="prepositions">Предлоги</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="toggle-group">
-                    <label data-i18n="repeat_err_lbl">Повтор при ошибке</label>
-                    <label class="switch"><input type="checkbox" id="repeat-toggle" checked><span class="slider"></span></label>
-                </div>
-            </div>
 
-            <div class="grid-2">
-                <div class="toggle-group">
-                     <label>Пояснения после ответа</label>
-                    <label class="switch"><input type="checkbox" id="theory-toggle" checked><span class="slider"></span></label>
-                </div>
-                <div class="toggle-group">
-                    <label data-i18n="adaptive_lbl">Адаптивность (ИИ)</label>
-                    <label class="switch"><input type="checkbox" id="adaptive-toggle" checked onchange="toggleAdaptiveSettings()"><span class="slider"></span></label>
-                </div>
-            </div>
-
-            <div class="grid-2">
-                <div class="form-group" id="adaptive-threshold-group">
-                    <label data-i18n="adaptive_th_lbl">Порог повышения (серия)</label>
-                    <input type="number" id="adaptive-threshold" min="1" max="5" value="2">
-                </div>
-                <div class="form-group">
-                    <label data-i18n="distractor_lbl">Уровень дистракторов</label>
-                    <select id="distractor-trickiness">
-                        <option value="easy" data-i18n="dist_easy">Базовый</option>
-                        <option value="medium" data-i18n="dist_med" selected>Средний (Ловушки)</option>
-                        <option value="hard" data-i18n="dist_hard">Высокий</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="panel-title" data-i18n="p3_title">3. Дизайн и UI Тренажера</div>
-            
-            <div class="grid-2">
-                <div class="form-group">
-                    <label data-i18n="bg_img_lbl">Фоновое изображение</label>
-                    <input type="file" id="bg-image-upload" accept="image/*" onchange="handleBackgroundUpload(event)">
-                </div>
-                <div class="form-group">
-                    <label data-i18n="bg_aud_lbl">Фоновая музыка</label>
-                    <input type="file" id="bg-audio-upload" accept="audio/*" onchange="handleAudioUpload(event)">
-                </div>
-            </div>
-
-            <div class="grid-2">
-                <div class="form-group">
-                    <label data-i18n="cont_bg_lbl">Фон экрана (Контейнер)</label>
-                    <div class="color-picker-group">
-                        <div class="color-picker-wrapper"><input type="color" id="cont-bg-color" value="#121626"></div>
-                        <input type="range" id="cont-opacity" min="0" max="1" step="0.05" value="0.9" title="Прозрачность">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label data-i18n="accent_lbl">Кнопки / Акценты</label>
-                    <div class="color-picker-group">
-                        <div class="color-picker-wrapper"><input type="color" id="color-accent" value="#00d2ff"></div>
+                <div class="custom-tasks-wrapper">
+                    <label style="color: var(--accent-neon); font-size: 15px;">✍️ Свои задания (Массовая загрузка)</label>
+                    <div style="font-size: 12px; color:var(--text-muted); margin-bottom: 15px; margin-top: 5px;">Каждая новая строка = новое задание.</div>
+                    <div id="custom-fields" style="display:flex; flex-direction:column; gap:12px;">
+                        <div class="grid-3">
+                            <textarea id="custom-q" placeholder="Текст вопроса"></textarea>
+                            <textarea id="custom-a" placeholder="Правильный ответ"></textarea>
+                            <textarea id="custom-d" placeholder="Ложные ответы (через запятую)"></textarea>
+                        </div>
+                        <textarea id="custom-h" placeholder="Пояснение / Теория (показывается после ответа)" style="height:60px;"></textarea>
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Блок для отображения:</label>
+                            <select id="custom-aspect">
+                                <option value="Лексика и Грамматика">Присвоить блок: Лексика и Грамматика</option>
+                                <option value="Чтение">Присвоить блок: Чтение</option>
+                                <option value="Свои задания">Присвоить блок: Свои задания</option>
+                            </select>
+                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="grid-3">
-                <div class="form-group">
-                    <label data-i18n="q_col_lbl">Цвет текста</label>
-                    <div class="color-picker-wrapper"><input type="color" id="q-color" value="#ffffff"></div>
+            <!-- ВКЛАДКА 2: РЕЖИМ ИГРЫ -->
+            <div id="tab-game" class="editor-tab-pane">
+                <div class="panel-title">2. Режим и Геймификация</div>
+
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>Количество жизней</label>
+                        <select id="game-lives">
+                            <option value="3">3</option>
+                            <option value="5">5</option>
+                            <option value="1">1 (Хардкор)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Выдача артефактов (картинок)</label>
+                        <select id="artifact-timing">
+                            <option value="immediate">Сразу (Всплывающее окно)</option>
+                            <option value="end">Только в конце (На полке)</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label data-i18n="q_size_lbl">Размер (px)</label>
-                    <input type="number" id="q-size" value="18" min="10" max="30">
+
+                <div class="form-group" style="margin-top: 5px; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 15px;">
+                    <label style="color: var(--accent-neon);">🏆 Бейджи и Секретные Бонусы</label>
+                    <div class="grid-2" style="margin-top: 10px;">
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Бейдж за комбо (от 4 правильных)</label>
+                            <input type="text" id="badge-streak" value="🔥 Streak Master">
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Бейдж за 100% результат</label>
+                            <input type="text" id="badge-perfect" value="👑 Grammar Champion">
+                        </div>
+                    </div>
+                    <div class="grid-2" style="margin-top: 10px;">
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Порог открытия бонуса (%)</label>
+                            <input type="number" id="bonus-threshold" value="80" min="0" max="100">
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Текст/Ссылка бонуса</label>
+                            <input type="text" id="bonus-content" value="🎁 Кодовое слово: EXAM2026">
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                     <label data-i18n="font_lbl">Шрифт</label>
-                    <select id="ui-font">
-                        <option value="'Plus Jakarta Sans', sans-serif">Plus Jakarta</option>
-                        <option value="'JetBrains Mono', monospace">JetBrains Mono</option>
-                        <option value="system-ui, sans-serif">System Sans</option>
-                    </select>
+
+                <div class="grid-2" style="margin-top: 5px;">
+                    <div class="toggle-group">
+                        <div style="display:flex; flex-direction:column; gap:4px;">
+                            <label>Таймер (сек)</label>
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <label class="switch"><input type="checkbox" id="timer-toggle" checked onchange="document.getElementById('timer-duration').disabled = !this.checked"><span class="slider"></span></label>
+                                <input type="number" id="timer-duration" value="30" min="5" max="300" style="width: 70px; padding: 6px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="toggle-group">
+                        <label>Повтор при ошибке</label>
+                        <label class="switch"><input type="checkbox" id="repeat-toggle" checked><span class="slider"></span></label>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="toggle-group">
+                        <label>Пояснения (Теория)</label>
+                        <label class="switch"><input type="checkbox" id="theory-toggle" checked><span class="slider"></span></label>
+                    </div>
+                    <div class="toggle-group">
+                        <label>Адаптивность (ИИ)</label>
+                        <label class="switch"><input type="checkbox" id="adaptive-toggle" checked onchange="toggleAdaptiveSettings()"><span class="slider"></span></label>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="form-group" id="adaptive-threshold-group">
+                        <label>Порог ИИ повышения</label>
+                        <input type="number" id="adaptive-threshold" min="1" max="5" value="2">
+                    </div>
+                    <div class="form-group">
+                        <label>Ловушки (Дистракторы)</label>
+                        <select id="distractor-trickiness">
+                            <option value="easy">Базовый</option>
+                            <option value="medium" selected>Средний (Ловушки)</option>
+                            <option value="hard">Высокий</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
-            <button class="btn" style="margin-top: 15px;" onclick="generateTrainer()">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0a0c14" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                <span data-i18n="btn_gen">Сгенерировать тренажер</span>
+            <!-- ВКЛАДКА 3: ТЕКСТ И АРТЕФАКТЫ -->
+            <div id="tab-text" class="editor-tab-pane">
+                <div class="panel-title">3. Стартовая страница и Артефакты</div>
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label style="font-size: 11px;">Заголовок приветствия</label>
+                        <input type="text" id="welcome-title" value="Welcome!">
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 11px;">Текст кнопки старта</label>
+                        <input type="text" id="welcome-btn-text" value="Начать тест 🚀">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label style="font-size: 11px;">Подзаголовок / Инструкция на старте</label>
+                    <input type="text" id="welcome-subtitle" value="Пожалуйста, введите ваше имя перед началом:">
+                </div>
+                <div class="form-group">
+                    <label style="font-size: 11px;">Заголовок страницы итогов</label>
+                    <input type="text" id="results-title-text" value="🎉 Итоги тренировки">
+                </div>
+
+                <div class="form-group" style="margin-top: 5px; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 15px;">
+                    <label style="color: var(--accent-neon);">🖼️ Индивидуальные Артефакты-картинки</label>
+                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 10px;">Загрузите картинку и укажите балл. Ссылка откроет игру по клику.</div>
+                    <div id="artifacts-list" style="display:flex; flex-direction:column; gap:12px;"></div>
+                    <button type="button" class="btn btn-secondary btn-small" onclick="addArtifactField()" style="width:fit-content; margin-top:10px;">+ Добавить артефакт</button>
+                </div>
+            </div>
+
+            <!-- ВКЛАДКА 4: ДИЗАЙН И UI -->
+            <div id="tab-design" class="editor-tab-pane">
+                <div class="panel-title">4. Дизайн и UI Тренажера</div>
+                
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>Фоновое изображение</label>
+                        <input type="file" id="bg-image-upload" accept="image/*" onchange="handleBackgroundUpload(event)">
+                    </div>
+                    <div class="form-group">
+                        <label>Фоновая музыка</label>
+                        <input type="file" id="bg-audio-upload" accept="audio/*" onchange="handleAudioUpload(event)">
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>Фон окна тренажера</label>
+                        <div class="color-picker-group">
+                            <div class="color-picker-wrapper"><input type="color" id="cont-bg-color" value="#161b2e"></div>
+                            <input type="range" id="cont-opacity" min="0" max="1" step="0.05" value="0.85" title="Прозрачность">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Акцент / Свечение</label>
+                        <div class="color-picker-group">
+                            <div class="color-picker-wrapper"><input type="color" id="color-accent" value="#00f2fe"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Стиль шрифта (Google Fonts)</label>
+                    <select id="task-font-style">
+                        <option value="'Plus Jakarta Sans', sans-serif">Стандартный (Modern Clean)</option>
+                        <option value="'Fredoka', sans-serif">Мультяшный (Disney/Pixar Style)</option>
+                        <option value="'Press Start 2P', cursive">Игровой (Retro 8-Bit)</option>
+                        <option value="'Orbitron', sans-serif">Необычный (Sci-Fi / Киберпанк)</option>
+                    </select>
+                </div>
+
+                <div class="grid-3">
+                    <div class="form-group">
+                        <label>Цвет текста</label>
+                        <div class="color-picker-wrapper"><input type="color" id="q-color" value="#ffffff"></div>
+                    </div>
+                    <div class="form-group">
+                        <label>Размер (px)</label>
+                        <input type="number" id="q-size" value="18" min="10" max="30">
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size:10px;">Drag-n-Drop окна?</label>
+                        <label class="switch"><input type="checkbox" id="window-resizable" checked><span class="slider"></span></label>
+                    </div>
+                </div>
+                
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>Ширина окна</label>
+                        <input type="text" id="window-width" value="650px" placeholder="Напр. 650px или 80%">
+                    </div>
+                    <div class="form-group">
+                        <label>Высота окна</label>
+                        <input type="text" id="window-height" value="auto" placeholder="Напр. auto или 500px">
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn" style="margin-top: 10px;" onclick="generateTrainer()">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0c0f1d" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <span>Сгенерировать iframe-код</span>
             </button>
         </div>
 
+        <!-- ПАНЕЛЬ ПРЕВЬЮ И ЭКСПОРТА -->
         <div class="panel">
-            <div class="panel-title" data-i18n="p4_title">4. Готовый Iframe-код для Genially</div>
-            <div class="output-box" id="iframe-output" data-i18n="iframe_placeholder">Нажмите кнопку «Сгенерировать», чтобы получить код...</div>
-            <button class="btn btn-secondary" onclick="copyIframeCode()">
+            <div class="panel-title">5. Идеальный Iframe-код для Genially</div>
+            <div class="output-box" id="iframe-output">Генерация кода в реальном времени...</div>
+            <button type="button" class="btn btn-secondary" onclick="copyWidgetCode()">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                <span data-i18n="btn_copy">Копировать iframe код</span>
+                <span>Скопировать код для Genially</span>
             </button>
 
-            <div class="panel-title" style="margin-top:5px;" data-i18n="export_title">5. Экспорт и Сохранение</div>
+            <div class="panel-title" style="margin-top:5px;">6. Экспорт и Сохранение</div>
             <div class="grid-3">
-                <button class="btn btn-secondary btn-small" onclick="downloadHTML()">💾 <span data-i18n="btn_dl_html">Скачать HTML</span></button>
-                <button class="btn btn-secondary btn-small" onclick="downloadGame()">🎮 <span data-i18n="btn_dl_game">HTML-Игра</span></button>
-                <button class="btn btn-secondary btn-small" onclick="downloadPDF()">📄 <span data-i18n="btn_dl_pdf">Скачать PDF</span></button>
+                <button type="button" class="btn btn-secondary btn-small" onclick="downloadHTML()">💾 HTML-Файл</button>
+                <button type="button" class="btn btn-secondary btn-small" onclick="downloadGame()">🎮 HTML-Игра</button>
+                <button type="button" class="btn btn-secondary btn-small" onclick="downloadPDF()">📄 Print PDF</button>
             </div>
             <div class="grid-2">
-                <button class="btn btn-secondary btn-small" onclick="saveJSON()">📁 <span data-i18n="btn_save_json">Сохранить Config (.json)</span></button>
+                <button type="button" class="btn btn-secondary btn-small" onclick="saveJSON()">📁 Сохранить Config</button>
                 <label class="btn btn-secondary btn-small" style="text-align: center; margin:0; cursor:pointer;">
-                    📂 <span data-i18n="btn_load_json">Загрузить Config</span>
+                    📂 Загрузить Config
                     <input type="file" id="json-loader" accept=".json" style="display:none;" onchange="loadJSON(event)">
                 </label>
             </div>
 
-            <div class="panel-title" style="margin-top:5px;" data-i18n="p5_title">6. Интерактивное Превью</div>
-            <div class="preview-area" id="preview-viewport">
-                <div style="color:var(--text-muted); font-size:14px; text-align:center; padding: 20px;" data-i18n="preview_placeholder">
-                    Здесь будет отображаться живой тренажер после генерации
+            <div class="panel-title" style="margin-top:5px;">7. Живое Превью и Тестирование</div>
+            <div class="preview-area" id="preview-viewport-container">
+                <div class="preview-toolbar">
+                    <div class="preview-tabs">
+                        <button type="button" class="tab-btn active" id="tab-preview" onclick="switchPreviewMode('preview')">👁️ Живое превью</button>
+                        <button type="button" class="tab-btn" id="tab-test" onclick="switchPreviewMode('test')">🎮 Тест игры</button>
+                    </div>
+                    <div style="font-size: 11px; color: var(--accent-neon);">✨ Изменения обновляются мгновенно</div>
+                </div>
+                <div class="preview-content-box" id="preview-viewport">
+                    <div style="color:var(--text-muted); font-size:14px; text-align:center; padding: 20px;">
+                        Загрузка тренажера...
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        // =====================================================================
-        // 🌐 1. КОНФИГУРАЦИЯ ССЫЛОК НА GITHUB JSON (Вставьте ваши Raw ссылки)
-        // =====================================================================
         const GITHUB_DATABASE_URLS = {
             "ЕГЭ": {
                 "grammar": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/ege_grammar.json",
@@ -437,38 +569,61 @@
             },
             "ВПР": {
                 "4": {
-                    "grammar": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_Grammar_Vocabulary_4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.json",
+                    "grammar": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_grammar.json",
                     "word-formation": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_word_formation.json",
                     "vocabulary": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_vocabulary.json",
                     "reading-match": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_%20Reading_4%20rkfcc.json",
                     "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_multiple_choice.json"
-                },
-                "5": {
-                    "grammar": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_Grammar_Vocabulary_5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.json",
-                    "word-formation": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_word_formation.json",
-                    "vocabulary": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_vocabulary.json",
-                    "reading-match": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_%20Reading_5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.json",
-                    "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_multiple_choice.json"
-                },
-                "6": {
-                    "grammar": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_Grammar_Vocabulary_4%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.json",
-                    "word-formation": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_word_formation.json",
-                    "vocabulary": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_vocabulary.json",
-                    "reading-match": "https://raw.githubusercontent.com/OlgaTim777/exams/refs/heads/main/%D0%92%D0%9F%D0%A0_%20Reading_4%20rkfcc.json",
-                    "multiple-choice": "https://raw.githubusercontent.com/ВАШ_ЛОГИН/РЕПОЗИТОРИЙ/main/vpr4_multiple_choice.json"
-                },
-             // Продублируйте ключи "5", "6", "7" и т.д. по аналогии, если у вас есть отдельные файлы для других классов
+                }
             }
         };
-
-        // Глобальное хранилище
         let globalExamDatabase = { "ЕГЭ": {}, "ОГЭ": {}, "ВПР": {} };
+        let loadedBgImage = '';
+        let loadedBgAudio = '';
+        let artifactsData = [];
+        let previewMode = 'preview';
+        let liveUpdateTimeout = null;
 
-        // =====================================================================
-        // 🚀 2. АСИНХРОННЫЙ ЗАГРУЗЧИК (Вызывается при старте редактора)
-        // =====================================================================
+        const strandNamesMap = {
+            'grammar': 'Грамматика', 'word-formation': 'Словообразование', 
+            'vocabulary': 'Лексика', 'reading-match': 'Чтение', 'multiple-choice': 'Множественный выбор'
+        };
+
+        // Переключение горизонтальных вкладок редактора
+        function switchEditorTab(tabName) {
+            document.querySelectorAll('.editor-tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.editor-tab-pane').forEach(pane => pane.classList.remove('active'));
+            
+            if(tabName === 'content') {
+                document.querySelectorAll('.editor-tab-btn')[0].classList.add('active');
+                document.getElementById('tab-content').classList.add('active');
+            } else if(tabName === 'game') {
+                document.querySelectorAll('.editor-tab-btn')[1].classList.add('active');
+                document.getElementById('tab-game').classList.add('active');
+            } else if(tabName === 'text') {
+                document.querySelectorAll('.editor-tab-btn')[2].classList.add('active');
+                document.getElementById('tab-text').classList.add('active');
+            } else if(tabName === 'design') {
+                document.querySelectorAll('.editor-tab-btn')[3].classList.add('active');
+                document.getElementById('tab-design').classList.add('active');
+            }
+        }
+
+        // Динамическое изменение фона редактора в зависимости от выбранного предмета
+        function changeSubjectTheme(subject) {
+            const body = document.getElementById('app-body');
+            if (subject === 'math') {
+                body.style.backgroundImage = 'radial-gradient(circle at 10% 15%, rgba(14, 116, 144, 0.3) 0%, transparent 45%), radial-gradient(circle at 90% 85%, rgba(37, 99, 235, 0.25) 0%, transparent 45%), radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.15) 0%, transparent 60%)';
+            } else if (subject === 'literature') {
+                body.style.backgroundImage = 'radial-gradient(circle at 10% 15%, rgba(249, 115, 22, 0.25) 0%, transparent 45%), radial-gradient(circle at 90% 85%, rgba(244, 63, 94, 0.25) 0%, transparent 45%), radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.15) 0%, transparent 60%)';
+            } else if (subject === 'science') {
+                body.style.backgroundImage = 'radial-gradient(circle at 10% 15%, rgba(5, 150, 105, 0.25) 0%, transparent 45%), radial-gradient(circle at 90% 85%, rgba(13, 148, 136, 0.25) 0%, transparent 45%), radial-gradient(circle at 50% 50%, rgba(52, 211, 153, 0.15) 0%, transparent 60%)';
+            } else {
+                body.style.backgroundImage = 'radial-gradient(circle at 10% 15%, rgba(114, 9, 183, 0.25) 0%, transparent 45%), radial-gradient(circle at 90% 85%, rgba(247, 37, 133, 0.2) 0%, transparent 45%), radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.12) 0%, transparent 60%)';
+            }
+        }
+
         async function loadAllDatabasesFromGithub() {
-            console.log("Старт синхронизации баз данных с GitHub...");
             for (const [aspect, url] of Object.entries(GITHUB_DATABASE_URLS["ЕГЭ"])) {
                 if(url.includes('ВАШ_ЛОГИН')) continue;
                 try { const res = await fetch(url); if (res.ok) globalExamDatabase["ЕГЭ"][aspect] = await res.json(); } catch(e){}
@@ -484,71 +639,34 @@
                     try { const res = await fetch(url); if (res.ok) globalExamDatabase["ВПР"][grade][aspect] = await res.json(); } catch(e){}
                 }
             }
-            console.log("Все доступные файлы с GitHub загружены в память:", globalExamDatabase);
-        }
-
-        const i18n = {
-            ru: {
-                p1_title: "1. Параметры Контента", exam_type: "База заданий", vpr_grade: "Класс (ВПР)", aspects_lbl: "Встроенные разделы (выдача блоками)",
-                asp_gram: "Грамматика", asp_word: "Словообразование", asp_vocab: "Лексика", asp_read: "Чтение", asp_mult: "Множественный выбор",
-                p2_title: "2. Режим и Геймификация", lives_lbl: "Количество жизней", timer_lbl: "Таймер на задание", repeat_err_lbl: "Повтор при ошибке",
-                theory_lbl: "Пояснения после ответа", adaptive_lbl: "Адаптивность (ИИ)", adaptive_th_lbl: "Порог повышения (серия)", distractor_lbl: "Уровень дистракторов",
-                dist_easy: "Базовый", dist_med: "Средний (Ловушки)", dist_hard: "Высокий", p3_title: "3. Дизайн и UI Тренажера",
-                bg_img_lbl: "Фоновое изображение", bg_aud_lbl: "Фоновая музыка", cont_bg_lbl: "Фон экрана (Контейнер)", accent_lbl: "Кнопки / Акценты",
-                q_col_lbl: "Цвет текста", q_size_lbl: "Размер (px)", font_lbl: "Шрифт", btn_gen: "Сгенерировать тренажер",
-                p4_title: "4. Готовый Iframe-код для Genially", iframe_placeholder: "Нажмите кнопку «Сгенерировать», чтобы получить код...",
-                btn_copy: "Копировать iframe код", export_title: "5. Экспорт и Сохранение", btn_dl_html: "Скачать HTML",
-                btn_dl_game: "HTML-Игра", btn_dl_pdf: "Скачать PDF", btn_save_json: "Сохранить Config", btn_load_json: "Загрузить Config",
-                p5_title: "6. Интерактивное Превью", preview_placeholder: "Здесь будет отображаться живой тренажер после генерации"
-            },
-            en: {
-                p1_title: "1. Content Options", exam_type: "Database Core", vpr_grade: "VPR Grade Block", aspects_lbl: "Language Strands (Sequential blocks)",
-                asp_gram: "Grammar", asp_word: "Word Formation", asp_vocab: "Lexis", asp_read: "Reading", asp_mult: "Multiple Choice",
-                p2_title: "2. Gamification", lives_lbl: "Total HP / Lives", timer_lbl: "Countdown Timer", repeat_err_lbl: "Retry on Mistake",
-                theory_lbl: "Explanations after answer", adaptive_lbl: "Adaptive AI Logic", adaptive_th_lbl: "Level Up Streak Threshold", distractor_lbl: "Distractor Complexity",
-                dist_easy: "Basic", dist_med: "Intermediate", dist_hard: "Tricky/Advanced", p3_title: "3. Interface Design & Typography",
-                bg_img_lbl: "Background Canvas Image", bg_aud_lbl: "Background Audio Stream", cont_bg_lbl: "Container Background Color", accent_lbl: "Accent Colors",
-                q_col_lbl: "Text Palette", q_size_lbl: "Font Size (px)", font_lbl: "Font Family", btn_gen: "Compile Engine Assets",
-                p4_title: "4. Production Ready Genially Embed Code", iframe_placeholder: "Trigger generation workflow to fetch active embed layout...",
-                btn_copy: "Copy Secure Iframe Element", export_title: "5. Configuration Management Hub", btn_dl_html: "Export HTML",
-                btn_dl_game: "Compile Standalone", btn_dl_pdf: "Generate PDF Printout", btn_save_json: "Freeze State to JSON", btn_load_json: "Hydrate State from JSON",
-                p5_title: "6. Sandbox Interactive Viewport", preview_placeholder: "Awaiting template compilation. Live interactive instance will render here..."
-            }
-        };
-
-        const strandNamesMap = {
-            'grammar': 'Грамматика', 'word-formation': 'Словообразование', 
-            'vocabulary': 'Лексика', 'reading-match': 'Чтение', 'multiple-choice': 'Множественный выбор'
-        };
-
-        let loadedBgImage = '';
-        let loadedBgAudio = '';
-        let artifactsData = [];
-
-        function updateEditorLang() {
-            const current = document.getElementById('editor-lang').value;
-            document.querySelectorAll('[data-i18n]').forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                if (i18n[current] && i18n[current][key]) {
-                    if (el.tagName === 'INPUT' && el.type === 'button') el.value = i18n[current][key];
-                    else el.innerHTML = i18n[current][key];
-                }
-            });
+            generateTrainer();
         }
 
         function toggleVPR() {
             const spec = document.getElementById('exam-type').value;
             document.getElementById('vpr-grade-group').style.display = (spec === 'ВПР') ? 'block' : 'none';
         }
-
         function toggleDisplay(id) {
             const el = document.getElementById(id);
             el.style.display = (el.style.display === 'flex' || el.style.display === 'block') ? 'none' : (id === 'custom-fields' ? 'flex' : 'block');
         }
-
         function toggleAdaptiveSettings() {
             const active = document.getElementById('adaptive-toggle').checked;
             document.getElementById('adaptive-threshold-group').style.display = active ? 'flex' : 'none';
+        }
+
+        function triggerLiveUpdate() {
+            if (liveUpdateTimeout) clearTimeout(liveUpdateTimeout);
+            liveUpdateTimeout = setTimeout(() => {
+                generateTrainer();
+            }, 300);
+        }
+
+        function switchPreviewMode(mode) {
+            previewMode = mode;
+            document.getElementById('tab-preview').className = mode === 'preview' ? 'tab-btn active' : 'tab-btn';
+            document.getElementById('tab-test').className = mode === 'test' ? 'tab-btn active' : 'tab-btn';
+            generateTrainer();
         }
 
         function addArtifactField(savedData = null) {
@@ -561,22 +679,22 @@
                 <div class="artifact-main-inputs">
                     <input type="file" accept="image/*" class="art-img" onchange="compressArtifact(${index}, event)" style="flex-grow:1;">
                     <input type="number" placeholder="Баллы" class="art-score" style="width:85px;" value="${savedData ? savedData.score : '10'}">
-                    <button class="btn btn-secondary btn-icon" style="color:var(--accent-red); border-color:rgba(244,63,94,0.3);" onclick="removeArtifactField(${index})">✕</button>
+                    <button type="button" class="btn btn-secondary btn-icon" style="color:var(--accent-red); border-color:rgba(255,51,102,0.3);" onclick="removeArtifactField(${index})">✕</button>
                 </div>
                 <div class="artifact-game-link">
-                    <input type="text" placeholder="Ссылка на игру (например, LearningApps или Genially) - откроется по клику" class="art-link" value="${savedData && savedData.link ? savedData.link : ''}">
+                    <input type="text" placeholder="Ссылка на игру (LearningApps, Wordwall) - откроется по клику" class="art-link" value="${savedData && savedData.link ? savedData.link : ''}">
                 </div>
             `;
             list.appendChild(container);
-            if (savedData && savedData.img) { artifactsData[index] = savedData.img; }
+            if (savedData && savedData.img) artifactsData[index] = savedData.img;
+            triggerLiveUpdate();
         }
 
         function removeArtifactField(idx) {
             const target = document.getElementById(`artifact-idx-${idx}`);
-            if (target) { target.remove(); artifactsData[idx] = null; }
+            if (target) { target.remove(); artifactsData[idx] = null; triggerLiveUpdate(); }
         }
 
-        // SMART COVER LOGIC - Обрезка артефактов
         function compressArtifact(idx, event) {
             const file = event.target.files[0];
             if (!file) return;
@@ -586,15 +704,14 @@
                 img.onload = function() {
                     const canvas = document.createElement('canvas');
                     const targetSize = 250; 
-                    canvas.width = targetSize;
-                    canvas.height = targetSize;
+                    canvas.width = targetSize; canvas.height = targetSize;
                     const ctx = canvas.getContext('2d');
-                    // Сохраняем пропорции и заполняем квадрат (Smart Cover)
                     const scale = Math.max(targetSize / img.width, targetSize / img.height);
                     const x = (targetSize / 2) - (img.width / 2) * scale;
                     const y = (targetSize / 2) - (img.height / 2) * scale;
                     ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
                     artifactsData[idx] = canvas.toDataURL('image/jpeg', 0.85);
+                    triggerLiveUpdate();
                 };
                 img.src = e.target.result;
             };
@@ -614,6 +731,7 @@
                     canvas.width = w; canvas.height = h;
                     canvas.getContext('2d').drawImage(image, 0, 0, w, h);
                     loadedBgImage = canvas.toDataURL('image/jpeg', 0.7);
+                    triggerLiveUpdate();
                 };
                 image.src = evt.target.result;
             };
@@ -624,7 +742,7 @@
             const file = e.target.files[0];
             if (!file) return;
             const reader = new FileReader();
-            reader.onload = function(evt) { loadedBgAudio = evt.target.result; };
+            reader.onload = function(evt) { loadedBgAudio = evt.target.result; triggerLiveUpdate(); };
             reader.readAsDataURL(file);
         }
 
@@ -634,9 +752,6 @@
             return shuffled.slice(0, parseInt(count) || 5);
         }
 
-        // =====================================================================
-        // 🧠 3. ФОРМИРОВАНИЕ БАЗЫ ДЛЯ ТРЕНАЖЕРА (ИЗ ПАМЯТИ РЕДАКТОРА)
-        // =====================================================================
         async function fetchSelectedTasks() {
             const spec = document.getElementById('exam-type').value;
             const grade = document.getElementById('vpr-grade').value;
@@ -659,19 +774,17 @@
                         }
                     }
 
-                    // Фильтрация по теме и рандомный выбор заданного количества (targetCount)
                     let filteredPool = topicFilter !== 'all' ? sourcePool.filter(item => item.type === topicFilter) : sourcePool;
                     let selectedFromStrand = getRandomTasks(filteredPool, targetCount).map(task => {
-                        let t = JSON.parse(JSON.stringify(task)); // Клонирование
+                        let t = JSON.parse(JSON.stringify(task));
                         t.aspectName = strandNamesMap[strand];
                         return t;
-                     });
+                    });
 
                     if(selectedFromStrand.length > 0) groupedTasks[strandNamesMap[strand]] = selectedFromStrand;
                 }
             }
 
-            // Парсинг своих кастомных заданий
             const customAspect = document.getElementById('custom-aspect').value;
             const qs = document.getElementById('custom-q').value.split('\n').map(s=>s.trim());
             const as = document.getElementById('custom-a').value.split('\n').map(s=>s.trim());
@@ -696,28 +809,49 @@
             let finalTasks = [];
             for (let blockName in groupedTasks) finalTasks = finalTasks.concat(groupedTasks[blockName]);
             
+            if(finalTasks.length === 0) {
+                finalTasks.push({
+                    q: "Demo: Choose the correct form. He ___ to school every day.",
+                    a: "goes",
+                    hint: "Present Simple для регулярных действий.",
+                    distractors: { easy: ["go", "is going"], medium: ["go", "is going", "gone"], hard: ["go", "is going", "gone", "went"] },
+                    aspectName: "Демо-тест"
+                });
+            }
             return finalTasks;
         }
 
         async function compileCoreWidgetCode() {
             const targetTasks = await fetchSelectedTasks();
-            const compiledLang = document.getElementById('trainer-lang').value;
-            const maxLives = parseInt(document.getElementById('game-lives').value) || 3;
-            const timerActive = document.getElementById('timer-toggle').checked;
-            const timerDuration = parseInt(document.getElementById('timer-duration').value) || 30;
-            const repeatOnErr = document.getElementById('repeat-toggle').checked;
-            const hintsActive = document.getElementById('theory-toggle').checked;
-            const aiAdaptive = document.getElementById('adaptive-toggle').checked;
-            const streakThresh = parseInt(document.getElementById('adaptive-threshold').value) || 2;
-            const distractorSetting = document.getElementById('distractor-trickiness').value;
-            const artifactTiming = document.getElementById('artifact-timing').value;
-
+            
+            const configObj = {
+                maxLives: parseInt(document.getElementById('game-lives').value) || 3,
+                timerActive: document.getElementById('timer-toggle').checked,
+                timerDuration: parseInt(document.getElementById('timer-duration').value) || 30,
+                repeatOnErr: document.getElementById('repeat-toggle').checked,
+                hintsActive: document.getElementById('theory-toggle').checked,
+                aiAdaptive: document.getElementById('adaptive-toggle').checked,
+                streakThresh: parseInt(document.getElementById('adaptive-threshold').value) || 2,
+                distractorSetting: document.getElementById('distractor-trickiness').value,
+                artifactTiming: document.getElementById('artifact-timing').value,
+                fontStyle: document.getElementById('task-font-style').value,
+                wWidth: document.getElementById('window-width').value,
+                wHeight: document.getElementById('window-height').value,
+                isResizable: document.getElementById('window-resizable').checked,
+                badgeStreak: document.getElementById('badge-streak').value,
+                badgePerfect: document.getElementById('badge-perfect').value,
+                bonusThreshold: parseInt(document.getElementById('bonus-threshold').value) || 80,
+                bonusContent: document.getElementById('bonus-content').value,
+                welcomeTitle: document.getElementById('welcome-title').value,
+                welcomeSubtitle: document.getElementById('welcome-subtitle').value,
+                welcomeBtnText: document.getElementById('welcome-btn-text').value,
+                resultsTitleText: document.getElementById('results-title-text').value
+            };
             const bgColor = document.getElementById('cont-bg-color').value;
             const bgOpacity = document.getElementById('cont-opacity').value;
             const accentColor = document.getElementById('color-accent').value;
             const txtColor = document.getElementById('q-color').value;
             const txtSize = document.getElementById('q-size').value;
-            const selectedFont = document.getElementById('ui-font').value;
 
             let parsedArtifacts = [];
             const listDivs = document.getElementById('artifacts-list').children;
@@ -738,170 +872,220 @@
                 return `${(num >> 16) & 255}, ${(num >> 8) & 255}, ${num & 255}`;
             };
             const rgbaContainer = `rgba(${hexToRgb(bgColor)}, ${bgOpacity})`;
-            return `<!DOCTYPE html>
-<html lang="${compiledLang}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EET Interactive Simulator Node</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: ${selectedFont};
-            background: ${loadedBgImage ? `url('${loadedBgImage}') no-repeat center center / cover` : '#07080e'};
-            color: ${txtColor}; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; overflow-x: hidden;
-        }
-        .widget-wrapper {
-            background: ${rgbaContainer}; border: 2px solid ${accentColor}40;
-            border-radius: 20px; padding: 30px; width: 100%; max-width: 750px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.6), 0 0 20px ${accentColor}20;
-            position: relative; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
-        }
-        .top-hud { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 14px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 12px; }
-        .lives-container { color: #f43f5e; font-size: 16px; letter-spacing: 2px; }
-        .timer-container { font-variant-numeric: tabular-nums; color: ${accentColor}; font-size: 16px; background: rgba(0,0,0,0.3); padding: 4px 12px; border-radius: 8px; }
-        .block-label { color: ${accentColor}; background: ${accentColor}20; padding: 4px 10px; border-radius: 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-        
-        .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; white-space: pre-line; }
-        .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
-        @media(max-width: 500px) { .options-stack { grid-template-columns: 1fr; } }
-        
-        .opt-btn { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; text-align: center; color: inherit; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
-        .opt-btn:hover:not(:disabled) { background: ${accentColor}20; border-color: ${accentColor}; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-        .opt-btn:disabled { cursor: not-allowed; opacity: 0.7; }
-        
-        .hint-box { background: rgba(0, 210, 255, 0.1); border-left: 4px solid ${accentColor}; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 14px; display: none; color: #e5e7eb; line-height: 1.5; }
-        .feedback-banner { padding: 14px; border-radius: 10px; text-align: center; font-weight: 800; margin-bottom: 15px; display: none; font-size: 15px; letter-spacing: 0.5px; }
-        
-        .btn-action { background: ${accentColor}; border: none; color: #000; padding: 14px 28px; border-radius: 10px; font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-left: auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s; }
-        .btn-action:hover { filter: brightness(1.1); transform: translateY(-2px); color: white; }
-        
-        .rewards-shelf { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); }
-        .reward-icon-wrapper { position: relative; width: 75px; height: 75px; border-radius: 12px; border: 2px solid ${accentColor}; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; box-shadow: 0 0 15px ${accentColor}40; }
-        .reward-icon-wrapper:hover { transform: scale(1.05); }
-        .reward-icon-wrapper img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
-        .reward-badge { position: absolute; bottom: -8px; right: -8px; background: #10b981; color: white; font-size: 10px; padding: 3px 6px; border-radius: 10px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-        .reward-play-badge { position: absolute; top: -8px; left: -8px; background: ${accentColor}; color: #000; font-size: 9px; padding: 3px 8px; border-radius: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 5px rgba(0,0,0,0.5); pointer-events: none; }
-        
-        .game-modal { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(5px); }
-        .game-modal-content { position: relative; width: 100%; max-width: 900px; height: 80vh; background: #121420; border-radius: 16px; border: 2px solid ${accentColor}; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
-        .game-modal-header { padding: 12px 20px; background: rgba(0,0,0,0.6); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
-        .game-modal-close { background: none; border: none; color: #f43f5e; font-size: 24px; font-weight: 700; cursor: pointer; }
-        .game-modal-iframe { width: 100%; flex-grow: 1; border: none; background: #000; }
-        
-        .artifact-popup-card { width: 280px; height: 280px; border-radius: 20px; border: 3px solid ${accentColor}; overflow: hidden; margin-bottom: 20px; transition: 0.3s; box-shadow: 0 0 20px ${accentColor}80; }
-    </style>
-</head>
-<body>
+            const uid = Math.floor(Math.random() * 1000000);
+            const wID = `EET_${uid}`;
 
-    <div class="widget-wrapper" id="main-node">
-        <div class="top-hud">
-            <div><span class="block-label" id="hud-block-name"></span><span id="hud-progress" style="margin-left: 10px;"></span></div>
-            ${timerActive ? `<div class="timer-container">⏱ <span id="hud-timer">00</span></div>` : ''}
-            <div class="lives-container" id="hud-lives"></div>
-        </div>
+            const rawWidgetHTML = `
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Fredoka:wght@500;700&family=Press+Start+2P&family=Orbitron:wght@600;900&display=swap");
+    #FX_ROOT_${uid} { position: relative; width: 100%; min-height: 100vh; font-family: ${configObj.fontStyle}, "Plus Jakarta Sans", sans-serif; background: ${loadedBgImage ? `url("${loadedBgImage}") no-repeat center center / cover` : "#0c0f1d"}; color: ${txtColor}; display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; overflow: hidden; }
+    #FX_ROOT_${uid} * { box-sizing: border-box; margin: 0; padding: 0; }
+    #FX_ROOT_${uid} .trainer-card { background: ${rgbaContainer}; border: 2px solid ${accentColor}40; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.6), 0 0 20px ${accentColor}20; width: ${configObj.wWidth}; height: ${configObj.wHeight}; min-width: 320px; min-height: 250px; display: flex; flex-direction: column; overflow: hidden; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); ${configObj.isResizable ? "resize: both; overflow: auto; position: absolute;" : "position: relative; max-width: 800px;"} }
+    #FX_ROOT_${uid} .card-header { background: rgba(255,255,255,0.05); padding: 15px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: ${configObj.isResizable ? "move" : "default"}; user-select: none; display: flex; justify-content: space-between; align-items: center; }
+    #FX_ROOT_${uid} .card-body { padding: 25px; flex: 1; display: flex; flex-direction: column; justify-content: center; overflow-y: auto; }
+    #FX_ROOT_${uid} .screen { display: none; width: 100%; }
+    #FX_ROOT_${uid} .screen.active { display: block; }
+    #FX_ROOT_${uid} input[type="text"] { width: 100%; padding: 14px; background: rgba(0,0,0,0.4); border: 1px solid ${accentColor}; color: white; border-radius: 10px; font-size: 15px; margin-bottom: 20px; outline: none; }
+    #FX_ROOT_${uid} .top-hud { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 14px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 12px; }
+    #FX_ROOT_${uid} .lives-container { color: #ff3366; font-size: 16px; letter-spacing: 2px; }
+    #FX_ROOT_${uid} .timer-container { font-variant-numeric: tabular-nums; color: ${accentColor}; font-size: 16px; background: rgba(0,0,0,0.3); padding: 4px 12px; border-radius: 8px; }
+    #FX_ROOT_${uid} .block-label { color: ${accentColor}; background: ${accentColor}20; padding: 4px 10px; border-radius: 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    #FX_ROOT_${uid} .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; white-space: pre-line; }
+    #FX_ROOT_${uid} .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+    @media(max-width: 500px) { #FX_ROOT_${uid} .options-stack { grid-template-columns: 1fr; } }
+    #FX_ROOT_${uid} .opt-btn { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; text-align: center; color: inherit; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-family: inherit; }
+    #FX_ROOT_${uid} .opt-btn:hover:not(:disabled) { background: ${accentColor}20; border-color: ${accentColor}; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+    #FX_ROOT_${uid} .opt-btn:disabled { cursor: not-allowed; opacity: 0.7; }
+    #FX_ROOT_${uid} .hint-box { background: rgba(0,0,0,0.3); border-left: 4px solid ${accentColor}; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 14px; display: none; color: #e5e7eb; line-height: 1.5; }
+    #FX_ROOT_${uid} .feedback-banner { padding: 14px; border-radius: 10px; text-align: center; font-weight: 800; margin-bottom: 15px; display: none; font-size: 15px; letter-spacing: 0.5px; }
+    #FX_ROOT_${uid} .btn-action { background: ${accentColor}; border: none; color: #0c0f1d; padding: 14px 28px; border-radius: 10px; font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 0 auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s; }
+    #FX_ROOT_${uid} .btn-action:hover { filter: brightness(1.1); transform: translateY(-2px); color: white; }
+    #FX_ROOT_${uid} .btn-full { display: block; width: 100%; margin-bottom: 15px; }
+    #FX_ROOT_${uid} .progress-container { background: rgba(255,255,255,0.1); border-radius: 10px; height: 12px; margin: 15px 0; overflow: hidden; }
+    #FX_ROOT_${uid} .progress-bar-fill { background: linear-gradient(90deg, #10b981, ${accentColor}); height: 100%; width: 0%; transition: width 1s ease-out; }
+    #FX_ROOT_${uid} .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; font-size: 14px; }
+    #FX_ROOT_${uid} .stat-box { background: rgba(0,0,0,0.3); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align:center; }
+    #FX_ROOT_${uid} .badge-container { display: flex; gap: 10px; justify-content: center; margin: 15px 0; flex-wrap: wrap; }
+    #FX_ROOT_${uid} .badge-item { background: linear-gradient(135deg, rgba(255,215,0,0.2), rgba(255,165,0,0.2)); border: 1px solid #ffd700; padding: 8px 12px; border-radius: 20px; font-size: 13px; display: inline-flex; align-items: center; gap: 5px; color:white; }
+    #FX_ROOT_${uid} .bonus-box { background: linear-gradient(145deg, rgba(168,85,247,0.2), rgba(0,0,0,0.5)); border: 2px dashed #a855f7; padding: 15px; border-radius: 12px; text-align: center; margin-top: 15px; color:white; }
+    #FX_ROOT_${uid} .feedback-advice { background: rgba(255, 51, 102, 0.1); border-left: 4px solid #ff3366; padding: 12px; border-radius: 6px; margin: 15px 0; font-size: 13px; line-height:1.5; color:#f8fafc;}
+    #FX_ROOT_${uid} .rewards-shelf { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); }
+    #FX_ROOT_${uid} .reward-icon-wrapper { position: relative; width: 75px; height: 75px; border-radius: 12px; border: 2px solid ${accentColor}; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; box-shadow: 0 0 15px ${accentColor}40; }
+    #FX_ROOT_${uid} .reward-icon-wrapper:hover { transform: scale(1.05); }
+    #FX_ROOT_${uid} .reward-icon-wrapper img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+    #FX_ROOT_${uid} .reward-badge { position: absolute; bottom: -8px; right: -8px; background: #10b981; color: white; font-size: 10px; padding: 3px 6px; border-radius: 10px; font-weight: 800; }
+    #FX_ROOT_${uid} .reward-play-badge { position: absolute; top: -8px; left: -8px; background: ${accentColor}; color: #0c0f1d; font-size: 9px; padding: 3px 8px; border-radius: 10px; font-weight: 800; text-transform: uppercase; pointer-events: none; }
+    #FX_ROOT_${uid} .game-modal { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(5px); }
+    #FX_ROOT_${uid} .game-modal-content { position: relative; width: 100%; max-width: 900px; height: 80vh; background: #161b2e; border-radius: 16px; border: 2px solid ${accentColor}; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
+    #FX_ROOT_${uid} .game-modal-header { padding: 12px 20px; background: rgba(0,0,0,0.6); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    #FX_ROOT_${uid} .game-modal-close { background: none; border: none; color: #ff3366; font-size: 24px; font-weight: 700; cursor: pointer; }
+    #FX_ROOT_${uid} .game-modal-iframe { width: 100%; flex-grow: 1; border: none; background: #000; }
+    #FX_ROOT_${uid} .artifact-popup-card { width: 250px; height: 250px; border-radius: 20px; border: 3px solid ${accentColor}; overflow: hidden; margin-bottom: 20px; transition: 0.3s; box-shadow: 0 0 20px ${accentColor}80; }
+</style>
 
-        <div class="q-body" id="q-text">Loading simulation data...</div>
-        <div class="options-stack" id="options-box"></div>
-        <div class="feedback-banner" id="feedback-block"></div>
-        <div class="hint-box" id="hint-block"></div>
-        
-        <div style="display:flex; justify-content:space-between; align-items:center;">
-            <div id="hud-score" style="font-weight:800; font-size:16px; color:#10b981;">Score: 0</div>
-            <button class="btn-action" id="next-action-btn" onclick="advanceWorkflow()">Next</button>
+<div id="FX_ROOT_${uid}">
+    <div class="trainer-card" id="main-node-${uid}">
+        <div class="card-header" id="cardHeader-${uid}">
+            <span>🧠 Экзаменариум</span>
+            <span style="font-size: 12px; opacity:0.6;" id="header-timer-${uid}">00:00</span>
         </div>
-        <div class="rewards-shelf" id="shelf-block" style="display:none;"></div>
+        
+        <div class="card-body">
+            <div id="screen-welcome-${uid}" class="screen active">
+                <h2 style="margin-bottom:10px; text-align:center;">${configObj.welcomeTitle}</h2>
+                <p style="color:rgba(255,255,255,0.7); font-size:14px; margin-bottom:20px; text-align:center;">${configObj.welcomeSubtitle}</p>
+                <input type="text" id="student-name-${uid}" placeholder="Имя ученика..." autocomplete="off">
+                <button class="btn-action btn-full" style="display:block;" onclick="window.${wID}.startTrainer()">${configObj.welcomeBtnText}</button>
+            </div>
+
+            <div id="screen-quiz-${uid}" class="screen">
+                <div class="top-hud">
+                    <div><span class="block-label" id="hud-block-name-${uid}"></span><span id="hud-progress-${uid}" style="margin-left: 10px;"></span></div>
+                    ${configObj.timerActive ? `<div class="timer-container">⏱ <span id="hud-timer-${uid}">00</span></div>` : ""}
+                    <div class="lives-container" id="hud-lives-${uid}"></div>
+                </div>
+
+                <div class="q-body" id="q-text-${uid}">Loading...</div>
+                <div class="options-stack" id="options-box-${uid}"></div>
+                <div class="feedback-banner" id="feedback-block-${uid}"></div>
+                <div class="hint-box" id="hint-block-${uid}"></div>
+                
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div id="hud-score-${uid}" style="font-weight:800; font-size:16px; color:#10b981;">Score: 0</div>
+                    <button class="btn-action" id="next-action-btn-${uid}" onclick="window.${wID}.advanceWorkflow()">Далее</button>
+                </div>
+                <div class="rewards-shelf" id="shelf-block-${uid}" style="display:none;"></div>
+            </div>
+
+            <div id="screen-results-${uid}" class="screen">
+                <h2 style="text-align:center;">${configObj.resultsTitleText}</h2>
+                <p id="student-congrats-${uid}" style="font-weight:600; color:${accentColor}; text-align:center; margin-top:10px;"></p>
+                
+                <div class="progress-container">
+                    <div class="progress-bar-fill" id="final-progress-${uid}"></div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-box">Точность<br><b id="stat-score-${uid}" style="color:#10b981; font-size:18px;">0%</b></div>
+                    <div class="stat-box">Время<br><b id="stat-total-time-${uid}" style="font-size:18px;">0с</b></div>
+                </div>
+
+                <div id="time-by-blocks-${uid}" style="font-size:13px; color:rgba(255,255,255,0.7); margin-bottom:15px; padding:10px; background:rgba(0,0,0,0.3); border-radius:8px;"></div>
+                <div id="feedback-analysis-${uid}"></div>
+
+                <div id="earned-badges-title-${uid}" style="font-size:12px; text-transform:uppercase; color:rgba(255,255,255,0.7); font-weight:700; display:none; text-align:center; margin-top:15px;">Награды:</div>
+                <div class="badge-container" id="badges-list-${uid}"></div>
+                <div class="rewards-shelf" id="final-artifacts-shelf-${uid}" style="border:none; padding-top:0; margin-top:0;"></div>
+                <div id="bonus-container-${uid}"></div>
+                
+                <div style="display:flex; gap:10px; margin-top:20px;">
+                    <button class="btn-action" id="share-btn-${uid}" style="flex:1; display:none; background:#3a86ff; color:white;" onclick="window.${wID}.shareResults()">📢 Поделиться</button>
+                    <button class="btn-action" style="flex:1; display:block; color:white;" onclick="window.${wID}.resetTrainer()">🔄 Заново</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="game-modal" id="modal-game-box">
-        <div class="game-modal-content" id="modal-inner-content"></div>
+    <div class="game-modal" id="modal-game-box-${uid}">
+        <div class="game-modal-content" id="modal-inner-content-${uid}"></div>
     </div>
+    ${loadedBgAudio ? `<audio id="bg-audio-player-${uid}" src="${loadedBgAudio}" loop autoplay style="display:none;"></audio>` : ""}
+</div>
 
-    ${loadedBgAudio ? `<audio id="bg-audio-player" src="${loadedBgAudio}" loop autoplay style="display:none;"></audio>` : ''}
-
-    <script>
+<script>
+    (function() {
+        const root = document.getElementById("FX_ROOT_${uid}");
+        const $id = (id) => root.querySelector("#" + id + "-${uid}");
+        const W = window.${wID} = {};
+        
         const runtimeTasks = ${JSON.stringify(targetTasks)};
         const rewardsPool = ${JSON.stringify(parsedArtifacts)};
-        const config = {
-            maxLives: ${maxLives}, timerActive: ${timerActive}, timerDuration: ${timerDuration},
-            repeatOnErr: ${repeatOnErr}, hintsActive: ${hintsActive}, aiAdaptive: ${aiAdaptive},
-            streakThresh: ${streakThresh}, distractorSetting: "${distractorSetting}",
-            lang: "${compiledLang}", artifactTiming: "${artifactTiming}"
-        };
-        let currentIdx = 0; let score = 0; let currentLives = config.maxLives;
-        let timerInterval = null; let timeLeft = config.timerDuration;
-        let correctStreak = 0; let isAnswered = false; let earnedArtifacts = new Set();
-        const labels = {
-            ru: { win: "🏆 Поздравляем! Все задания пройдены!", lose: "💀 Игра окончена! Закончились жизни.", correct: "🎉 Верно!", wrong: "❌ Ошибка!", next: "Далее", finish: "Завершить", hintTitle: "Пояснение: ", clickToPlay: "Кликни, чтобы играть!" },
-            en: { win: "🏆 Outstanding! Simulation complete!", lose: "💀 Simulation failure! 0 HP.", correct: "🎉 Correct!", wrong: "❌ Incorrect!", next: "Advance", finish: "Terminate", hintTitle: "Explanation: ", clickToPlay: "Click to play game!" }
-        }[config.lang];
+        const config = ${JSON.stringify(configObj)};
+        
+        let currentIdx = 0, score = 0, currentLives = config.maxLives;
+        let timerInterval = null, timeLeft = config.timerDuration;
+        let correctStreak = 0, maxStreak = 0, isAnswered = false;
+        let earnedArtifacts = new Set(), earnedBadges = [];
+        let studentName = "", sessionStartTime, sessionTotalTime, blockStats = {};
 
-        function initSimulation() {
-            if(!runtimeTasks || runtimeTasks.length === 0) {
-                document.getElementById('q-text').innerText = "Нет выбранных заданий для генерации."; return;
-            }
-            renderHP(); renderQuestion();
+        if(config.isResizable) {
+            const card = $id("main-node");
+            const header = $id("cardHeader");
+            let isDragging = false, initialX, initialY, xOffset = 0, yOffset = 0;
+            header.addEventListener("mousedown", (e) => { if(e.target === header || header.contains(e.target)) { initialX = e.clientX - xOffset; initialY = e.clientY - yOffset; isDragging = true; }});
+            document.addEventListener("mouseup", () => { isDragging = false; });
+            document.addEventListener("mousemove", (e) => { if(isDragging) { e.preventDefault(); xOffset = e.clientX - initialX; yOffset = e.clientY - initialY; card.style.transform = "translate(" + xOffset + "px, " + yOffset + "px)"; }});
         }
 
-        function renderHP() { document.getElementById('hud-lives').innerHTML = "❤️".repeat(Math.max(0, currentLives)); }
+        W.startTrainer = function() {
+            if(!runtimeTasks || runtimeTasks.length === 0) { alert("Заданий не найдено!"); return; }
+            studentName = $id("student-name").value.trim() || "Студент";
+            $id("screen-welcome").classList.remove("active");
+            $id("screen-quiz").classList.add("active");
+            sessionStartTime = Date.now();
+            
+            setInterval(() => {
+                let diff = Math.floor((Date.now() - sessionStartTime) / 1000);
+                let m = String(Math.floor(diff / 60)).padStart(2, "0");
+                let s = String(diff % 60).padStart(2, "0");
+                $id("header-timer").innerText = m + ":" + s;
+            }, 1000);
+            renderHP(); renderQuestion();
+        };
+
+        function renderHP() { $id("hud-lives").innerHTML = "❤️".repeat(Math.max(0, currentLives)); }
 
         function renderQuestion() {
             isAnswered = false;
-            document.getElementById('feedback-block').style.display = 'none';
-            document.getElementById('hint-block').style.display = 'none';
-            document.getElementById('next-action-btn').style.display = 'none';
+            $id("feedback-block").style.display = "none";
+            $id("hint-block").style.display = "none";
+            $id("next-action-btn").style.display = "none";
             if(timerInterval) clearInterval(timerInterval);
             
             if(currentIdx >= runtimeTasks.length) { endSimulation(true); return; }
 
             const t = runtimeTasks[currentIdx];
-            document.getElementById('hud-block-name').innerText = t.aspectName || "Task";
-            document.getElementById('hud-progress').innerText = \`\${currentIdx + 1} / \${runtimeTasks.length}\`;
+            const aspectStr = t.aspectName || "Задание";
+            $id("hud-block-name").innerText = aspectStr;
+            $id("hud-progress").innerText = currentIdx + 1 + " / " + runtimeTasks.length;
             
-            // УМНОЕ ОБЪЕДИНЕНИЕ: Текст + Вопрос
-            let displayQ = t.q;
-            if(t.question) displayQ += '\\n\\n' + t.question;
-            document.getElementById('q-text').innerText = displayQ;
+            if(!blockStats[aspectStr]) blockStats[aspectStr] = { total: 0, correct: 0, time: 0 };
+            blockStats[aspectStr].total++;
+            blockStats[aspectStr].questionStartTime = Date.now();
 
+            let displayQ = t.q;
+            if(t.question) displayQ += "\\n\\n" + t.question;
+            $id("q-text").innerText = displayQ;
+            
             const answers = [t.a];
             let dists = [];
-            
-            // УМНОЕ ЧТЕНИЕ: Старый формат (distractors) или Новый формат (options)
             if (t.distractors && t.distractors[config.distractorSetting]) {
                 dists = t.distractors[config.distractorSetting];
             } else if (t.options && Array.isArray(t.options)) {
                 dists = t.options.filter(opt => opt !== t.a);
             }
-            
             dists.forEach(d => { if(d && !answers.includes(d) && answers.length < 4) answers.push(d); });
             answers.sort(() => Math.random() - 0.5);
 
-            const oBox = document.getElementById('options-box');
-            oBox.innerHTML = '';
+            const oBox = $id("options-box");
+            oBox.innerHTML = "";
             answers.forEach(ans => {
-                const b = document.createElement('button');
-                b.className = 'opt-btn'; b.innerText = ans; b.onclick = () => verifyAnswer(ans, b);
+                const b = document.createElement("button");
+                b.className = "opt-btn"; b.innerText = ans; b.onclick = () => verifyAnswer(ans, b);
                 oBox.appendChild(b);
             });
+            
             if(config.timerActive) { 
                 timeLeft = config.timerDuration;
-                document.getElementById('hud-timer').innerText = timeLeft;
-                startClock();
+                $id("hud-timer").innerText = timeLeft;
+                timerInterval = setInterval(() => {
+                    if(!isAnswered) {
+                        timeLeft--; $id("hud-timer").innerText = timeLeft < 10 ? "0" + timeLeft : timeLeft;
+                        if(timeLeft <= 0) { clearInterval(timerInterval); verifyAnswer("", null); }
+                    }
+                }, 1000);
             }
         }
-
-        function startClock() {
-            if(!config.timerActive) return;
-            timerInterval = setInterval(() => {
-                if(!isAnswered) {
-                    timeLeft--;
-                    document.getElementById('hud-timer').innerText = timeLeft < 10 ? '0' + timeLeft : timeLeft;
-                    if(timeLeft <= 0) { clearInterval(timerInterval); handleTimeout(); }
-                }
-            }, 1000);
-        }
-
-        function handleTimeout() { verifyAnswer("", null); }
 
         function verifyAnswer(chosen, buttonEl) {
             if(isAnswered) return;
@@ -909,48 +1093,64 @@
             if(timerInterval) clearInterval(timerInterval);
 
             const t = runtimeTasks[currentIdx];
-            const fBlock = document.getElementById('feedback-block');
-            document.querySelectorAll('.opt-btn').forEach(b => {
+            const aspectStr = t.aspectName || "Задание";
+            const duration = (Date.now() - blockStats[aspectStr].questionStartTime) / 1000;
+            blockStats[aspectStr].time += duration;
+
+            const fBlock = $id("feedback-block");
+            root.querySelectorAll(".opt-btn").forEach(b => {
                 b.disabled = true;
                 if(b.innerText === t.a) { b.style.borderColor = "#10b981"; b.style.background = "rgba(16,185,129,0.1)"; }
             });
+            
             if(config.hintsActive && t.hint) {
-                const hBlock = document.getElementById('hint-block');
-                hBlock.innerHTML = \`<strong style="color:${accentColor};">\${labels.hintTitle}</strong> \${t.hint}\`;
-                hBlock.style.display = 'block';
+                const hBlock = $id("hint-block");
+                hBlock.innerHTML = "<strong style='color:${accentColor};'>Пояснение: </strong>" + t.hint;
+                hBlock.style.display = "block";
             }
 
             if(chosen === t.a) {
-                score += 10; correctStreak++;
+                score += 10;
+                correctStreak++;
+                if(correctStreak > maxStreak) maxStreak = correctStreak;
                 if(config.aiAdaptive && correctStreak >= config.streakThresh) score += 5;
-                document.getElementById('hud-score').innerText = \`Score: \${score}\`;
+                blockStats[aspectStr].correct++;
+                
+                $id("hud-score").innerText = "Score: " + score;
                 fBlock.className = "feedback-banner"; fBlock.style.backgroundColor = "rgba(16,185,129,0.2)"; fBlock.style.color = "#10b981";
-                fBlock.innerText = labels.correct;
+                fBlock.innerText = "🎉 Верно!";
                 checkArtifactUnlock(score);
-                document.getElementById('next-action-btn').style.display = 'block';
-                document.getElementById('next-action-btn').innerText = (currentIdx === runtimeTasks.length - 1) ? labels.finish : labels.next;
+                $id("next-action-btn").style.display = "block";
+                $id("next-action-btn").innerText = (currentIdx === runtimeTasks.length - 1) ? "Завершить" : "Далее";
             } else {
-                correctStreak = 0; currentLives--; renderHP();
-                fBlock.className = "feedback-banner"; fBlock.style.backgroundColor = "rgba(244,63,94,0.2)"; fBlock.style.color = "#f43f5e";
-                fBlock.innerText = \`\${labels.wrong} Correct: \${t.a}\`;
-                if(buttonEl) buttonEl.style.borderColor = "#f43f5e";
+                correctStreak = 0;
+                currentLives--; renderHP();
+                fBlock.className = "feedback-banner"; fBlock.style.backgroundColor = "rgba(255,51,102,0.2)"; fBlock.style.color = "#ff3366";
+                fBlock.innerText = "❌ Ошибка! Верно: " + t.a;
+                if(buttonEl) buttonEl.style.borderColor = "#ff3366";
+                
                 if(currentLives <= 0) {
                     setTimeout(() => { endSimulation(false); }, 2000);
                 } else {
                     if(config.repeatOnErr) {
                         isAnswered = false;
                         setTimeout(() => {
-                            fBlock.style.display = 'none'; document.getElementById('hint-block').style.display = 'none';
-                            document.querySelectorAll('.opt-btn').forEach(b => { b.disabled = false; b.style.borderColor = "rgba(255,255,255,0.1)"; b.style.background = "rgba(0,0,0,0.4)"; });
-                            if(config.timerActive) startClock();
+                            fBlock.style.display = "none"; $id("hint-block").style.display = "none";
+                            root.querySelectorAll(".opt-btn").forEach(b => { b.disabled = false; b.style.borderColor = "rgba(255,255,255,0.1)"; b.style.background = "rgba(0,0,0,0.4)"; });
+                            if(config.timerActive) {
+                                timeLeft = config.timerDuration; $id("hud-timer").innerText = timeLeft;
+                                timerInterval = setInterval(() => {
+                                    if(!isAnswered) { timeLeft--; $id("hud-timer").innerText = timeLeft < 10 ? "0" + timeLeft : timeLeft; if(timeLeft <= 0) { clearInterval(timerInterval); verifyAnswer("", null); } }
+                                }, 1000);
+                            }
                         }, 2000);
                     } else {
-                        document.getElementById('next-action-btn').style.display = 'block';
-                        document.getElementById('next-action-btn').innerText = (currentIdx === runtimeTasks.length - 1) ? labels.finish : labels.next;
+                        $id("next-action-btn").style.display = "block";
+                        $id("next-action-btn").innerText = (currentIdx === runtimeTasks.length - 1) ? "Завершить" : "Далее";
                     }
                 }
             }
-            fBlock.style.display = 'block';
+            fBlock.style.display = "block";
         }
 
         function checkArtifactUnlock(currentScore) {
@@ -958,95 +1158,158 @@
             foundArts.forEach(art => {
                 if(!earnedArtifacts.has(art.score)) {
                     earnedArtifacts.add(art.score);
-                    if(config.artifactTiming === 'immediate') showArtifactPopup(art);
+                    if(config.artifactTiming === "immediate") showArtifactPopup(art);
                 }
             });
         }
-
+        
         function showArtifactPopup(art) {
-            const modal = document.getElementById('modal-game-box');
-            const content = document.getElementById('modal-inner-content');
-            content.style.maxWidth = "400px"; content.style.height = "auto"; content.style.alignItems = "center"; content.style.padding = "30px"; content.style.background = "#121420";
-            let clickBtn = art.link ? \`<button class="btn-action" style="display:block; margin: 15px auto 0; background: #10b981; color: white; width: 100%; box-shadow: 0 4px 15px rgba(16,185,129,0.4);" onclick="openGameFrame('\${art.link}')">🎮 Играть сейчас!</button>\` : '';
-            content.innerHTML = \`<h2 style="color:white; margin-bottom:20px; text-align:center;">Новый Артефакт!</h2>
-                <div class="artifact-popup-card"><img src="\${art.img}" style="width:100%; height:100%; object-fit:cover;"></div>\${clickBtn}
-                <button class="btn-action" style="display:block; margin: 15px auto 0; width: 100%; color: #000;" onclick="closeModal()">Продолжить тренажер</button>\`;
-            modal.style.display = 'flex';
+            const modal = $id("modal-game-box");
+            const content = $id("modal-inner-content");
+            content.style.maxWidth = "350px"; content.style.height = "auto"; content.style.alignItems = "center"; content.style.padding = "25px"; content.style.background = "#161b2e";
+            let clickBtn = art.link ? "<button class='btn-action btn-full' style='display:block; background: #10b981; color: white;' onclick='window." + wID + ".openGameFrame(\\"" + art.link + "\\")'>🎮 Играть сейчас!</button>" : "";
+            content.innerHTML = "<h2 style='color:white; margin-bottom:15px; text-align:center;'>Новый Артефакт!</h2>" +
+                "<div class='artifact-popup-card'><img src='" + art.img + "' style='width:100%; height:100%; object-fit:cover;'></div>" + clickBtn +
+                "<button class='btn-action btn-full' style='display:block; color: white;' onclick='window." + wID + ".closeModal()'>Продолжить</button>";
+            modal.style.display = "flex";
         }
 
-        window.openGameFrame = function(url) {
-            const modal = document.getElementById('modal-game-box');
-            const content = document.getElementById('modal-inner-content');
-            content.style.maxWidth = "900px"; content.style.height = "80vh"; content.style.padding = "0";
-            content.innerHTML = \`<div class="game-modal-header"><span style="font-weight:700; font-size:14px;">🎮 Игровая зона артефакта</span><button class="game-modal-close" onclick="closeModal()">✕</button></div>
-                <iframe class="game-modal-iframe" src="\${url}" allow="autoplay; fullscreen"></iframe>\`;
-            modal.style.display = 'flex';
-        }
-
-        window.closeModal = function() { document.getElementById('modal-game-box').style.display = 'none'; document.getElementById('modal-inner-content').innerHTML = ''; }
-        function advanceWorkflow() { currentIdx++; renderQuestion(); }
+        W.openGameFrame = function(url) {
+            const modal = $id("modal-game-box");
+            const content = $id("modal-inner-content");
+            content.style.maxWidth = "90%" ; content.style.height = "85vh"; content.style.padding = "0";
+            content.innerHTML = "<div class='game-modal-header'><span style='font-weight:700; font-size:14px;'>🎮 Игровая зона</span><button class='game-modal-close' onclick='window." + wID + ".closeModal()'>✕</button></div>" +
+                "<iframe class='game-modal-iframe' src='" + url + "' allow='autoplay; fullscreen'></iframe>";
+            modal.style.display = "flex";
+        };
+        
+        W.closeModal = function() { 
+            $id("modal-game-box").style.display = "none";
+            $id("modal-inner-content").innerHTML = ""; 
+        };
+        
+        W.advanceWorkflow = function() { currentIdx++; renderQuestion(); };
 
         function endSimulation(isWin) {
             if(timerInterval) clearInterval(timerInterval);
-            const node = document.getElementById('main-node');
-            if(config.artifactTiming === 'end') {
+            sessionTotalTime = Math.floor((Date.now() - sessionStartTime) / 1000);
+            $id("screen-quiz").classList.remove("active");
+            $id("screen-results").classList.add("active");
+
+            const percent = Math.round((blockStats && Object.keys(blockStats).length > 0) ? 
+                (Object.values(blockStats).reduce((a,b)=>a+b.correct,0) / runtimeTasks.length) * 100 : 0) || 0;
+
+            $id("student-congrats").innerText = studentName + (isWin ? ", тренировка завершена!" : ", жизни закончились!");
+            $id("student-congrats").style.color = isWin ? "${accentColor}" : "#ff3366";
+            setTimeout(()=> { $id("final-progress").style.width = percent + "%"; }, 100);
+            $id("stat-score").innerText = percent + "%";
+            $id("stat-total-time").innerText = sessionTotalTime + "с";
+
+            let timeReportHtml = "<div style='font-weight:700; margin-bottom:8px;'>⏱️ Среднее время ответа:</div>";
+            let weakBlocks = [];
+            for (let b in blockStats) {
+                let avg = (blockStats[b].time / blockStats[b].total).toFixed(1);
+                let acc = Math.round((blockStats[b].correct / blockStats[b].total) * 100);
+                timeReportHtml += "<div>• " + b + ": <b>" + avg + "с</b> (Точность: " + acc + "%)</div>";
+                if(acc < 70) weakBlocks.push(b);
+            }
+            $id("time-by-blocks").innerHTML = timeReportHtml;
+            
+            let errorsReportHtml = "";
+            if(!isWin) {
+                errorsReportHtml = "<div class='feedback-advice'>💀 Тест провален. Необходимо изучить теорию и попробовать снова!</div>";
+            } else if(weakBlocks.length > 0) {
+                errorsReportHtml = "<div class='feedback-advice'>💡 <b>Совет:</b> Обратите внимание на темы: <b>" + weakBlocks.join(", ") + "</b>. Процент правильных ответов ниже нормы.</div>";
+            } else if (percent < 100) {
+                errorsReportHtml = "<div class='feedback-advice' style='border-color:${accentColor}; background:rgba(0,242,254,0.05); color:white;'>💡 Отличный общий уровень! Перепроверьте ошибки, вызванные невнимательностью.</div>";
+            } else {
+                errorsReportHtml = "<div class='feedback-advice' style='border-color:#10b981; background:rgba(16,185,129,0.05); color:#10b981;'>🏆 Идеально! Весь материал полностью освоен.</div>";
+            }
+            $id("feedback-analysis").innerHTML = errorsReportHtml;
+            
+            const badgesList = $id("badges-list");
+            if(maxStreak >= 4 && config.badgeStreak) earnedBadges.push(config.badgeStreak);
+            if(percent === 100 && config.badgePerfect) earnedBadges.push(config.badgePerfect);
+            if(earnedBadges.length > 0) {
+                $id("earned-badges-title").style.display = "block";
+                $id("share-btn").style.display = "block";
+                earnedBadges.forEach(b => {
+                    const el = document.createElement("span"); el.className = "badge-item"; el.innerText = b; badgesList.appendChild(el);
+                });
+            }
+
+            if(config.artifactTiming === "end") {
                 const foundArts = rewardsPool.filter(a => a.score <= score);
                 foundArts.forEach(art => earnedArtifacts.add(art.score));
             }
-            let artifactsHTML = '';
+            let artifactsHTML = "";
             rewardsPool.forEach(r => {
                 if(earnedArtifacts.has(r.score)) {
-                    let clickEvt = r.link ? \`onclick="openGameFrame('\${r.link}')"\` : '';
-                    let titleAttr = r.link ? \`title="\${labels.clickToPlay}"\` : '';
-                    let cursorStyle = r.link ? 'cursor:pointer; border-color:#10b981;' : '';
-                    let playBadge = r.link ? \`<span class="reward-play-badge">▶ Играть</span>\` : '';
-                    artifactsHTML += \`<div class="reward-icon-wrapper" style="\${cursorStyle}" \${clickEvt} \${titleAttr}>
-                            <img src="\${r.img}"><span class="reward-badge">\${r.score} XP</span>\${playBadge}</div>\`;
+                    let clickEvt = r.link ? "onclick='window." + wID + ".openGameFrame(\\"" + r.link + "\\")'" : "";
+                    let cursorStyle = r.link ? "cursor:pointer; border-color:#10b981;" : "";
+                    let playBadge = r.link ? "<span class='reward-play-badge'>▶ Играть</span>" : "";
+                    artifactsHTML += "<div class='reward-icon-wrapper' style='" + cursorStyle + "' " + clickEvt + "><img src='" + r.img + "'><span class='reward-badge'>" + r.score + " XP</span>" + playBadge + "</div>";
                 }
             });
-            node.innerHTML = \`<div style="text-align:center; padding:20px;">
-                    <h2 style="font-size:26px; margin-bottom:15px; color:\${isWin ? 'white' : '#f43f5e'}">\${isWin ? labels.win : labels.lose}</h2>
-                    <p style="font-size:20px; color:#10b981; font-weight:800; margin-bottom:30px;">Final Score: \${score} XP</p>
-                    \${artifactsHTML ? \`<div style="font-size:14px; color:var(--text-muted); margin-bottom:10px;">Заработанные Артефакты \${rewardsPool.some(r => r.link && earnedArtifacts.has(r.score)) ? '(Кликните, чтобы играть)' : ''}:</div>\` : ''}
-                    <div class="rewards-shelf" style="border:none; margin-top:0; padding-top:0;">\${artifactsHTML}</div>
-                    <button class="btn-action" style="display:block; margin: 30px auto 0; color: #000;" onclick="window.location.reload()">Начать заново</button>
-                </div>\`;
+            if(artifactsHTML) {
+                $id("final-artifacts-shelf").innerHTML = artifactsHTML;
+                $id("final-artifacts-shelf").style.paddingTop = "20px";
+            }
+
+            const bonusContainer = $id("bonus-container");
+            if(percent >= config.bonusThreshold) {
+                bonusContainer.innerHTML = "<div class='bonus-box'>🔓 <b>Бонус разблокирован!</b><br><span style='font-size:15px; color:#ffd700; font-weight:bold;'>" + config.bonusContent + "</span></div>";
+            } else {
+                bonusContainer.innerHTML = "<div style='font-size:12px; color:rgba(255,255,255,0.7); text-align:center; margin-top:15px;'>🔒 Наберите " + config.bonusThreshold + "% верных ответов, чтобы открыть бонус.</div>";
+            }
         }
 
-        window.onload = initSimulation;
-    <\/script>
-</body>
-</html>`;
+        W.shareResults = function() {
+            const shareText = "Я прошел тест '" + document.title + "' с результатом " + score + " XP! Мои бейджи: " + earnedBadges.join(", ");
+            if (navigator.share) {
+                navigator.share({ title: "Учебные успехи", text: shareText, url: window.location.href }).catch(e => {});
+            } else {
+                window.open("mailto:?subject=Мои результаты&body=" + encodeURIComponent(shareText), "_blank");
+            }
+        };
+        
+        W.resetTrainer = function() {
+            currentIdx = 0; score = 0; currentLives = config.maxLives;
+            correctStreak = 0; maxStreak = 0; isAnswered = false;
+            earnedArtifacts = new Set(); earnedBadges = [];
+            blockStats = {};
+            $id("screen-results").classList.remove("active");
+            $id("screen-quiz").classList.add("active");
+            sessionStartTime = Date.now();
+            renderHP(); renderQuestion();
+        };
+    })();
+<\/script>
+`;
+
+            const escapedSrcdoc = rawWidgetHTML.replace(/'/g, "&apos;");
+            const iframeCode = `<iframe width="100%" height="${configObj.wHeight === 'auto' ? '600px' : configObj.wHeight}" style="border:none; border-radius:12px; background:transparent;" allow="autoplay; fullscreen" srcdoc='${escapedSrcdoc}'></iframe>`;
+
+            return { iframe: iframeCode, rawHtml: rawWidgetHTML };
         }
 
-        // =====================================================================
-        // 💾 4. ГЕНЕРАЦИЯ, КОДИРОВКА IFRAME BASE64 И ЭКСПОРТ
-        // =====================================================================
         async function generateTrainer() {
-            const code = await compileCoreWidgetCode();
-            // Надежное кодирование для Genially: превращаем весь код в Base64 data-URI
-            // Это решает проблему со слишком длинным srcdoc, который обрезается на других платформах
-            const encodedHtml = btoa(unescape(encodeURIComponent(code)));
-            const dataUri = `data:text/html;base64,${encodedHtml}`;
-
-            const finalIframe = `<iframe src="${dataUri}" width='100%' height='550px' style='border:none; border-radius:12px; background:transparent;' allow='autoplay; fullscreen'></iframe>`;
-            document.getElementById('iframe-output').innerText = finalIframe;
-            const viewport = document.getElementById('preview-viewport');
-            viewport.innerHTML = ''; 
-            const previewIframe = document.createElement('iframe');
-            previewIframe.style.width = '100%'; previewIframe.style.height = '100%'; previewIframe.style.border = 'none';
-            viewport.appendChild(previewIframe);
+            const data = await compileCoreWidgetCode();
+            document.getElementById('iframe-output').innerText = data.iframe;
             
-            previewIframe.contentWindow.document.open();
-            previewIframe.contentWindow.document.write(code);
-            previewIframe.contentWindow.document.close();
+            const viewport = document.getElementById('preview-viewport');
+            if (previewMode === 'preview') {
+                viewport.innerHTML = data.iframe;
+            } else {
+                viewport.innerHTML = `<div style="width:100%; height:100%; overflow:auto; position:relative;">${data.rawHtml}</div>`;
+            }
         }
 
-        function copyIframeCode() {
+        function copyWidgetCode() {
             const outputText = document.getElementById('iframe-output').innerText;
-            if(outputText.startsWith("Нажмите") || outputText.startsWith("Click")) return;
+            if(outputText.startsWith("Генерация")) return;
             navigator.clipboard.writeText(outputText).then(() => {
-                const btn = document.querySelector('.btn-secondary');
+                const btn = document.querySelectorAll('.btn-secondary')[0];
                 const oldText = btn.innerHTML;
                 btn.innerHTML = `✓ Скопировано!`;
                 setTimeout(() => { btn.innerHTML = oldText; }, 2000);
@@ -1054,13 +1317,15 @@
         }
 
         async function downloadHTML() {
-            const code = await compileCoreWidgetCode();
-            const blob = new Blob([code], { type: 'text/html' });
+            const data = await compileCoreWidgetCode();
+            const fullHtml = `<!DOCTYPE html>\n<html lang="ru">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>Экзаменариум Trainer Widget</title>\n<style>body{margin:0;padding:0;background:#0c0f1d;display:flex;align-items:center;justify-content:center;min-height:100vh;}</style>\n</head>\n<body>\n${data.iframe}\n</body>\n</html>`;
+            const blob = new Blob([fullHtml], { type: 'text/html' });
             const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
-            link.download = 'trainer_production.html'; link.click();
+            link.download = 'trainer_widget.html'; link.click();
         }
+        
         async function downloadGame() { await downloadHTML(); }
-        function downloadPDF() { alert('PDF Generation is native via Browser. Press Ctrl+P or Cmd+P.'); window.print(); }
+        function downloadPDF() { window.print(); }
 
         function saveJSON() {
             let configState = {
@@ -1069,8 +1334,14 @@
                 timer: document.getElementById('timer-toggle').checked, timerDuration: document.getElementById('timer-duration').value,
                 repeat: document.getElementById('repeat-toggle').checked, theory: document.getElementById('theory-toggle').checked,
                 adaptive: document.getElementById('adaptive-toggle').checked, threshold: document.getElementById('adaptive-threshold').value,
-                distractors: document.getElementById('distractor-trickiness').value, aspects: {},
-                customTasks: { q: document.getElementById('custom-q').value, a: document.getElementById('custom-a').value, d: document.getElementById('custom-d').value, h: document.getElementById('custom-h').value, aspect: document.getElementById('custom-aspect').value },
+                distractors: document.getElementById('distractor-trickiness').value,
+                font: document.getElementById('task-font-style').value, width: document.getElementById('window-width').value,
+                height: document.getElementById('window-height').value, resizable: document.getElementById('window-resizable').checked,
+                badgeStreak: document.getElementById('badge-streak').value, badgePerfect: document.getElementById('badge-perfect').value,
+                bonusThreshold: document.getElementById('bonus-threshold').value, bonusContent: document.getElementById('bonus-content').value,
+                welcomeTitle: document.getElementById('welcome-title').value, welcomeSubtitle: document.getElementById('welcome-subtitle').value,
+                welcomeBtnText: document.getElementById('welcome-btn-text').value, resultsTitleText: document.getElementById('results-title-text').value,
+                aspects: {}, customTasks: { q: document.getElementById('custom-q').value, a: document.getElementById('custom-a').value, d: document.getElementById('custom-d').value, h: document.getElementById('custom-h').value, aspect: document.getElementById('custom-aspect').value },
                 savedArtifacts: []
             };
             const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
@@ -1085,7 +1356,7 @@
                 if (artifactsData[idx]) configState.savedArtifacts.push({ img: artifactsData[idx], score: scoreVal, link: linkVal });
             }
             const blob = new Blob([JSON.stringify(configState, null, 2)], { type: 'application/json' });
-            const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = 'eet_config.json'; link.click();
+            const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = 'examarium_config.json'; link.click();
         }
 
         function loadJSON(event) {
@@ -1094,18 +1365,30 @@
             const reader = new FileReader();
             reader.onload = function(e) {
                 const parsed = JSON.parse(e.target.result);
-                document.getElementById('exam-type').value = parsed.examType || 'ЕГЭ';
-                document.getElementById('vpr-grade').value = parsed.vprGrade || '4';
-                document.getElementById('game-lives').value = parsed.lives || '3';
+                if(parsed.examType) document.getElementById('exam-type').value = parsed.examType;
+                if(parsed.vprGrade) document.getElementById('vpr-grade').value = parsed.vprGrade;
+                if(parsed.lives) document.getElementById('game-lives').value = parsed.lives;
                 if(parsed.artifactTiming) document.getElementById('artifact-timing').value = parsed.artifactTiming;
-                document.getElementById('timer-toggle').checked = !!parsed.timer;
+                if(parsed.timer !== undefined) document.getElementById('timer-toggle').checked = parsed.timer;
                 if(parsed.timerDuration) document.getElementById('timer-duration').value = parsed.timerDuration;
                 document.getElementById('timer-duration').disabled = !parsed.timer;
-                document.getElementById('repeat-toggle').checked = !!parsed.repeat;
-                document.getElementById('theory-toggle').checked = !!parsed.theory;
-                document.getElementById('adaptive-toggle').checked = !!parsed.adaptive;
-                document.getElementById('adaptive-threshold').value = parsed.threshold || '2';
-                document.getElementById('distractor-trickiness').value = parsed.distractors || 'medium';
+                if(parsed.repeat !== undefined) document.getElementById('repeat-toggle').checked = parsed.repeat;
+                if(parsed.theory !== undefined) document.getElementById('theory-toggle').checked = parsed.theory;
+                if(parsed.adaptive !== undefined) document.getElementById('adaptive-toggle').checked = parsed.adaptive;
+                if(parsed.threshold) document.getElementById('adaptive-threshold').value = parsed.threshold;
+                if(parsed.distractors) document.getElementById('distractor-trickiness').value = parsed.distractors;
+                if(parsed.font) document.getElementById('task-font-style').value = parsed.font;
+                if(parsed.width) document.getElementById('window-width').value = parsed.width;
+                if(parsed.height) document.getElementById('window-height').value = parsed.height;
+                if(parsed.resizable !== undefined) document.getElementById('window-resizable').checked = parsed.resizable;
+                if(parsed.badgeStreak) document.getElementById('badge-streak').value = parsed.badgeStreak;
+                if(parsed.badgePerfect) document.getElementById('badge-perfect').value = parsed.badgePerfect;
+                if(parsed.bonusThreshold) document.getElementById('bonus-threshold').value = parsed.bonusThreshold;
+                if(parsed.bonusContent) document.getElementById('bonus-content').value = parsed.bonusContent;
+                if(parsed.welcomeTitle) document.getElementById('welcome-title').value = parsed.welcomeTitle;
+                if(parsed.welcomeSubtitle) document.getElementById('welcome-subtitle').value = parsed.welcomeSubtitle;
+                if(parsed.welcomeBtnText) document.getElementById('welcome-btn-text').value = parsed.welcomeBtnText;
+                if(parsed.resultsTitleText) document.getElementById('results-title-text').value = parsed.resultsTitleText;
                 if (parsed.customTasks) {
                     document.getElementById('custom-q').value = parsed.customTasks.q || '';
                     document.getElementById('custom-a').value = parsed.customTasks.a || '';
@@ -1132,11 +1415,9 @@
         }
         
         window.onload = async () => { 
-            updateEditorLang();
-            toggleVPR(); 
+            toggleVPR();
             toggleAdaptiveSettings(); 
-            await loadAllDatabasesFromGithub(); // 1. Качаем базу данных
-            generateTrainer(); // 2. Собираем тренажер из скачанного
+            await loadAllDatabasesFromGithub(); 
         };
     </script>
 </body>
