@@ -1,0 +1,6002 @@
+[
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'The first public library in our town was built in 1905. Today it holds over 50,000 books and offers modern digital resources for students.'\nStatement: The library was founded in the 20th century.",
+    "a": "True",
+    "hint": "Год 1905 относится к началу XX века (20th century), что подтверждает истинность утверждения.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "False",
+        "Not Stated"
+      ],
+      "medium": [
+        "False",
+        "Not Stated"
+      ],
+      "hard": [
+        "False",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Kate spends her weekends volunteering at an animal shelter. She believes that every pet deserves a loving family.'\nStatement: Kate works at the shelter to earn money.",
+    "a": "False",
+    "hint": "В тексте указано, что она волонтер ('volunteering'), то есть работает безвозмездно, а не ради денег.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "Not Stated"
+      ],
+      "medium": [
+        "True",
+        "Not Stated"
+      ],
+      "hard": [
+        "True",
+        "Not Stated"
+      ]
+    }
+  },
+  {
+    "q": "Read the text: 'Space exploration has made incredible progress over the last fifty years. Astronauts are currently preparing for future missions to Mars.'\nStatement: The first human mission to Mars will take place next year.",
+    "a": "Not Stated",
+    "hint": "В тексте говорится о подготовке к будущим миссиям, но конкретная дата ('next year') не упоминается.",
+    "type": "reading-comprehension",
+    "distractors": {
+      "easy": [
+        "True",
+        "False"
+      ],
+      "medium": [
+        "True",
+        "False"
+      ],
+      "hard": [
+        "True",
+        "False"
+      ]
+    }
+  }
+]
