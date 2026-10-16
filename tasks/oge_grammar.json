@@ -1,0 +1,6902 @@
+[
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (good) than it was yesterday.",
+    "a": "better",
+    "hint": "Исключение: good -> better -> best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "good",
+        "most good"
+      ],
+      "medium": [
+        "good",
+        "more good",
+        "the better"
+      ],
+      "hard": [
+        "good",
+        "more good",
+        "as good as",
+        "less good"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (bad) than it was yesterday.",
+    "a": "worse",
+    "hint": "Исключение: bad -> worse -> worst.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bad",
+        "most bad"
+      ],
+      "medium": [
+        "bad",
+        "more bad",
+        "the worse"
+      ],
+      "hard": [
+        "bad",
+        "more bad",
+        "as bad as",
+        "less bad"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (child) in the park playing football.",
+    "a": "children",
+    "hint": "Множественное число: исключение (child — children).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "child",
+        "childs"
+      ],
+      "medium": [
+        "child",
+        "childes",
+        "child's"
+      ],
+      "hard": [
+        "child",
+        "childes",
+        "childen",
+        "childies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (man) in the park playing football.",
+    "a": "men",
+    "hint": "Множественное число: исключение (man — men).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "man",
+        "mans"
+      ],
+      "medium": [
+        "man",
+        "manes",
+        "man's"
+      ],
+      "hard": [
+        "man",
+        "manes",
+        "manen",
+        "manies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (woman) in the park playing football.",
+    "a": "women",
+    "hint": "Множественное число: исключение (woman — women).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "woman",
+        "womans"
+      ],
+      "medium": [
+        "woman",
+        "womanes",
+        "woman's"
+      ],
+      "hard": [
+        "woman",
+        "womanes",
+        "womanen",
+        "womanies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (foot) in the park playing football.",
+    "a": "feet",
+    "hint": "Множественное число: исключение (foot — feet).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "foot",
+        "foots"
+      ],
+      "medium": [
+        "foot",
+        "footes",
+        "foot's"
+      ],
+      "hard": [
+        "foot",
+        "footes",
+        "footen",
+        "footies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (tooth) in the park playing football.",
+    "a": "teeth",
+    "hint": "Множественное число: исключение (tooth — teeth).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "tooth",
+        "tooths"
+      ],
+      "medium": [
+        "tooth",
+        "toothes",
+        "tooth's"
+      ],
+      "hard": [
+        "tooth",
+        "toothes",
+        "toothen",
+        "toothies"
+      ]
+    }
+  },
+  {
+    "q": "There were a lot of ___ (city) in the park playing football.",
+    "a": "cities",
+    "hint": "Множественное число: буква -y меняется на -ies.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "city",
+        "citys"
+      ],
+      "medium": [
+        "city",
+        "cityes",
+        "city's"
+      ],
+      "hard": [
+        "city",
+        "cityes",
+        "cityen",
+        "cityies"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (go) to the museum.",
+    "a": "went",
+    "hint": "Past Simple: указан маркер прошлого времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "go",
+        "is going"
+      ],
+      "medium": [
+        "go",
+        "have went",
+        "was going"
+      ],
+      "hard": [
+        "go",
+        "have went",
+        "had went",
+        "will go"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (do) to the museum.",
+    "a": "did",
+    "hint": "Past Simple: действие совершено в прошлом.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "do",
+        "is doing"
+      ],
+      "medium": [
+        "do",
+        "have did",
+        "was doing"
+      ],
+      "hard": [
+        "do",
+        "have did",
+        "had did",
+        "will do"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (see) to the museum.",
+    "a": "saw",
+    "hint": "Past Simple: неправильный глагол see.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "see",
+        "is seeing"
+      ],
+      "medium": [
+        "see",
+        "have saw",
+        "was seeing"
+      ],
+      "hard": [
+        "see",
+        "have saw",
+        "had saw",
+        "will see"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (take) to the museum.",
+    "a": "took",
+    "hint": "Past Simple: неправильный глагол take.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "take",
+        "is takeing"
+      ],
+      "medium": [
+        "take",
+        "have took",
+        "was takeing"
+      ],
+      "hard": [
+        "take",
+        "have took",
+        "had took",
+        "will take"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (come) to the museum.",
+    "a": "came",
+    "hint": "Past Simple: неправильный глагол come.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "come",
+        "is comeing"
+      ],
+      "medium": [
+        "come",
+        "have came",
+        "was comeing"
+      ],
+      "hard": [
+        "come",
+        "have came",
+        "had came",
+        "will come"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (write) to the museum.",
+    "a": "wrote",
+    "hint": "Past Simple: неправильный глагол write.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "write",
+        "is writeing"
+      ],
+      "medium": [
+        "write",
+        "have wrote",
+        "was writeing"
+      ],
+      "hard": [
+        "write",
+        "have wrote",
+        "had wrote",
+        "will write"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (read) to the museum.",
+    "a": "read",
+    "hint": "Past Simple: форма прошедшего времени читается как [red].",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "is reading"
+      ],
+      "medium": [
+        "read",
+        "have read",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "have read",
+        "had read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (begin) to the museum.",
+    "a": "began",
+    "hint": "Past Simple: неправильный глагол begin.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "begin",
+        "is begining"
+      ],
+      "medium": [
+        "begin",
+        "have began",
+        "was begining"
+      ],
+      "hard": [
+        "begin",
+        "have began",
+        "had began",
+        "will begin"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (run) to the museum.",
+    "a": "ran",
+    "hint": "Past Simple: неправильный глагол run.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "run",
+        "is runing"
+      ],
+      "medium": [
+        "run",
+        "have ran",
+        "was runing"
+      ],
+      "hard": [
+        "run",
+        "have ran",
+        "had ran",
+        "will run"
+      ]
+    }
+  },
+  {
+    "q": "Yesterday my friend and I ___ (make) to the museum.",
+    "a": "made",
+    "hint": "Past Simple: неправильный глагол make.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "make",
+        "is makeing"
+      ],
+      "medium": [
+        "make",
+        "have made",
+        "was makeing"
+      ],
+      "hard": [
+        "make",
+        "have made",
+        "had made",
+        "will make"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (he) new school uniform very much.",
+    "a": "his",
+    "hint": "Притяжательное местоимение (его).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "he",
+        "He"
+      ],
+      "medium": [
+        "he",
+        "heself",
+        "them"
+      ],
+      "hard": [
+        "he",
+        "heself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (she) new school uniform very much.",
+    "a": "her",
+    "hint": "Притяжательное местоимение или объектный падеж (ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "she",
+        "She"
+      ],
+      "medium": [
+        "she",
+        "sheself",
+        "them"
+      ],
+      "hard": [
+        "she",
+        "sheself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (they) new school uniform very much.",
+    "a": "their",
+    "hint": "Притяжательное местоимение (их).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "they",
+        "They"
+      ],
+      "medium": [
+        "they",
+        "theyself",
+        "them"
+      ],
+      "hard": [
+        "they",
+        "theyself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (we) new school uniform very much.",
+    "a": "our",
+    "hint": "Притяжательное местоимение (наш).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "we",
+        "We"
+      ],
+      "medium": [
+        "we",
+        "weself",
+        "them"
+      ],
+      "hard": [
+        "we",
+        "weself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (I) new school uniform very much.",
+    "a": "my",
+    "hint": "Притяжательное местоимение (мой).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "I",
+        "I"
+      ],
+      "medium": [
+        "I",
+        "Iself",
+        "them"
+      ],
+      "hard": [
+        "I",
+        "Iself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Ann likes ___ (it) new school uniform very much.",
+    "a": "its",
+    "hint": "Притяжательное местоимение для неодушевленных предметов (его/ее).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "it",
+        "It"
+      ],
+      "medium": [
+        "it",
+        "itself",
+        "them"
+      ],
+      "hard": [
+        "it",
+        "itself",
+        "theirs",
+        "him"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (cold) than it was yesterday.",
+    "a": "colder",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "cold",
+        "most cold"
+      ],
+      "medium": [
+        "cold",
+        "more cold",
+        "the colder"
+      ],
+      "hard": [
+        "cold",
+        "more cold",
+        "as cold as",
+        "less cold"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (warm) than it was yesterday.",
+    "a": "warmer",
+    "hint": "Сравнительная степень короткого прилагательного.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "warm",
+        "most warm"
+      ],
+      "medium": [
+        "warm",
+        "more warm",
+        "the warmer"
+      ],
+      "hard": [
+        "warm",
+        "more warm",
+        "as warm as",
+        "less warm"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (hot) than it was yesterday.",
+    "a": "hotter",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "hot",
+        "most hot"
+      ],
+      "medium": [
+        "hot",
+        "more hot",
+        "the hotter"
+      ],
+      "hard": [
+        "hot",
+        "more hot",
+        "as hot as",
+        "less hot"
+      ]
+    }
+  },
+  {
+    "q": "Today the weather is ___ (big) than it was yesterday.",
+    "a": "bigger",
+    "hint": "Сравнительная степень с удвоением согласной.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "big",
+        "most big"
+      ],
+      "medium": [
+        "big",
+        "more big",
+        "the bigger"
+      ],
+      "hard": [
+        "big",
+        "more big",
+        "as big as",
+        "less big"
+      ]
+    }
+  }
+]
