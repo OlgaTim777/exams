@@ -118,7 +118,7 @@
         .aspect-item-row label { flex-grow: 1; cursor: pointer; font-size: 14px; color: var(--text-main); font-weight: 600; text-transform: none; }
         .aspect-item-row input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; accent-color: var(--accent-neon); border-radius: 6px; }
         .aspect-item-row input[type="number"] { width: 70px; padding: 6px; text-align: center; }
-        .aspect-config { display: none; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 10px; margin-bottom: 5px; border: 1px dashed rgba(255,255,255,0.12); }
+        .aspect-config { display: none; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 10px; margin-bottom: 5px; border: 1px dashed rgba(255,255,255,0.12); flex-direction: column; gap: 8px; }
         
         .toggle-group { display: flex; align-items: center; justify-content: space-between; background: rgba(0,0,0,0.25); padding: 14px 18px; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.06); backdrop-filter: blur(10px); }
         .switch { position: relative; display: inline-block; width: 48px; height: 26px; flex-shrink: 0; }
@@ -232,20 +232,20 @@
                     </div>
                 </div>
 
-                <!-- НОВОЕ ПОЛЕ ДЛЯ ВСТАВКИ GITHUB RAW ССЫЛКИ -->
-                <div class="form-group" style="background: rgba(0, 242, 254, 0.04); padding: 15px; border-radius: 12px; border: 1px dashed rgba(0, 242, 254, 0.3);">
-                    <label style="color: var(--accent-neon);">🔗 GitHub Raw Ссылка на JSON с заданиями</label>
-                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 6px;">Вставьте сюда прямую ссылку (Raw) на ваш файл с вопросами:</div>
-                    <input type="text" id="github-json-url" placeholder="https://raw.githubusercontent.com/ваш_аккаунт/репозиторий/main/oge_grammar.json" oninput="loadGithubDatabaseFromInput()">
-                </div>
-
                 <div class="form-group">
                     <label>Встроенные разделы (выдача блоками)</label>
                     <div class="aspect-list">
+                        <!-- Грамматика -->
                         <div>
-                            <div class="aspect-item-row"><input type="checkbox" id="cb-grammar" value="grammar" checked><label for="cb-grammar">Грамматика</label><button type="button" class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-grammar')">⚙️</button><input type="number" id="count-grammar" min="1" max="50" value="5"></div>
+                            <div class="aspect-item-row">
+                                <input type="checkbox" id="cb-grammar" value="grammar" checked><label for="cb-grammar">Грамматика</label>
+                                <button type="button" class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-grammar')">⚙️</button>
+                                <input type="number" id="count-grammar" min="1" max="50" value="5">
+                            </div>
                             <div id="cfg-grammar" class="aspect-config">
-                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Грамматики:</label>
+                                <input type="text" id="url-grammar" placeholder="https://raw.githubusercontent.com/.../grammar.json" oninput="loadStrandDB('grammar')">
+                                <label style="font-size: 11px; margin-top:4px;">Тема заданий:</label>
                                 <select id="topic-grammar">
                                     <option value="all">Случайная тема</option>
                                     <option value="times">Времена глаголов</option>
@@ -253,10 +253,18 @@
                                 </select>
                             </div>
                         </div>
+
+                        <!-- Словообразование -->
                         <div>
-                            <div class="aspect-item-row"><input type="checkbox" id="cb-word-formation" value="word-formation"><label for="cb-word-formation">Словообразование</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-wordform')">⚙️</button><input type="number" id="count-word-formation" min="1" max="20" value="2"></div>
+                            <div class="aspect-item-row">
+                                <input type="checkbox" id="cb-word-formation" value="word-formation"><label for="cb-word-formation">Словообразование</label>
+                                <button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-wordform')">⚙️</button>
+                                <input type="number" id="count-word-formation" min="1" max="20" value="2">
+                            </div>
                             <div id="cfg-wordform" class="aspect-config">
-                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Словообразования:</label>
+                                <input type="text" id="url-word-formation" placeholder="https://raw.githubusercontent.com/.../word_formation.json" oninput="loadStrandDB('word-formation')">
+                                <label style="font-size: 11px; margin-top:4px;">Тема заданий:</label>
                                 <select id="topic-word-formation">
                                     <option value="all">Случайная тема</option>
                                     <option value="suffixes">Суффиксы</option>
@@ -264,10 +272,18 @@
                                 </select>
                             </div>
                         </div>
+
+                        <!-- Лексика -->
                         <div>
-                             <div class="aspect-item-row"><input type="checkbox" id="cb-vocabulary" value="vocabulary"><label for="cb-vocabulary">Лексика</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-vocab')">⚙️</button><input type="number" id="count-vocabulary" min="1" max="20" value="2"></div>
+                             <div class="aspect-item-row">
+                                 <input type="checkbox" id="cb-vocabulary" value="vocabulary"><label for="cb-vocabulary">Лексика</label>
+                                 <button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-vocab')">⚙️</button>
+                                 <input type="number" id="count-vocabulary" min="1" max="20" value="2">
+                             </div>
                             <div id="cfg-vocab" class="aspect-config">
-                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Лексики:</label>
+                                <input type="text" id="url-vocabulary" placeholder="https://raw.githubusercontent.com/.../vocabulary.json" oninput="loadStrandDB('vocabulary')">
+                                <label style="font-size: 11px; margin-top:4px;">Тема заданий:</label>
                                 <select id="topic-vocabulary">
                                     <option value="all">Случайная тема</option>
                                     <option value="collocations">Устойчивые выражения</option>
@@ -275,10 +291,18 @@
                                 </select>
                             </div>
                         </div>
+
+                        <!-- Чтение -->
                         <div>
-                            <div class="aspect-item-row"><input type="checkbox" id="cb-reading-match" value="reading-match"><label for="cb-reading-match">Чтение</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-read')">⚙️</button><input type="number" id="count-reading-match" min="1" max="20" value="1"></div>
+                            <div class="aspect-item-row">
+                                <input type="checkbox" id="cb-reading-match" value="reading-match"><label for="cb-reading-match">Чтение</label>
+                                <button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-read')">⚙️</button>
+                                <input type="number" id="count-reading-match" min="1" max="20" value="1">
+                            </div>
                             <div id="cfg-read" class="aspect-config">
-                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Чтения:</label>
+                                <input type="text" id="url-reading-match" placeholder="https://raw.githubusercontent.com/.../reading.json" oninput="loadStrandDB('reading-match')">
+                                <label style="font-size: 11px; margin-top:4px;">Тема заданий:</label>
                                 <select id="topic-reading-match">
                                     <option value="all">Случайная тема</option>
                                     <option value="heading">Подбор заголовков</option>
@@ -286,10 +310,18 @@
                                 </select>
                             </div>
                         </div>
+
+                        <!-- Множественный выбор -->
                         <div>
-                            <div class="aspect-item-row"><input type="checkbox" id="cb-multiple-choice" value="multiple-choice"><label for="cb-multiple-choice">Множественный выбор</label><button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-mult')">⚙️</button><input type="number" id="count-multiple-choice" min="1" max="20" value="1"></div>
+                            <div class="aspect-item-row">
+                                <input type="checkbox" id="cb-multiple-choice" value="multiple-choice"><label for="cb-multiple-choice">Множественный выбор</label>
+                                <button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-mult')">⚙️</button>
+                                <input type="number" id="count-multiple-choice" min="1" max="20" value="1">
+                            </div>
                             <div id="cfg-mult" class="aspect-config">
-                                <label style="font-size: 11px;">Тема заданий:</label>
+                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Множественного выбора:</label>
+                                <input type="text" id="url-multiple-choice" placeholder="https://raw.githubusercontent.com/.../multiple_choice.json" oninput="loadStrandDB('multiple-choice')">
+                                <label style="font-size: 11px; margin-top:4px;">Тема заданий:</label>
                                 <select id="topic-multiple-choice">
                                     <option value="all">Случайная тема</option>
                                     <option value="articles">Артикли</option>
@@ -557,7 +589,15 @@
     </div>
 
     <script>
-        let externalRemoteDatabase = [];
+        // Хранилище баз данных для каждого раздела отдельно
+        let sectionDatabases = {
+            'grammar': [],
+            'word-formation': [],
+            'vocabulary': [],
+            'reading-match': [],
+            'multiple-choice': []
+        };
+        
         let loadedBgImage = '';
         let loadedBgAudio = '';
         let artifactsData = [];
@@ -588,17 +628,19 @@
             }
         }
 
-        async function loadGithubDatabaseFromInput() {
-            const url = document.getElementById('github-json-url').value.trim();
-            if(!url) { externalRemoteDatabase = []; generateTrainer(); return; }
+        async function loadStrandDB(strand) {
+            const urlInput = document.getElementById(`url-${strand}`);
+            if(!urlInput) return;
+            const url = urlInput.value.trim();
+            if(!url) { sectionDatabases[strand] = []; generateTrainer(); return; }
             try {
                 const res = await fetch(url);
                 if(res.ok) {
-                    externalRemoteDatabase = await res.json();
+                    sectionDatabases[strand] = await res.json();
                     generateTrainer();
                 }
             } catch(e) {
-                console.log("Ошибка загрузки внешней базы по ссылке");
+                console.log(`Ошибка загрузки базы для раздела ${strand}`);
             }
         }
 
@@ -621,7 +663,7 @@
         }
         function toggleDisplay(id) {
             const el = document.getElementById(id);
-            el.style.display = (el.style.display === 'flex' || el.style.display === 'block') ? 'none' : (id === 'custom-fields' ? 'flex' : 'block');
+            el.style.display = (el.style.display === 'flex' || el.style.display === 'block') ? 'none' : 'flex';
         }
         function toggleAdaptiveSettings() {
             const active = document.getElementById('adaptive-toggle').checked;
@@ -734,12 +776,7 @@
                 if (check && check.checked) {
                     const targetCount = parseInt(document.getElementById(`count-${strand}`).value) || 1;
                     const topicFilter = document.getElementById(`topic-${strand}`).value;
-                    let sourcePool = [];
-
-                    // Если загружена внешняя база с GitHub через поле ввода
-                    if (externalRemoteDatabase && externalRemoteDatabase.length > 0) {
-                        sourcePool = externalRemoteDatabase;
-                    }
+                    let sourcePool = sectionDatabases[strand] || [];
 
                     let filteredPool = topicFilter !== 'all' ? sourcePool.filter(item => item.type === topicFilter) : sourcePool;
                     let selectedFromStrand = getRandomTasks(filteredPool, targetCount).map(task => {
@@ -778,11 +815,11 @@
             
             if(finalTasks.length === 0) {
                 finalTasks.push({
-                    q: "Demo: Choose the correct form. He ___ to school every day.",
-                    a: "goes",
-                    hint: "Present Simple для регулярных действий.",
-                    distractors: { easy: ["go", "is going"], medium: ["go", "is going", "gone"], hard: ["go", "is going", "gone", "went"] },
-                    aspectName: "Демо-тест"
+                    q: "Demo: Вставьте ссылку на ваш JSON-файл в настройках раздела (⚙️) или добавьте свои задания ниже.",
+                    a: "OK",
+                    hint: "Нажмите на шестеренку ⚙️ рядом с нужным разделом и вставьте Raw ссылку с GitHub.",
+                    distractors: { easy: ["Error", "Test"], medium: ["Error", "Test", "Demo"], hard: ["Error", "Test", "Demo", "Fail"] },
+                    aspectName: "Инструкция"
                 });
             }
             return finalTasks;
@@ -1243,7 +1280,7 @@
         W.resetTrainer = function() {
             currentIdx = 0; score = 0; currentLives = config.maxLives;
             correctStreak = 0; maxStreak = 0; isAnswered = false;
-            earnedArtifacts = new Set(), earnedBadges = [];
+            earnedArtifacts = new Set(); earnedBadges = [];
             blockStats = {};
             $id("screen-results").classList.remove("active");
             $id("screen-quiz").classList.add("active");
@@ -1308,13 +1345,17 @@
                 bonusThreshold: document.getElementById('bonus-threshold').value, bonusContent: document.getElementById('bonus-content').value,
                 welcomeTitle: document.getElementById('welcome-title').value, welcomeSubtitle: document.getElementById('welcome-subtitle').value,
                 welcomeBtnText: document.getElementById('welcome-btn-text').value, resultsTitleText: document.getElementById('results-title-text').value,
-                githubUrl: document.getElementById('github-json-url').value,
                 aspects: {}, customTasks: { q: document.getElementById('custom-q').value, a: document.getElementById('custom-a').value, d: document.getElementById('custom-d').value, h: document.getElementById('custom-h').value, aspect: document.getElementById('custom-aspect').value },
                 savedArtifacts: []
             };
             const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
             strands.forEach(strand => {
-                configState.aspects[strand] = { checked: document.getElementById(`cb-${strand}`).checked, count: document.getElementById(`count-${strand}`).value, topic: document.getElementById(`topic-${strand}`).value };
+                configState.aspects[strand] = { 
+                    checked: document.getElementById(`cb-${strand}`).checked, 
+                    count: document.getElementById(`count-${strand}`).value, 
+                    topic: document.getElementById(`topic-${strand}`).value,
+                    url: document.getElementById(`url-${strand}`).value 
+                };
             });
             const listDivs = document.getElementById('artifacts-list').children;
             for (let i = 0; i < listDivs.length; i++) {
@@ -1357,10 +1398,7 @@
                 if(parsed.welcomeSubtitle) document.getElementById('welcome-subtitle').value = parsed.welcomeSubtitle;
                 if(parsed.welcomeBtnText) document.getElementById('welcome-btn-text').value = parsed.welcomeBtnText;
                 if(parsed.resultsTitleText) document.getElementById('results-title-text').value = parsed.resultsTitleText;
-                if(parsed.githubUrl) {
-                    document.getElementById('github-json-url').value = parsed.githubUrl;
-                    loadGithubDatabaseFromInput();
-                }
+                
                 if (parsed.customTasks) {
                     document.getElementById('custom-q').value = parsed.customTasks.q || '';
                     document.getElementById('custom-a').value = parsed.customTasks.a || '';
@@ -1375,6 +1413,10 @@
                             document.getElementById(`cb-${strand}`).checked = parsed.aspects[strand].checked;
                             document.getElementById(`count-${strand}`).value = parsed.aspects[strand].count;
                             document.getElementById(`topic-${strand}`).value = parsed.aspects[strand].topic;
+                            if(parsed.aspects[strand].url) {
+                                document.getElementById(`url-${strand}`).value = parsed.aspects[strand].url;
+                                loadStrandDB(strand);
+                            }
                         }
                     });
                 }
