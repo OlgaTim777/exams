@@ -1,51 +1,6902 @@
-import json
-
-vocab_templates = [
-    {
-        "q": "My friends and I decided to ___ an environmental club at our school.",
-        "a": "set up",
-        "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
-        "type": "phrasal",
-        "distractors": {"easy": ["take up", "put up"], "medium": ["take up", "put up", "bring up"], "hard": ["take up", "put up", "bring up", "look up"]}
-    },
-    {
-        "q": "Could you ___ me a favor and explain this grammar rule once again?",
-        "a": "do",
-        "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
-        "type": "collocations",
-        "distractors": {"easy": ["make", "give"], "medium": ["make", "give", "take"], "hard": ["make", "give", "take", "have"]}
-    },
-    {
-        "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
-        "a": "called off",
-        "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
-        "type": "phrasal",
-        "distractors": {"easy": ["put off", "taken off"], "medium": ["put off", "turned off", "carried on"], "hard": ["put off", "turned off", "carried on", "went off"]}
-    },
-    {
-        "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
-        "a": "on",
-        "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
-        "type": "prepositions",
-        "distractors": {"easy": ["in", "at"], "medium": ["in", "at", "through"], "hard": ["in", "at", "through", "by"]}
-    },
-    {
-        "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
-        "a": "on",
-        "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
-        "type": "collocations",
-        "distractors": {"easy": ["in", "at"], "medium": ["in", "at", "with"], "hard": ["in", "at", "with", "about"]}
+[
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
     }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "Could you ___ me a favor and explain this grammar rule once again?",
+    "a": "do",
+    "hint": "Устойчивое выражение: 'to do someone a favor' (оказать услугу).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "make",
+        "give"
+      ],
+      "medium": [
+        "make",
+        "give",
+        "take"
+      ],
+      "hard": [
+        "make",
+        "give",
+        "take",
+        "have"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  }
 ]
-
-tasks = []
-while len(tasks) < 300:
-    for base in vocab_templates:
-        if len(tasks) >= 300:
-            break
-        tasks.append(json.loads(json.dumps(base)))
-
-with open("oge_vocabulary.json", "w", encoding="utf-8") as f:
-    json.dump(tasks, f, ensure_ascii=False, indent=2)
-
-print(f"Успешно создан файл 'oge_vocabulary.json'. Всего заданий: {len(tasks)}")
