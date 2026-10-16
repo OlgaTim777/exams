@@ -240,7 +240,7 @@
                             <div class="aspect-item-row">
                                 <input type="checkbox" id="cb-grammar" value="grammar" checked><label for="cb-grammar">Грамматика</label>
                                 <button type="button" class="btn btn-secondary btn-icon" title="Настроить" onclick="toggleDisplay('cfg-grammar')">⚙️</button>
-                                <input type="number" id="count-grammar" min="1" max="50" value="5">
+                                <input type="number" id="count-grammar" min="1" max="300" value="5">
                             </div>
                             <div id="cfg-grammar" class="aspect-config">
                                 <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Грамматики:</label>
@@ -589,7 +589,6 @@
     </div>
 
     <script>
-        // Хранилище баз данных для каждого раздела отдельно
         let sectionDatabases = {
             'grammar': [],
             'word-formation': [],
@@ -1292,7 +1291,8 @@
 `;
 
             const escapedSrcdoc = rawWidgetHTML.replace(/'/g, "&apos;");
-            const iframeCode = `<iframe width="100%" height="${configObj.wHeight === 'auto' ? '600px' : configObj.wHeight}" style="border:none; border-radius:12px; background:transparent;" allow="autoplay; fullscreen" srcdoc='${escapedSrcdoc}'></iframe>`;
+            const finalIframeHeight = (!configObj.wHeight || configObj.wHeight === 'auto') ? '650px' : configObj.wHeight;
+            const iframeCode = `<iframe width="100%" height="${finalIframeHeight}" style="border:none; border-radius:12px; background:transparent;" allow="autoplay; fullscreen" srcdoc='${escapedSrcdoc}'></iframe>`;
 
             return { iframe: iframeCode, rawHtml: rawWidgetHTML };
         }
@@ -1302,11 +1302,8 @@
             document.getElementById('iframe-output').innerText = data.iframe;
             
             const viewport = document.getElementById('preview-viewport');
-            if (previewMode === 'preview') {
-                viewport.innerHTML = data.iframe;
-            } else {
-                viewport.innerHTML = `<div style="width:100%; height:100%; overflow:auto; position:relative;">${data.rawHtml}</div>`;
-            }
+            // И превью, и тест игры используют iframe с srcdoc для 100% выполнения скриптов
+            viewport.innerHTML = data.iframe;
         }
 
         function copyWidgetCode() {
