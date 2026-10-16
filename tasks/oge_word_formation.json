@@ -1,0 +1,6902 @@
+[
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  },
+  {
+    "q": "Last summer my classmates and I ___ (participate) in an international ecological project.",
+    "a": "participated",
+    "hint": "Past Simple: указан конкретный момент в прошлом ('Last summer'), требующий формы простого прошедшего времени.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "participate",
+        "are participating"
+      ],
+      "medium": [
+        "participate",
+        "have participated",
+        "were participating"
+      ],
+      "hard": [
+        "participate",
+        "have participated",
+        "had participated",
+        "will participate"
+      ]
+    }
+  },
+  {
+    "q": "Look at the sky! Dark clouds are gathering. It ___ (rain) soon.",
+    "a": "is going to rain",
+    "hint": "Future with 'to be going to': очевидные признаки налицо (темные тучи) предсказывают событие в ближайшем будущем.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "rains",
+        "rained"
+      ],
+      "medium": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "hard": [
+        "rains",
+        "will rain",
+        "has rained",
+        "is raining"
+      ]
+    }
+  },
+  {
+    "q": "The first computer game ___ (create) in the middle of the 20th century.",
+    "a": "was created",
+    "hint": "Past Simple Passive: предмет (компьютерная игра) пассивен по отношению к действию, а действие происходило в прошлом.",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "created",
+        "is created"
+      ],
+      "medium": [
+        "created",
+        "was creating",
+        "has been created"
+      ],
+      "hard": [
+        "created",
+        "is created",
+        "had created",
+        "were created"
+      ]
+    }
+  },
+  {
+    "q": "My younger brother ___ (read) an interesting science fiction book at the moment.",
+    "a": "is reading",
+    "hint": "Present Continuous: маркер 'at the moment' указывает на то, что действие происходит прямо сейчас.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "read",
+        "reads"
+      ],
+      "medium": [
+        "read",
+        "readed",
+        "was reading"
+      ],
+      "hard": [
+        "read",
+        "reads",
+        "has read",
+        "will read"
+      ]
+    }
+  },
+  {
+    "q": "If the weather tomorrow ___ (be) fine, we will go hiking in the mountains.",
+    "a": "is",
+    "hint": "First Conditional: в придаточном предложении условия после if/when используется время Present Simple вместо Future.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "will be",
+        "was"
+      ],
+      "medium": [
+        "will be",
+        "would be",
+        "is being"
+      ],
+      "hard": [
+        "will be",
+        "would be",
+        "has been",
+        "be"
+      ]
+    }
+  },
+  {
+    "q": "English ___ (speak) in many countries all over the world as a native or second language.",
+    "a": "is spoken",
+    "hint": "Present Simple Passive: констатация постоянного факта, где английский язык сам используется (пассивный залог).",
+    "type": "voice",
+    "distractors": {
+      "easy": [
+        "speak",
+        "spoke"
+      ],
+      "medium": [
+        "speak",
+        "is speaking",
+        "was spoken"
+      ],
+      "hard": [
+        "speak",
+        "spoke",
+        "has spoken",
+        "are spoken"
+      ]
+    }
+  },
+  {
+    "q": "Hurry up! The train ___ (leave) the station in five minutes.",
+    "a": "leaves",
+    "hint": "Present Simple для расписаний: график движения транспорта выражается через простое настоящее время.",
+    "type": "times",
+    "distractors": {
+      "easy": [
+        "will leave",
+        "is leaving"
+      ],
+      "medium": [
+        "will leave",
+        "left",
+        "has left"
+      ],
+      "hard": [
+        "will leave",
+        "left",
+        "is left",
+        "leaving"
+      ]
+    }
+  },
+  {
+    "q": "Kate decided to make a birthday cake for her friends all by ___ (she).",
+    "a": "herself",
+    "hint": "Возвратное местоимение: устойчивое выражение 'all by herself' означает 'самостоятельно, без чьей-либо помощи'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "her",
+        "hers"
+      ],
+      "medium": [
+        "her",
+        "himself",
+        "she"
+      ],
+      "hard": [
+        "her",
+        "hers",
+        "theirselves",
+        "self"
+      ]
+    }
+  },
+  {
+    "q": "This is a very comfortable apartment. All the furniture in ___ (it) is brand new.",
+    "a": "it",
+    "hint": "Личное местоимение в объектном падеже: стоит после предлога 'in' и заменяет существительное 'apartment'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "its",
+        "it's"
+      ],
+      "medium": [
+        "its",
+        "they",
+        "them"
+      ],
+      "hard": [
+        "its",
+        "it's",
+        "theirs",
+        "ones"
+      ]
+    }
+  },
+  {
+    "q": "Mark spent ___ (he) pocket money on a new skateboard last weekend.",
+    "a": "his",
+    "hint": "Притяжательное местоимение: указывает на принадлежность карманных денег Марку (его деньги).",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "him",
+        "he"
+      ],
+      "medium": [
+        "him",
+        "himself",
+        "hers"
+      ],
+      "hard": [
+        "him",
+        "he",
+        "their",
+        "its"
+      ]
+    }
+  },
+  {
+    "q": "Mount Elbrus is ___ (high) mountain in Europe.",
+    "a": "the highest",
+    "hint": "Превосходная степень прилагательного: перед ней обязательно требуется определенный артикль 'the'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "higher",
+        "high"
+      ],
+      "medium": [
+        "more high",
+        "highest",
+        "the higher"
+      ],
+      "hard": [
+        "more high",
+        "highest",
+        "the most high",
+        "as high as"
+      ]
+    }
+  },
+  {
+    "q": "Physics is often considered to be ___ (difficult) than history for many students.",
+    "a": "more difficult",
+    "hint": "Сравнительная степень многосложного прилагательного: используется слово 'more' и союз 'than'.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "difficult",
+        "most difficult"
+      ],
+      "medium": [
+        "difficuler",
+        "the most difficult",
+        "as difficult"
+      ],
+      "hard": [
+        "difficuler",
+        "most difficult",
+        "much difficult",
+        "less difficult"
+      ]
+    }
+  },
+  {
+    "q": "Of all the art gallery exhibits, this portrait is ___ (good).",
+    "a": "the best",
+    "hint": "Превосходная степень от исключения 'good': good — better — the best.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "better",
+        "goodest"
+      ],
+      "medium": [
+        "the goodest",
+        "more good",
+        "best"
+      ],
+      "hard": [
+        "the goodest",
+        "more good",
+        "best",
+        "the most good"
+      ]
+    }
+  },
+  {
+    "q": "During the excursion we saw several wolves and brown ___ (bear) in the forest.",
+    "a": "bears",
+    "hint": "Множественное число существительного: стандартное образование с помощью окончания -s.",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "bear",
+        "bear's"
+      ],
+      "medium": [
+        "beares",
+        "bear",
+        "bures"
+      ],
+      "hard": [
+        "beares",
+        "bear",
+        "beren",
+        "beari"
+      ]
+    }
+  },
+  {
+    "q": "My grandfather celebrated his ___ (seventy) birthday with all our big family.",
+    "a": "seventieth",
+    "hint": "Порядковое числительное: для обозначения юбилейной даты используется порядковое число ('семидесятый').",
+    "type": "grammar",
+    "distractors": {
+      "easy": [
+        "seventy",
+        "seventeth"
+      ],
+      "medium": [
+        "seventieth",
+        "seventeenth",
+        "seventies"
+      ],
+      "hard": [
+        "seventieth",
+        "seventeenth",
+        "seventies",
+        "sevenieth"
+      ]
+    }
+  }
+]
