@@ -881,11 +881,11 @@
             const rawWidgetHTML = `
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Fredoka:wght@500;700&family=Press+Start+2P&family=Orbitron:wght@600;900&display=swap");
-    #FX_ROOT_${uid} { position: relative; width: 100%; min-height: 100vh; font-family: ${configObj.fontStyle}, "Plus Jakarta Sans", sans-serif; background: ${loadedBgImage ? `url("${loadedBgImage}") no-repeat center center / cover` : "#0c0f1d"}; color: ${txtColor}; display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; overflow: hidden; }
+    #FX_ROOT_${uid} { position: relative; width: 100%; min-height: 100vh; font-family: ${configObj.fontStyle}, "Plus Jakarta Sans", sans-serif; background: ${loadedBgImage ? `url("${loadedBgImage}") no-repeat center center / cover` : "#0c0f1d"}; color: ${txtColor}; display: flex; align-items: center; justify-content: center; padding: 15px; box-sizing: border-box; overflow-y: auto; }
     #FX_ROOT_${uid} * { box-sizing: border-box; margin: 0; padding: 0; }
-    #FX_ROOT_${uid} .trainer-card { background: ${rgbaContainer}; border: 2px solid ${accentColor}40; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.6), 0 0 20px ${accentColor}20; width: ${configObj.wWidth}; height: ${configObj.wHeight}; min-width: 320px; min-height: 250px; display: flex; flex-direction: column; overflow: hidden; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); ${configObj.isResizable ? "resize: both; overflow: auto; position: absolute;" : "position: relative; max-width: 800px;"} }
-    #FX_ROOT_${uid} .card-header { background: rgba(255,255,255,0.05); padding: 15px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: ${configObj.isResizable ? "move" : "default"}; user-select: none; display: flex; justify-content: space-between; align-items: center; }
-    #FX_ROOT_${uid} .card-body { padding: 25px; flex: 1; display: flex; flex-direction: column; justify-content: center; overflow-y: auto; }
+    #FX_ROOT_${uid} .trainer-card { background: ${rgbaContainer}; border: 2px solid ${accentColor}40; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.6), 0 0 20px ${accentColor}20; width: ${configObj.wWidth}; height: ${configObj.wHeight === 'auto' ? 'auto' : configObj.wHeight}; min-width: 320px; min-height: 480px; max-height: 95vh; display: flex; flex-direction: column; overflow: hidden; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); ${configObj.isResizable ? "resize: both; overflow: auto; position: absolute;" : "position: relative; max-width: 800px; width: 100%;"} }
+    #FX_ROOT_${uid} .card-header { background: rgba(255,255,255,0.05); padding: 15px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: ${configObj.isResizable ? "move" : "default"}; user-select: none; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+    #FX_ROOT_${uid} .card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; justify-content: flex-start; overflow-y: auto; }
     #FX_ROOT_${uid} .screen { display: none; width: 100%; }
     #FX_ROOT_${uid} .screen.active { display: block; }
     #FX_ROOT_${uid} input[type="text"] { width: 100%; padding: 14px; background: rgba(0,0,0,0.4); border: 1px solid ${accentColor}; color: white; border-radius: 10px; font-size: 15px; margin-bottom: 20px; outline: none; }
@@ -893,37 +893,37 @@
     #FX_ROOT_${uid} .lives-container { color: #ff3366; font-size: 16px; letter-spacing: 2px; }
     #FX_ROOT_${uid} .timer-container { font-variant-numeric: tabular-nums; color: ${accentColor}; font-size: 16px; background: rgba(0,0,0,0.3); padding: 4px 12px; border-radius: 8px; }
     #FX_ROOT_${uid} .block-label { color: ${accentColor}; background: ${accentColor}20; padding: 4px 10px; border-radius: 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-    #FX_ROOT_${uid} .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 25px; font-weight: 600; text-align: center; white-space: pre-line; }
-    #FX_ROOT_${uid} .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+    #FX_ROOT_${uid} .q-body { font-size: ${txtSize}px; line-height: 1.6; margin-bottom: 20px; font-weight: 600; text-align: center; white-space: pre-line; }
+    #FX_ROOT_${uid} .options-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px; }
     @media(max-width: 500px) { #FX_ROOT_${uid} .options-stack { grid-template-columns: 1fr; } }
-    #FX_ROOT_${uid} .opt-btn { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; text-align: center; color: inherit; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-family: inherit; }
+    #FX_ROOT_${uid} .opt-btn { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 14px; text-align: center; color: inherit; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-family: inherit; }
     #FX_ROOT_${uid} .opt-btn:hover:not(:disabled) { background: ${accentColor}20; border-color: ${accentColor}; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
     #FX_ROOT_${uid} .opt-btn:disabled { cursor: not-allowed; opacity: 0.7; }
-    #FX_ROOT_${uid} .hint-box { background: rgba(0,0,0,0.3); border-left: 4px solid ${accentColor}; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 14px; display: none; color: #e5e7eb; line-height: 1.5; }
-    #FX_ROOT_${uid} .feedback-banner { padding: 14px; border-radius: 10px; text-align: center; font-weight: 800; margin-bottom: 15px; display: none; font-size: 15px; letter-spacing: 0.5px; }
-    #FX_ROOT_${uid} .btn-action { background: ${accentColor}; border: none; color: #0c0f1d; padding: 14px 28px; border-radius: 10px; font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 0 auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s; }
+    #FX_ROOT_${uid} .hint-box { background: rgba(0,0,0,0.3); border-left: 4px solid ${accentColor}; padding: 12px; border-radius: 0 8px 8px 0; margin-bottom: 15px; font-size: 13px; display: none; color: #e5e7eb; line-height: 1.5; }
+    #FX_ROOT_${uid} .feedback-banner { padding: 12px; border-radius: 10px; text-align: center; font-weight: 800; margin-bottom: 12px; display: none; font-size: 14px; letter-spacing: 0.5px; }
+    #FX_ROOT_${uid} .btn-action { background: ${accentColor}; border: none; color: #0c0f1d; padding: 12px 24px; border-radius: 10px; font-weight: 800; cursor: pointer; display: none; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 0 auto; box-shadow: 0 4px 15px ${accentColor}50; transition: 0.3s; }
     #FX_ROOT_${uid} .btn-action:hover { filter: brightness(1.1); transform: translateY(-2px); color: white; }
     #FX_ROOT_${uid} .btn-full { display: block; width: 100%; margin-bottom: 15px; }
-    #FX_ROOT_${uid} .progress-container { background: rgba(255,255,255,0.1); border-radius: 10px; height: 12px; margin: 15px 0; overflow: hidden; }
+    #FX_ROOT_${uid} .progress-container { background: rgba(255,255,255,0.1); border-radius: 10px; height: 10px; margin: 12px 0; overflow: hidden; }
     #FX_ROOT_${uid} .progress-bar-fill { background: linear-gradient(90deg, #10b981, ${accentColor}); height: 100%; width: 0%; transition: width 1s ease-out; }
-    #FX_ROOT_${uid} .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; font-size: 14px; }
-    #FX_ROOT_${uid} .stat-box { background: rgba(0,0,0,0.3); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align:center; }
-    #FX_ROOT_${uid} .badge-container { display: flex; gap: 10px; justify-content: center; margin: 15px 0; flex-wrap: wrap; }
-    #FX_ROOT_${uid} .badge-item { background: linear-gradient(135deg, rgba(255,215,0,0.2), rgba(255,165,0,0.2)); border: 1px solid #ffd700; padding: 8px 12px; border-radius: 20px; font-size: 13px; display: inline-flex; align-items: center; gap: 5px; color:white; }
-    #FX_ROOT_${uid} .bonus-box { background: linear-gradient(145deg, rgba(168,85,247,0.2), rgba(0,0,0,0.5)); border: 2px dashed #a855f7; padding: 15px; border-radius: 12px; text-align: center; margin-top: 15px; color:white; }
-    #FX_ROOT_${uid} .feedback-advice { background: rgba(255, 51, 102, 0.1); border-left: 4px solid #ff3366; padding: 12px; border-radius: 6px; margin: 15px 0; font-size: 13px; line-height:1.5; color:#f8fafc;}
-    #FX_ROOT_${uid} .rewards-shelf { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); }
-    #FX_ROOT_${uid} .reward-icon-wrapper { position: relative; width: 75px; height: 75px; border-radius: 12px; border: 2px solid ${accentColor}; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; box-shadow: 0 0 15px ${accentColor}40; }
+    #FX_ROOT_${uid} .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0; font-size: 14px; }
+    #FX_ROOT_${uid} .stat-box { background: rgba(0,0,0,0.3); padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align:center; }
+    #FX_ROOT_${uid} .badge-container { display: flex; gap: 8px; justify-content: center; margin: 12px 0; flex-wrap: wrap; }
+    #FX_ROOT_${uid} .badge-item { background: linear-gradient(135deg, rgba(255,215,0,0.2), rgba(255,165,0,0.2)); border: 1px solid #ffd700; padding: 6px 10px; border-radius: 20px; font-size: 12px; display: inline-flex; align-items: center; gap: 5px; color:white; }
+    #FX_ROOT_${uid} .bonus-box { background: linear-gradient(145deg, rgba(168,85,247,0.2), rgba(0,0,0,0.5)); border: 2px dashed #a855f7; padding: 12px; border-radius: 12px; text-align: center; margin-top: 12px; color:white; }
+    #FX_ROOT_${uid} .feedback-advice { background: rgba(255, 51, 102, 0.1); border-left: 4px solid #ff3366; padding: 10px; border-radius: 6px; margin: 12px 0; font-size: 12px; line-height:1.4; color:#f8fafc;}
+    #FX_ROOT_${uid} .rewards-shelf { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 15px; padding-top: 15px; border-top: 1px dashed rgba(255,255,255,0.1); }
+    #FX_ROOT_${uid} .reward-icon-wrapper { position: relative; width: 65px; height: 65px; border-radius: 10px; border: 2px solid ${accentColor}; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; box-shadow: 0 0 12px ${accentColor}40; }
     #FX_ROOT_${uid} .reward-icon-wrapper:hover { transform: scale(1.05); }
-    #FX_ROOT_${uid} .reward-icon-wrapper img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
-    #FX_ROOT_${uid} .reward-badge { position: absolute; bottom: -8px; right: -8px; background: #10b981; color: white; font-size: 10px; padding: 3px 6px; border-radius: 10px; font-weight: 800; }
-    #FX_ROOT_${uid} .reward-play-badge { position: absolute; top: -8px; left: -8px; background: ${accentColor}; color: #0c0f1d; font-size: 9px; padding: 3px 8px; border-radius: 10px; font-weight: 800; text-transform: uppercase; pointer-events: none; }
+    #FX_ROOT_${uid} .reward-icon-wrapper img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
+    #FX_ROOT_${uid} .reward-badge { position: absolute; bottom: -6px; right: -6px; background: #10b981; color: white; font-size: 9px; padding: 2px 5px; border-radius: 8px; font-weight: 800; }
+    #FX_ROOT_${uid} .reward-play-badge { position: absolute; top: -6px; left: -6px; background: ${accentColor}; color: #0c0f1d; font-size: 8px; padding: 2px 6px; border-radius: 8px; font-weight: 800; text-transform: uppercase; pointer-events: none; }
     #FX_ROOT_${uid} .game-modal { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(5px); }
     #FX_ROOT_${uid} .game-modal-content { position: relative; width: 100%; max-width: 900px; height: 80vh; background: #161b2e; border-radius: 16px; border: 2px solid ${accentColor}; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 0 40px rgba(0,0,0,0.8); }
     #FX_ROOT_${uid} .game-modal-header { padding: 12px 20px; background: rgba(0,0,0,0.6); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
     #FX_ROOT_${uid} .game-modal-close { background: none; border: none; color: #ff3366; font-size: 24px; font-weight: 700; cursor: pointer; }
     #FX_ROOT_${uid} .game-modal-iframe { width: 100%; flex-grow: 1; border: none; background: #000; }
-    #FX_ROOT_${uid} .artifact-popup-card { width: 250px; height: 250px; border-radius: 20px; border: 3px solid ${accentColor}; overflow: hidden; margin-bottom: 20px; transition: 0.3s; box-shadow: 0 0 20px ${accentColor}80; }
+    #FX_ROOT_${uid} .artifact-popup-card { width: 220px; height: 220px; border-radius: 16px; border: 3px solid ${accentColor}; overflow: hidden; margin-bottom: 15px; transition: 0.3s; box-shadow: 0 0 20px ${accentColor}80; }
 </style>
 
 <div id="FX_ROOT_${uid}">
@@ -973,15 +973,15 @@
                     <div class="stat-box">Время<br><b id="stat-total-time-${uid}" style="font-size:18px;">0с</b></div>
                 </div>
 
-                <div id="time-by-blocks-${uid}" style="font-size:13px; color:rgba(255,255,255,0.7); margin-bottom:15px; padding:10px; background:rgba(0,0,0,0.3); border-radius:8px;"></div>
+                <div id="time-by-blocks-${uid}" style="font-size:13px; color:rgba(255,255,255,0.7); margin-bottom:12px; padding:10px; background:rgba(0,0,0,0.3); border-radius:8px;"></div>
                 <div id="feedback-analysis-${uid}"></div>
 
-                <div id="earned-badges-title-${uid}" style="font-size:12px; text-transform:uppercase; color:rgba(255,255,255,0.7); font-weight:700; display:none; text-align:center; margin-top:15px;">Награды:</div>
+                <div id="earned-badges-title-${uid}" style="font-size:12px; text-transform:uppercase; color:rgba(255,255,255,0.7); font-weight:700; display:none; text-align:center; margin-top:12px;">Награды:</div>
                 <div class="badge-container" id="badges-list-${uid}"></div>
                 <div class="rewards-shelf" id="final-artifacts-shelf-${uid}" style="border:none; padding-top:0; margin-top:0;"></div>
                 <div id="bonus-container-${uid}"></div>
                 
-                <div style="display:flex; gap:10px; margin-top:20px;">
+                <div style="display:flex; gap:10px; margin-top:15px;">
                     <button class="btn-action" id="share-btn-${uid}" style="flex:1; display:none; background:#3a86ff; color:white;" onclick="window.${wID}.shareResults()">📢 Поделиться</button>
                     <button class="btn-action" style="flex:1; display:block; color:white;" onclick="window.${wID}.resetTrainer()">🔄 Заново</button>
                 </div>
@@ -1169,9 +1169,9 @@
         function showArtifactPopup(art) {
             const modal = $id("modal-game-box");
             const content = $id("modal-inner-content");
-            content.style.maxWidth = "350px"; content.style.height = "auto"; content.style.alignItems = "center"; content.style.padding = "25px"; content.style.background = "#161b2e";
+            content.style.maxWidth = "330px"; content.style.height = "auto"; content.style.alignItems = "center"; content.style.padding = "20px"; content.style.background = "#161b2e";
             let clickBtn = art.link ? "<button class='btn-action btn-full' style='display:block; background: #10b981; color: white;' onclick='window." + wID + ".openGameFrame(\\"" + art.link + "\\")'>🎮 Играть сейчас!</button>" : "";
-            content.innerHTML = "<h2 style='color:white; margin-bottom:15px; text-align:center;'>Новый Артефакт!</h2>" +
+            content.innerHTML = "<h2 style='color:white; margin-bottom:12px; text-align:center;'>Новый Артефакт!</h2>" +
                 "<div class='artifact-popup-card'><img src='" + art.img + "' style='width:100%; height:100%; object-fit:cover;'></div>" + clickBtn +
                 "<button class='btn-action btn-full' style='display:block; color: white;' onclick='window." + wID + ".closeModal()'>Продолжить</button>";
             modal.style.display = "flex";
@@ -1208,7 +1208,7 @@
             $id("stat-score").innerText = percent + "%";
             $id("stat-total-time").innerText = sessionTotalTime + "с";
 
-            let timeReportHtml = "<div style='font-weight:700; margin-bottom:8px;'>⏱️ Среднее время ответа:</div>";
+            let timeReportHtml = "<div style='font-weight:700; margin-bottom:6px;'>⏱️ Среднее время ответа:</div>";
             let weakBlocks = [];
             for (let b in blockStats) {
                 let avg = (blockStats[b].time / blockStats[b].total).toFixed(1);
@@ -1256,14 +1256,14 @@
             });
             if(artifactsHTML) {
                 $id("final-artifacts-shelf").innerHTML = artifactsHTML;
-                $id("final-artifacts-shelf").style.paddingTop = "20px";
+                $id("final-artifacts-shelf").style.paddingTop = "15px";
             }
 
             const bonusContainer = $id("bonus-container");
             if(percent >= config.bonusThreshold) {
-                bonusContainer.innerHTML = "<div class='bonus-box'>🔓 <b>Бонус разблокирован!</b><br><span style='font-size:15px; color:#ffd700; font-weight:bold;'>" + config.bonusContent + "</span></div>";
+                bonusContainer.innerHTML = "<div class='bonus-box'>🔓 <b>Бонус разблокирован!</b><br><span style='font-size:14px; color:#ffd700; font-weight:bold;'>" + config.bonusContent + "</span></div>";
             } else {
-                bonusContainer.innerHTML = "<div style='font-size:12px; color:rgba(255,255,255,0.7); text-align:center; margin-top:15px;'>🔒 Наберите " + config.bonusThreshold + "% верных ответов, чтобы открыть бонус.</div>";
+                bonusContainer.innerHTML = "<div style='font-size:12px; color:rgba(255,255,255,0.7); text-align:center; margin-top:12px;'>🔒 Наберите " + config.bonusThreshold + "% верных ответов, чтобы открыть бонус.</div>";
             }
         }
 
@@ -1290,9 +1290,14 @@
 <\/script>
 `;
 
-            const escapedSrcdoc = rawWidgetHTML.replace(/'/g, "&apos;");
-            const finalIframeHeight = (!configObj.wHeight || configObj.wHeight === 'auto') ? '650px' : configObj.wHeight;
-            const iframeCode = `<iframe width="100%" height="${finalIframeHeight}" style="border:none; border-radius:12px; background:transparent;" allow="autoplay; fullscreen" srcdoc='${escapedSrcdoc}'></iframe>`;
+            const escapedSrcdoc = rawWidgetHTML
+                .replace(/&/g, '&amp;')
+                .replace(/'/g, '&#39;')
+                .replace(/"/g, '&quot;');
+
+            // Устанавливаем высоту ифрейма по умолчанию 680px или по настройке пользователя
+            const finalIframeHeight = (!configObj.wHeight || configObj.wHeight === 'auto') ? '680px' : configObj.wHeight;
+            const iframeCode = `<iframe width="100%" height="${finalIframeHeight}" style="border:none; border-radius:12px; background:transparent;" allow="autoplay; fullscreen" srcdoc="${escapedSrcdoc}"></iframe>`;
 
             return { iframe: iframeCode, rawHtml: rawWidgetHTML };
         }
@@ -1302,7 +1307,6 @@
             document.getElementById('iframe-output').innerText = data.iframe;
             
             const viewport = document.getElementById('preview-viewport');
-            // И превью, и тест игры используют iframe с srcdoc для 100% выполнения скриптов
             viewport.innerHTML = data.iframe;
         }
 
@@ -1319,7 +1323,7 @@
 
         async function downloadHTML() {
             const data = await compileCoreWidgetCode();
-            const fullHtml = `<!DOCTYPE html>\n<html lang="ru">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>Экзаменариум Trainer Widget</title>\n<style>body{margin:0;padding:0;background:#0c0f1d;display:flex;align-items:center;justify-content:center;min-height:100vh;}</style>\n</head>\n<body>\n${data.iframe}\n</body>\n</html>`;
+            const fullHtml = `<!DOCTYPE html>\n<html lang="ru">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>Экзаменариум Trainer Widget</title>\n<style>body{margin:0;padding:0;background:#0c0f1d;display:flex;align-items:center;justify-content:center;min-height:100vh;overflow-y:auto;}</style>\n</head>\n<body>\n${data.iframe}\n</body>\n</html>`;
             const blob = new Blob([fullHtml], { type: 'text/html' });
             const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
             link.download = 'trainer_widget.html'; link.click();
@@ -1403,7 +1407,7 @@
                     document.getElementById('custom-h').value = parsed.customTasks.h || '';
                     document.getElementById('custom-aspect').value = parsed.customTasks.aspect || 'Лексика и Грамматика';
                 }
-                if (parsed.aspects) {
+                if(parsed.aspects) {
                     const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
                     strands.forEach(strand => {
                         if (parsed.aspects[strand]) {
