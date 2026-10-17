@@ -608,6 +608,35 @@
             'vocabulary': 'Лексика', 'reading-match': 'Чтение', 'multiple-choice': 'Множественный выбор'
         };
 
+        // Сохранение и загрузка GitHub Raw ссылок через localStorage
+        function saveUrlsToLocalStorage() {
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            const urls = {};
+            strands.forEach(strand => {
+                const el = document.getElementById(`url-${strand}`);
+                if (el) urls[strand] = el.value.trim();
+            });
+            localStorage.setItem('examarium_github_urls', JSON.stringify(urls));
+        }
+
+        function loadUrlsFromLocalStorage() {
+            try {
+                const saved = localStorage.getItem('examarium_github_urls');
+                if (saved) {
+                    const urls = JSON.parse(saved);
+                    const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+                    strands.forEach(strand => {
+                        if (urls[strand]) {
+                            const el = document.getElementById(`url-${strand}`);
+                            if (el) {
+                                el.value = urls[strand];
+                            }
+                        }
+                    });
+                }
+            } catch(e) {}
+        }
+
         function switchEditorTab(tabName) {
             document.querySelectorAll('.editor-tab-btn').forEach(btn => btn.classList.remove('active'));
             document.querySelectorAll('.editor-tab-pane').forEach(pane => pane.classList.remove('active'));
@@ -631,6 +660,7 @@
             const urlInput = document.getElementById(`url-${strand}`);
             if(!urlInput) return;
             const url = urlInput.value.trim();
+            saveUrlsToLocalStorage();
             if(!url) { sectionDatabases[strand] = []; generateTrainer(); return; }
             try {
                 const res = await fetch(url);
@@ -672,6 +702,7 @@
         function triggerLiveUpdate() {
             if (liveUpdateTimeout) clearTimeout(liveUpdateTimeout);
             liveUpdateTimeout = setTimeout(() => {
+                saveUrlsToLocalStorage();
                 generateTrainer();
             }, 300);
         }
@@ -1295,7 +1326,6 @@
                 .replace(/'/g, '&#39;')
                 .replace(/"/g, '&quot;');
 
-            // Устанавливаем высоту ифрейма по умолчанию 680px или по настройке пользователя
             const finalIframeHeight = (!configObj.wHeight || configObj.wHeight === 'auto') ? '680px' : configObj.wHeight;
             const iframeCode = `<iframe width="100%" height="${finalIframeHeight}" style="border:none; border-radius:12px; background:transparent;" allow="autoplay; fullscreen" srcdoc="${escapedSrcdoc}"></iframe>`;
 
@@ -1432,6 +1462,14 @@
         window.onload = async () => { 
             toggleVPR();
             toggleAdaptiveSettings(); 
+            loadUrlsFromLocalStorage();
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            for (const strand of strands) {
+                const el = document.getElementById(`url-${strand}`);
+                if (el && el.value.trim()) {
+                    await loadStrandDB(strand);
+                }
+            }
             generateTrainer(); 
         };
     </script>
