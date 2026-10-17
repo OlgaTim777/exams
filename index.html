@@ -311,20 +311,20 @@
                             </div>
                         </div>
 
-                        <!-- Множественный выбор -->
+                        <!-- Фразовые глаголы и предлоги -->
                         <div>
                             <div class="aspect-item-row">
-                                <input type="checkbox" id="cb-multiple-choice" value="multiple-choice"><label for="cb-multiple-choice">Множественный выбор</label>
-                                <button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-mult')">⚙️</button>
-                                <input type="number" id="count-multiple-choice" min="1" max="20" value="1">
+                                <input type="checkbox" id="cb-phrasal-verbs" value="phrasal-verbs"><label for="cb-phrasal-verbs">Фразовые глаголы и предлоги</label>
+                                <button type="button" class="btn btn-secondary btn-icon" onclick="toggleDisplay('cfg-phrasal')">⚙️</button>
+                                <input type="number" id="count-phrasal-verbs" min="1" max="20" value="1">
                             </div>
-                            <div id="cfg-mult" class="aspect-config">
-                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Множественного выбора:</label>
-                                <input type="text" id="url-multiple-choice" placeholder="https://raw.githubusercontent.com/.../multiple_choice.json" oninput="loadStrandDB('multiple-choice')">
+                            <div id="cfg-phrasal" class="aspect-config">
+                                <label style="font-size: 11px; color: var(--accent-neon);">🔗 GitHub Raw ссылка для Фразовых глаголов:</label>
+                                <input type="text" id="url-phrasal-verbs" placeholder="https://raw.githubusercontent.com/.../phrasal_verbs.json" oninput="loadStrandDB('phrasal-verbs')">
                                 <label style="font-size: 11px; margin-top:4px;">Тема заданий:</label>
-                                <select id="topic-multiple-choice">
+                                <select id="topic-phrasal-verbs">
                                     <option value="all">Случайная тема</option>
-                                    <option value="articles">Артикли</option>
+                                    <option value="phrasal">Фразовые глаголы</option>
                                     <option value="prepositions">Предлоги</option>
                                 </select>
                             </div>
@@ -594,7 +594,7 @@
             'word-formation': [],
             'vocabulary': [],
             'reading-match': [],
-            'multiple-choice': []
+            'phrasal-verbs': []
         };
         
         let loadedBgImage = '';
@@ -605,12 +605,12 @@
 
         const strandNamesMap = {
             'grammar': 'Грамматика', 'word-formation': 'Словообразование', 
-            'vocabulary': 'Лексика', 'reading-match': 'Чтение', 'multiple-choice': 'Множественный выбор'
+            'vocabulary': 'Лексика', 'reading-match': 'Чтение', 'phrasal-verbs': 'Фразовые глаголы и предлоги'
         };
 
         // Сохранение и загрузка GitHub Raw ссылок через localStorage
         function saveUrlsToLocalStorage() {
-            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'phrasal-verbs'];
             const urls = {};
             strands.forEach(strand => {
                 const el = document.getElementById(`url-${strand}`);
@@ -624,7 +624,7 @@
                 const saved = localStorage.getItem('examarium_github_urls');
                 if (saved) {
                     const urls = JSON.parse(saved);
-                    const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+                    const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'phrasal-verbs'];
                     strands.forEach(strand => {
                         if (urls[strand]) {
                             const el = document.getElementById(`url-${strand}`);
@@ -799,7 +799,7 @@
 
         async function fetchSelectedTasks() {
             let groupedTasks = {};
-            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'phrasal-verbs'];
             
             for (const strand of strands) {
                 const check = document.getElementById(`cb-${strand}`);
@@ -1310,7 +1310,7 @@
         W.resetTrainer = function() {
             currentIdx = 0; score = 0; currentLives = config.maxLives;
             correctStreak = 0; maxStreak = 0; isAnswered = false;
-            earnedArtifacts = new Set(); earnedBadges = [];
+            earnedArtifacts = new Set(), earnedBadges = [];
             blockStats = {};
             $id("screen-results").classList.remove("active");
             $id("screen-quiz").classList.add("active");
@@ -1379,7 +1379,7 @@
                 aspects: {}, customTasks: { q: document.getElementById('custom-q').value, a: document.getElementById('custom-a').value, d: document.getElementById('custom-d').value, h: document.getElementById('custom-h').value, aspect: document.getElementById('custom-aspect').value },
                 savedArtifacts: []
             };
-            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'phrasal-verbs'];
             strands.forEach(strand => {
                 configState.aspects[strand] = { 
                     checked: document.getElementById(`cb-${strand}`).checked, 
@@ -1438,7 +1438,7 @@
                     document.getElementById('custom-aspect').value = parsed.customTasks.aspect || 'Лексика и Грамматика';
                 }
                 if(parsed.aspects) {
-                    const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+                    const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'phrasal-verbs'];
                     strands.forEach(strand => {
                         if (parsed.aspects[strand]) {
                             document.getElementById(`cb-${strand}`).checked = parsed.aspects[strand].checked;
@@ -1463,7 +1463,7 @@
             toggleVPR();
             toggleAdaptiveSettings(); 
             loadUrlsFromLocalStorage();
-            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'multiple-choice'];
+            const strands = ['grammar', 'word-formation', 'vocabulary', 'reading-match', 'phrasal-verbs'];
             for (const strand of strands) {
                 const el = document.getElementById(`url-${strand}`);
                 if (el && el.value.trim()) {
