@@ -1,0 +1,6902 @@
+[
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  },
+  {
+    "q": "My friends and I decided to ___ an environmental club at our school.",
+    "a": "set up",
+    "hint": "Фразовый глагол 'set up' означает 'основывать, учреждать, создавать (организацию, клуб)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "take up",
+        "put up"
+      ],
+      "medium": [
+        "take up",
+        "put up",
+        "bring up"
+      ],
+      "hard": [
+        "take up",
+        "put up",
+        "bring up",
+        "look up"
+      ]
+    }
+  },
+  {
+    "q": "The concert had to be ___ because of the heavy rain and thunderstorm.",
+    "a": "called off",
+    "hint": "Фразовый глагол 'call off' означает 'отменять (мероприятие)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "put off",
+        "taken off"
+      ],
+      "medium": [
+        "put off",
+        "turned off",
+        "carried on"
+      ],
+      "hard": [
+        "put off",
+        "turned off",
+        "carried on",
+        "went off"
+      ]
+    }
+  },
+  {
+    "q": "Teenagers nowadays spend a lot of time ___ social media networks.",
+    "a": "on",
+    "hint": "Предлог 'on' используется с устойчивым выражением 'on social media / on the internet'.",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "through"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "through",
+        "by"
+      ]
+    }
+  },
+  {
+    "q": "Mark is very keen ___ playing football and participates in all city tournaments.",
+    "a": "on",
+    "hint": "Устойчивое сочетание с прилагательным: 'to be keen on something' (увлекаться чем-либо).",
+    "type": "collocations",
+    "distractors": {
+      "easy": [
+        "in",
+        "at"
+      ],
+      "medium": [
+        "in",
+        "at",
+        "with"
+      ],
+      "hard": [
+        "in",
+        "at",
+        "with",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Children should always look ___ their younger brothers and sisters.",
+    "a": "after",
+    "hint": "Фразовый глагол 'look after' означает 'присматривать за кем-либо, ухаживать'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "for",
+        "at"
+      ],
+      "medium": [
+        "for",
+        "at",
+        "up"
+      ],
+      "hard": [
+        "for",
+        "at",
+        "up",
+        "into"
+      ]
+    }
+  },
+  {
+    "q": "Ann decided to take ___ a new hobby and started learning to play the guitar.",
+    "a": "up",
+    "hint": "Фразовый глагол 'take up' означает 'начинать заниматься новым хобби или делом'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "off",
+        "over"
+      ],
+      "medium": [
+        "off",
+        "over",
+        "down"
+      ],
+      "hard": [
+        "off",
+        "over",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "If you don't know the meaning of this word, you can look it ___ in the dictionary.",
+    "a": "up",
+    "hint": "Фразовый глагол 'look up' означает 'искать информацию (например, в словаре или справочнике)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "after",
+        "for"
+      ],
+      "medium": [
+        "after",
+        "for",
+        "into"
+      ],
+      "hard": [
+        "after",
+        "for",
+        "into",
+        "through"
+      ]
+    }
+  },
+  {
+    "q": "Please turn ___ the lights when you leave the classroom to save electricity.",
+    "a": "off",
+    "hint": "Фразовый глагол 'turn off' означает 'выключать (электроприборы, свет)'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "on",
+        "up"
+      ],
+      "medium": [
+        "on",
+        "up",
+        "down"
+      ],
+      "hard": [
+        "on",
+        "up",
+        "down",
+        "out"
+      ]
+    }
+  },
+  {
+    "q": "Sarah is really proud ___ her academic achievements and high exam scores.",
+    "a": "of",
+    "hint": "Устойчивое предложное сочетание с прилагательным: 'to be proud of' (гордиться чем-то/кем-то).",
+    "type": "prepositions",
+    "distractors": {
+      "easy": [
+        "in",
+        "with"
+      ],
+      "medium": [
+        "in",
+        "with",
+        "at"
+      ],
+      "hard": [
+        "in",
+        "with",
+        "at",
+        "about"
+      ]
+    }
+  },
+  {
+    "q": "Tom grew ___ in a small quiet village near the mountains before moving to London.",
+    "a": "up",
+    "hint": "Фразовый глагол 'grow up' означает 'вырастать, взрослеть'.",
+    "type": "phrasal",
+    "distractors": {
+      "easy": [
+        "down",
+        "out"
+      ],
+      "medium": [
+        "down",
+        "out",
+        "away"
+      ],
+      "hard": [
+        "down",
+        "out",
+        "away",
+        "on"
+      ]
+    }
+  }
+]
